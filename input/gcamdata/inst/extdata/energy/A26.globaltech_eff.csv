@@ -16,7 +16,7 @@ elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,1,1,1
 gas pipeline,gas pipeline,gas pipeline,gas processing,1,1,1
 wholesale gas,wholesale gas,wholesale gas,gas pipeline,1,1,1
 delivered gas,delivered gas,delivered gas,gas pipeline,1,1,1
-aviation fuels,aviation fuels,aviation fuels,regional refined oil,1,1,1
+aviation fuels,refined oil,refined oil,regional refined oil,1,1,1
 refined liquids enduse,refined oil,refined oil,regional refined oil,1,1,1
 refined liquids enduse,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 refined liquids enduse,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
