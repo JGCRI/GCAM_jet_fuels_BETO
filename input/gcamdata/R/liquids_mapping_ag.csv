@@ -1,0 +1,12 @@
+constants.R:                                   "refined liquids industrial", "refined liquids enduse")
+zchunk_batch_InputNetSubsidy_trn_xml.R:      filter(minicam.energy.input %in% c("refined liquids enduse", "refined liquids gasoline pool"),
+zchunk_batch_InputNetSubsidy_trn_xml.R:      mutate(input.net.subsidy = if_else(sector.name == "refined liquids enduse",
+zchunk_L2261.liquid_fuels_distribution.R:    # Calibration of biodiesel/refining sharing in refined liquids enduse
+zchunk_L2261.liquid_fuels_distribution.R:      filter(minicam.energy.input == "refined liquids enduse")
+zchunk_L2261.liquid_fuels_distribution.R:    # Calibration of biodiesel in refined liquids enduse
+zchunk_L271.ag_en_freight_inputs.R:    # Note - using "refined liquids enduse" as a proxy for all refined liquids. As noted in the assumptions table, the
+zchunk_L271.ag_en_freight_inputs.R:    # the quantities of refined liquids enduse vs industrial are actually written out.
+zchunk_L271.ag_en_freight_inputs.R:      mutate(supplysector = "refined liquids enduse", subsector = "refined oil", technology = "refined oil") %>%
+zchunk_L271.ag_en_freight_inputs.R:      mutate(supplysector = "refined liquids enduse", subsector = "refined oil", technology = "refined oil") %>%
+zchunk_L271.ag_en_freight_inputs.R:                                    !(supplysector == "refined liquids enduse" & subsector == "biodiesel"),
+zchunk_LA122.gasproc_refining.R:             supplysector="refined liquids enduse",

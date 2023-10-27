@@ -1,0 +1,41 @@
+# File: RTI_peatland_EFs.csv
+# Title: Emissions factors of LUTs on peatland
+# Units: t/ha/yr
+# Comments: These EFs reflect total emissions (LUC + LU emissions)
+# Column types: cccn
+# Source: Kemen Austin, RTI. kaustin@rti.org
+# ----------
+RTI_LUT,Non.CO2,Unit,EF
+Cropland,CO2_PEAT,tC/ha,14
+Pasture,CO2_PEAT,tC/ha,9.6
+Urban,CO2_PEAT,tC/ha,0
+NatVeg_Unk,CO2_PEAT,tC/ha,0
+NatVeg_Forest,CO2_PEAT,tC/ha,0
+NatVeg_Grass,CO2_PEAT,tC/ha,0
+NatVeg_Other,CO2_PEAT,tC/ha,0
+Timber_LR,CO2_PEAT,tC/ha,15
+Timber_SR,CO2_PEAT,tC/ha,20
+OilPalmFruit,CO2_PEAT,tC/ha,11
+Plantation_ag,CO2_PEAT,tC/ha,1.5
+Cropland,CH4_PEAT,t/ha,0.007
+Pasture,CH4_PEAT,t/ha,0.007
+Urban,CH4_PEAT,t/ha,0
+NatVeg_Unk,CH4_PEAT,t/ha,0
+NatVeg_Forest,CH4_PEAT,t/ha,0
+NatVeg_Grass,CH4_PEAT,t/ha,0
+NatVeg_Other,CH4_PEAT,t/ha,0
+Timber_LR,CH4_PEAT,t/ha,0.0027
+Timber_SR,CH4_PEAT,t/ha,0.0027
+OilPalmFruit,CH4_PEAT,t/ha,0
+Plantation_ag,CH4_PEAT,t/ha,0
+Cropland,N2O_PEAT,t/ha,0.005
+Pasture,N2O_PEAT,t/ha,0.005
+Urban,N2O_PEAT,t/ha,0
+NatVeg_Unk,N2O_PEAT,t/ha,0
+NatVeg_Forest,N2O_PEAT,t/ha,0
+NatVeg_Grass,N2O_PEAT,t/ha,0
+NatVeg_Other,N2O_PEAT,t/ha,0
+Timber_LR,N2O_PEAT,t/ha,0
+Timber_SR,N2O_PEAT,t/ha,0
+OilPalmFruit,N2O_PEAT,t/ha,0.0012
+Plantation_ag,N2O_PEAT,t/ha,0

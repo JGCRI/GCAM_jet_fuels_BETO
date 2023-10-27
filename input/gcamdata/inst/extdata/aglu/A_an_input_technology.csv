@@ -1,0 +1,37 @@
+# File: A_an_input_technology.csv
+# Title: Technologies of inputs to animal production
+# Units: NA
+# Source: NA
+# Column types: cccccccci
+# ----------
+supplysector,subsector,technology,apply.to,from.year,to.year,interpolation.function,minicam.energy.input,coefficient
+FodderHerb_Residue,FodderHerb,FodderHerb,share-weight,final-calibration-year,end-year,fixed,FodderHerb,1
+FodderHerb_Residue,Residue,Residue,share-weight,final-calibration-year,end-year,fixed,Residue,1
+Pasture_FodderGrass,Pasture,Pasture,share-weight,final-calibration-year,end-year,fixed,Pasture,1
+Pasture_FodderGrass,FodderGrass,FodderGrass,share-weight,final-calibration-year,end-year,fixed,FodderGrass,1
+FeedCrops,Corn,Corn,share-weight,final-calibration-year,end-year,fixed,regional corn,1
+FeedCrops,FiberCrop,FiberCrop,share-weight,final-calibration-year,end-year,fixed,regional fibercrop,1
+FeedCrops,Fruits,Fruits,share-weight,final-calibration-year,end-year,fixed,regional fruits,1
+FeedCrops,Legumes,Legumes,share-weight,final-calibration-year,end-year,fixed,regional legumes,1
+FeedCrops,MiscCrop,MiscCrop,share-weight,final-calibration-year,end-year,fixed,regional misccrop,1
+FeedCrops,NutsSeeds,NutsSeeds,share-weight,final-calibration-year,end-year,fixed,regional nuts_seeds,1
+FeedCrops,OilCrop,OilCrop,share-weight,final-calibration-year,end-year,fixed,regional oilcrop,1
+FeedCrops,OtherGrain,OtherGrain,share-weight,final-calibration-year,end-year,fixed,regional othergrain,1
+FeedCrops,PalmFruit,PalmFruit,share-weight,final-calibration-year,end-year,fixed,regional palmfruit,1
+FeedCrops,Rapeseed,Rapeseed,share-weight,final-calibration-year,end-year,fixed,regional rapeseed,1
+FeedCrops,Rice,Rice,share-weight,final-calibration-year,end-year,fixed,regional rice,1
+FeedCrops,RootTuber,RootTuber,share-weight,final-calibration-year,end-year,fixed,regional root_tuber,1
+FeedCrops,Soybean,Soybean,share-weight,final-calibration-year,end-year,fixed,regional soybean,1
+FeedCrops,SugarCrop,SugarCrop,share-weight,final-calibration-year,end-year,fixed,regional sugarcrop,1
+FeedCrops,Vegetables,Vegetables,share-weight,final-calibration-year,end-year,fixed,regional vegetables,1
+FeedCrops,Wheat,Wheat,share-weight,final-calibration-year,end-year,fixed,regional wheat,1
+FeedCrops,DDGS,DDGS,share-weight,final-calibration-year,2050,s-curve,regional DDGS,1
+FeedCrops,OilCrop feedcake,OilCrop feedcake,share-weight,final-calibration-year,end-year,fixed,regional oilcrop feedcake,1
+FeedCrops,PalmFruit feedcake,PalmFruit feedcake,share-weight,final-calibration-year,end-year,fixed,regional palmfruit feedcake,1
+FeedCrops,Rapeseed feedcake,Rapeseed feedcake,share-weight,final-calibration-year,end-year,fixed,regional rapeseed feedcake,1
+FeedCrops,Soybean feedcake,Soybean feedcake,share-weight,final-calibration-year,end-year,fixed,regional soybean feedcake,1
+FeedCrops,OilCrop oil,OilCrop oil,share-weight,final-calibration-year,end-year,fixed,regional oilcrop oil,1
+FeedCrops,PalmFruit oil,PalmFruit oil,share-weight,final-calibration-year,end-year,fixed,regional palmfruit oil,1
+FeedCrops,Rapeseed oil,Rapeseed oil,share-weight,final-calibration-year,end-year,fixed,regional rapeseed oil,1
+FeedCrops,Soybean oil,Soybean oil,share-weight,final-calibration-year,end-year,fixed,regional soybean oil,1
+Scavenging_Other,Scavenging_Other,Scavenging_Other,share-weight,final-calibration-year,end-year,fixed,Scavenging_Other_Rsrc,1

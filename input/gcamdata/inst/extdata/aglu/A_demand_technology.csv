@@ -1,0 +1,67 @@
+# File: A_demand_technology.csv
+# Title: Technologies and inputs of agricultural production
+# Unit: NA
+# Description: Generic information of technologies and inputs of agricultural production
+# Source: GCAM assumptions
+# Column types: cccccccccn
+# ----------
+supplysector,subsector0,subsector,technology,apply.to,from.year,to.year,interpolation.function,minicam.energy.input,coefficient
+FoodDemand_NonStaples,BlendVegOil,BlendVegOil,OilCrop oil,share-weight,final-calibration-year,end-year,fixed,regional oilcrop oil,1
+FoodDemand_NonStaples,BlendVegOil,BlendVegOil,PalmFruit oil,share-weight,final-calibration-year,end-year,fixed,regional palmfruit oil,1
+FoodDemand_NonStaples,BlendVegOil,BlendVegOil,Rapeseed oil,share-weight,final-calibration-year,end-year,fixed,regional rapeseed oil,1
+FoodDemand_NonStaples,BlendVegOil,BlendVegOil,Soybean oil,share-weight,final-calibration-year,end-year,fixed,regional soybean oil,1
+FoodDemand_NonStaples,OilCrop,OilCrop,OilCrop,share-weight,final-calibration-year,end-year,fixed,regional oilcrop,1
+FoodDemand_NonStaples,PalmFruit,PalmFruit,PalmFruit,share-weight,final-calibration-year,end-year,fixed,regional palmfruit,1
+FoodDemand_NonStaples,Rapeseed,Rapeseed,Rapeseed,share-weight,final-calibration-year,end-year,fixed,regional rapeseed,1
+FoodDemand_NonStaples,Protein,Plant,Soybean,share-weight,final-calibration-year,end-year,fixed,regional soybean,1
+FoodDemand_Staples,Corn,Corn,Corn,share-weight,final-calibration-year,end-year,fixed,regional corn,1
+FoodDemand_NonStaples,FiberCrop,FiberCrop,FiberCrop,share-weight,final-calibration-year,end-year,fixed,regional fibercrop,1
+FoodDemand_NonStaples,FruitsVeg,Fruits,Fruits,share-weight,final-calibration-year,end-year,fixed,regional fruits,1
+FoodDemand_NonStaples,Protein,Plant,Legumes,share-weight,final-calibration-year,end-year,fixed,regional legumes,1
+FoodDemand_NonStaples,MiscCrop,MiscCrop,MiscCrop,share-weight,final-calibration-year,end-year,fixed,regional misccrop,1
+FoodDemand_NonStaples,Protein,Plant,NutsSeeds,share-weight,final-calibration-year,end-year,fixed,regional nuts_seeds,1
+FoodDemand_Staples,OtherGrain,OtherGrain,OtherGrain,share-weight,final-calibration-year,end-year,fixed,regional othergrain,1
+FoodDemand_Staples,Rice,Rice,Rice,share-weight,final-calibration-year,end-year,fixed,regional rice,1
+FoodDemand_Staples,RootTuber,RootTuber,RootTuber,share-weight,final-calibration-year,end-year,fixed,regional root_tuber,1
+FoodDemand_NonStaples,SugarCrop,SugarCrop,SugarCrop,share-weight,final-calibration-year,end-year,fixed,regional sugarcrop,1
+FoodDemand_NonStaples,FruitsVeg,Vegetables,Vegetables,share-weight,final-calibration-year,end-year,fixed,regional vegetables,1
+FoodDemand_Staples,Wheat,Wheat,Wheat,share-weight,final-calibration-year,end-year,fixed,regional wheat,1
+FoodDemand_NonStaples,Protein,Animal,Beef,share-weight,final-calibration-year,end-year,fixed,regional beef,1
+FoodDemand_NonStaples,Protein,Animal,Dairy,share-weight,final-calibration-year,end-year,fixed,regional dairy,1
+FoodDemand_NonStaples,Protein,Animal,Pork,share-weight,final-calibration-year,end-year,fixed,regional pork,1
+FoodDemand_NonStaples,Protein,Animal,Poultry,share-weight,final-calibration-year,end-year,fixed,regional poultry,1
+FoodDemand_NonStaples,Protein,Animal,SheepGoat,share-weight,final-calibration-year,end-year,fixed,regional sheepgoat,1
+FoodDemand_NonStaples,Protein,Animal,OtherMeat_Fish,share-weight,final-calibration-year,end-year,fixed,OtherMeat_Fish,1
+NonFoodDemand_Crops,Corn,Corn,Corn,share-weight,final-calibration-year,end-year,fixed,regional corn,1
+NonFoodDemand_Crops,FiberCrop,FiberCrop,FiberCrop,share-weight,final-calibration-year,end-year,fixed,regional fibercrop,1
+NonFoodDemand_Crops,FodderGrass,FodderGrass,FodderGrass,share-weight,final-calibration-year,end-year,fixed,FodderGrass,1
+NonFoodDemand_Crops,FodderHerb,FodderHerb,FodderHerb,share-weight,final-calibration-year,end-year,fixed,FodderHerb,1
+NonFoodDemand_Crops,Fruits,Fruits,Fruits,share-weight,final-calibration-year,end-year,fixed,regional fruits,1
+NonFoodDemand_Crops,Legumes,Legumes,Legumes,share-weight,final-calibration-year,end-year,fixed,regional legumes,1
+NonFoodDemand_Crops,MiscCrop,MiscCrop,MiscCrop,share-weight,final-calibration-year,end-year,fixed,regional misccrop,1
+NonFoodDemand_Crops,NutsSeeds,NutsSeeds,NutsSeeds,share-weight,final-calibration-year,end-year,fixed,regional nuts_seeds,1
+NonFoodDemand_Crops,OilCrop,OilCrop,OilCrop,share-weight,final-calibration-year,end-year,fixed,regional oilcrop,1
+NonFoodDemand_Crops,OilCrop feedcake,OilCrop feedcake,OilCrop feedcake,share-weight,final-calibration-year,end-year,fixed,regional oilcrop feedcake,1
+NonFoodDemand_Crops,OilCrop oil,OilCrop oil,OilCrop oil,share-weight,final-calibration-year,end-year,fixed,regional oilcrop oil,1
+NonFoodDemand_Crops,OtherGrain,OtherGrain,OtherGrain,share-weight,final-calibration-year,end-year,fixed,regional othergrain,1
+NonFoodDemand_Crops,PalmFruit,PalmFruit,PalmFruit,share-weight,final-calibration-year,end-year,fixed,regional palmfruit,1
+NonFoodDemand_Crops,PalmFruit feedcake,PalmFruit feedcake,PalmFruit feedcake,share-weight,final-calibration-year,end-year,fixed,regional palmfruit feedcake,1
+NonFoodDemand_Crops,PalmFruit oil,PalmFruit oil,PalmFruit oil,share-weight,final-calibration-year,end-year,fixed,regional palmfruit oil,1
+NonFoodDemand_Crops,Rapeseed,Rapeseed,Rapeseed,share-weight,final-calibration-year,end-year,fixed,regional rapeseed,1
+NonFoodDemand_Crops,Rapeseed feedcake,Rapeseed feedcake,Rapeseed feedcake,share-weight,final-calibration-year,end-year,fixed,regional rapeseed feedcake,1
+NonFoodDemand_Crops,Rapeseed oil,Rapeseed oil,Rapeseed oil,share-weight,final-calibration-year,end-year,fixed,regional rapeseed oil,1
+NonFoodDemand_Crops,Rice,Rice,Rice,share-weight,final-calibration-year,end-year,fixed,regional rice,1
+NonFoodDemand_Crops,RootTuber,RootTuber,RootTuber,share-weight,final-calibration-year,end-year,fixed,regional root_tuber,1
+NonFoodDemand_Crops,Soybean,Soybean,Soybean,share-weight,final-calibration-year,end-year,fixed,regional soybean,1
+NonFoodDemand_Crops,Soybean feedcake,Soybean feedcake,Soybean feedcake,share-weight,final-calibration-year,end-year,fixed,regional soybean feedcake,1
+NonFoodDemand_Crops,Soybean oil,Soybean oil,Soybean oil,share-weight,final-calibration-year,end-year,fixed,regional soybean oil,1
+NonFoodDemand_Crops,SugarCrop,SugarCrop,SugarCrop,share-weight,final-calibration-year,end-year,fixed,regional sugarcrop,1
+NonFoodDemand_Crops,Vegetables,Vegetables,Vegetables,share-weight,final-calibration-year,end-year,fixed,regional vegetables,1
+NonFoodDemand_Crops,Wheat,Wheat,Wheat,share-weight,final-calibration-year,end-year,fixed,regional wheat,1
+NonFoodDemand_Meat,Beef,Beef,Beef,share-weight,final-calibration-year,end-year,fixed,regional beef,1
+NonFoodDemand_Meat,Dairy,Dairy,Dairy,share-weight,final-calibration-year,end-year,fixed,regional dairy,1
+NonFoodDemand_Meat,Pork,Pork,Pork,share-weight,final-calibration-year,end-year,fixed,regional pork,1
+NonFoodDemand_Meat,Poultry,Poultry,Poultry,share-weight,final-calibration-year,end-year,fixed,regional poultry,1
+NonFoodDemand_Meat,SheepGoat,SheepGoat,SheepGoat,share-weight,final-calibration-year,end-year,fixed,regional sheepgoat,1
+NonFoodDemand_Meat,OtherMeat_Fish,OtherMeat_Fish,OtherMeat_Fish,share-weight,final-calibration-year,end-year,fixed,OtherMeat_Fish,1
+NonFoodDemand_Forest,Forest,Forest,Forest,share-weight,final-calibration-year,end-year,fixed,regional forest,1

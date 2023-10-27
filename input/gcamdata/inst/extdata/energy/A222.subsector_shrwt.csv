@@ -1,0 +1,34 @@
+# File: A222.subsector_shrwt.csv
+# Title: USA refining subsector share-weights
+# Units: none
+# Column types: ccccnn
+# ----------
+region,supplysector,subsector,year.fillout,year,share.weight
+USA,refined liquids gasoline pool,ethanol,,2020,0.2430
+USA,refined liquids gasoline pool,ethanol,,2025,0.3068
+USA,refined liquids gasoline pool,ethanol,,2030,0.4836
+USA,refined liquids gasoline pool,ethanol,,2035,0.6697
+USA,refined liquids gasoline pool,ethanol,,2040,0.7124
+USA,refined liquids gasoline pool,ethanol,,2045,0.5419
+USA,refined liquids gasoline pool,ethanol,2050,,0.4350
+USA,corn ethanol,corn ethanol,,2020,1
+USA,corn ethanol,corn ethanol,,2025,1
+USA,corn ethanol,corn ethanol,,2030,1
+USA,corn ethanol,corn ethanol,,2035,1
+USA,corn ethanol,corn ethanol,,2040,1
+USA,corn ethanol,corn ethanol,,2045,1
+USA,corn ethanol,corn ethanol,2050,,1
+USA,cellulosic ethanol,cellulosic ethanol,,2020,0
+USA,cellulosic ethanol,cellulosic ethanol,,2025,0
+USA,cellulosic ethanol,cellulosic ethanol,,2030,0
+USA,cellulosic ethanol,cellulosic ethanol,,2035,0
+USA,cellulosic ethanol,cellulosic ethanol,,2040,0
+USA,cellulosic ethanol,cellulosic ethanol,,2045,0
+USA,cellulosic ethanol,cellulosic ethanol,2050,,0
+USA,refined liquids enduse,biodiesel,,2020,0.065
+USA,refined liquids enduse,biodiesel,,2025,0.072
+USA,refined liquids enduse,biodiesel,,2030,0.076
+USA,refined liquids enduse,biodiesel,,2035,0.079
+USA,refined liquids enduse,biodiesel,,2040,0.082
+USA,refined liquids enduse,biodiesel,,2045,0.083
+USA,refined liquids enduse,biodiesel,2050,,0.096

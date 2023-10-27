@@ -1,0 +1,13 @@
+[submodule "cvs/objects/climate/source/hector"]
+	path = cvs/objects/climate/source/hector
+	url = https://github.com/JGCRI/hector.git
+	branch = gcam-integration
+[submodule "output/modelinterface/modelinterface"]
+	path = output/modelinterface/modelinterface
+	url = https://github.com/JGCRI/modelinterface.git
+[submodule "util/testing-framework"]
+	path = util/testing-framework
+	url = https://stash.pnnl.gov/scm/jgcri/gcam-testing-framework.git
+[submodule "output/otaq-data-processing"]
+	path = output/otaq-data-processing
+	url = https://pkyle@bitbucket.org/marshallwise/otaq-data-processing.git

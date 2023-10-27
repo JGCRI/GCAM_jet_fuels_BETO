@@ -1,0 +1,41 @@
+# File: EPA_peatland_EFs.csv
+# Title: Emissions factors of LUTs on peatland
+# Units: t/ha/yr
+# Comments: Peat soil CO2 based on Carlson et al. (2015), https://doi.org/10.1088/1748-9326/10/7/074006
+# Column types: cccn
+# Source: Aaron Levy levy.aaron@epa.gov
+# ----------
+RTI_LUT,Non.CO2,Unit,EF
+Cropland,CO2_PEAT,tC/ha,18
+Pasture,CO2_PEAT,tC/ha,18
+Urban,CO2_PEAT,tC/ha,0
+NatVeg_Unk,CO2_PEAT,tC/ha,0
+NatVeg_Forest,CO2_PEAT,tC/ha,0
+NatVeg_Grass,CO2_PEAT,tC/ha,0
+NatVeg_Other,CO2_PEAT,tC/ha,0
+Timber_LR,CO2_PEAT,tC/ha,18
+Timber_SR,CO2_PEAT,tC/ha,18
+OilPalmFruit,CO2_PEAT,tC/ha,18
+Plantation_ag,CO2_PEAT,tC/ha,18
+Cropland,CH4_PEAT,t/ha,0
+Pasture,CH4_PEAT,t/ha,0
+Urban,CH4_PEAT,t/ha,0
+NatVeg_Unk,CH4_PEAT,t/ha,0
+NatVeg_Forest,CH4_PEAT,t/ha,0
+NatVeg_Grass,CH4_PEAT,t/ha,0
+NatVeg_Other,CH4_PEAT,t/ha,0
+Timber_LR,CH4_PEAT,t/ha,0
+Timber_SR,CH4_PEAT,t/ha,0
+OilPalmFruit,CH4_PEAT,t/ha,0
+Plantation_ag,CH4_PEAT,t/ha,0
+Cropland,N2O_PEAT,t/ha,0
+Pasture,N2O_PEAT,t/ha,0
+Urban,N2O_PEAT,t/ha,0
+NatVeg_Unk,N2O_PEAT,t/ha,0
+NatVeg_Forest,N2O_PEAT,t/ha,0
+NatVeg_Grass,N2O_PEAT,t/ha,0
+NatVeg_Other,N2O_PEAT,t/ha,0
+Timber_LR,N2O_PEAT,t/ha,0
+Timber_SR,N2O_PEAT,t/ha,0
+OilPalmFruit,N2O_PEAT,t/ha,0
+Plantation_ag,N2O_PEAT,t/ha,0

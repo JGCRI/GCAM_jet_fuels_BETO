@@ -1,0 +1,35 @@
+# File: Peatland_land_mapping.csv
+# Title: Assignments of land categories between GCAM and intermediate mapped land type from Kemen Austin data
+# Units: n/a
+# Column types: ccc
+# Source: Kemen Austin, RTI. kaustin@rti.org
+# ----------
+Land_Type,GCAM_commodity,Intermediate_Land_Type
+Forest,,Forest
+Grassland,,Grassland
+HarvCropLand,Corn,Cropland
+HarvCropLand,FiberCrop,Cropland
+HarvCropLand,FodderGrass,Cropland
+HarvCropLand,FodderHerb,Cropland
+HarvCropLand,Fruit,Cropland
+HarvCropLand,Legumes,Cropland
+HarvCropLand,MiscCrop,Cropland
+HarvCropLand,NutsSeeds,Cropland
+HarvCropLand,OilCrop,Cropland
+HarvCropLand,OtherGrain,Cropland
+HarvCropLand,PalmFruit,PalmFruit
+HarvCropLand,Rapeseed,Cropland
+HarvCropLand,Rice,Cropland
+HarvCropLand,RootTuber,Cropland
+HarvCropLand,Soybean,Cropland
+HarvCropLand,SugarCrop,Cropland
+HarvCropLand,Vegetables,Cropland
+HarvCropLand,Wheat,Cropland
+OtherArableLand,,Cropland
+Pasture,,Pasture
+RockIceDesert,,
+Shrubland,,Shrubland
+Tundra,,
+UnmanagedForest,,UnmanagedForest
+UnmanagedPasture,,Grassland
+UrbanLand,,UrbanLand

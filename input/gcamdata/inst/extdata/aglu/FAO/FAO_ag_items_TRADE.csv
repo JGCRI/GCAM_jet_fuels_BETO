@@ -1,0 +1,422 @@
+# File: FAO_ag_items_TRADE.csv
+# Title: FAO_ag_items_TRADE
+# Unit: Unitless
+# Description: Maps FAO crops to item codes, GCAM commodities and crop names in other trade-related databases. Differentiated from PRODSTAT mapping files b/c TRADESTAT includes both crop and animal products in same datasets.
+# Sources: FAO and other databases
+# Column types: icccc
+# ----------
+item.code,GCAM_commodity,prod_commod,pp_commod,bitrade_commod
+15,Wheat,Wheat,Wheat,Wheat
+16,Wheat,NA,NA,"Flour, wheat"
+17,Wheat,NA,NA,"Bran, wheat"
+18,Wheat,NA,NA,Macaroni
+20,Wheat,NA,NA,Bread
+21,Wheat,NA,NA,Bulgur
+22,Wheat,NA,NA,Pastry
+27,Rice,"Rice, paddy","Rice, paddy",NA
+30,Rice,NA,NA,Rice - total  (Rice milled equivalent)
+36,Rice,NA,NA,"Oil, rice bran"
+37,Rice,NA,NA,"Cake, rice bran"
+41,Wheat,NA,NA,"Cereals, breakfast"
+44,OtherGrain,Barley,Barley,Barley
+46,OtherGrain,NA,NA,"Barley, pearled"
+49,OtherGrain,NA,NA,Malt
+56,Corn,Maize,Maize,Maize
+57,Corn,NA,NA,"Germ, maize"
+58,Corn,NA,NA,"Flour, maize"
+59,Corn,NA,NA,"Bran, maize"
+60,Corn,"Oil, maize",NA,"Oil, maize"
+61,Corn,NA,NA,"Cake, maize"
+68,OtherGrain,NA,Popcorn,Popcorn
+71,OtherGrain,Rye,Rye,Rye
+75,OtherGrain,Oats,Oats,Oats
+76,OtherGrain,NA,NA,Oats rolled
+79,OtherGrain,Millet,Millet,Millet
+81,OtherGrain,NA,NA,"Bran, millet"
+83,OtherGrain,Sorghum,Sorghum,Sorghum
+85,OtherGrain,NA,NA,"Bran, sorghum"
+89,OtherGrain,Buckwheat,Buckwheat,Buckwheat
+91,OtherGrain,NA,NA,"Bran, buckwheat"
+92,OtherGrain,Quinoa,Quinoa,NA
+94,OtherGrain,Fonio,Fonio,Fonio
+95,OtherGrain,NA,NA,"Flour, fonio"
+96,OtherGrain,NA,NA,"Bran, fonio"
+97,OtherGrain,Triticale,Triticale,Triticale
+101,OtherGrain,Canary seed,Canary seed,Canary seed
+103,OtherGrain,"Grain, mixed","Grain, mixed","Grain, mixed"
+104,OtherGrain,NA,NA,"Flour, mixed grain"
+108,OtherGrain,"Cereals, nes","Cereals, nes",NA
+110,Wheat,NA,NA,Wafers
+111,OtherGrain,NA,NA,"Flour, cereals"
+113,OtherGrain,NA,NA,"Cereal preparations, nes"
+114,Wheat,NA,NA,Mixes and doughs
+115,Wheat,NA,NA,"Food preparations, flour, malt extract"
+116,RootTuber,Potatoes,Potatoes,Potatoes
+117,RootTuber,NA,NA,"Flour, potatoes"
+118,RootTuber,NA,NA,"Potatoes, frozen"
+120,RootTuber,NA,NA,Potato offals
+122,RootTuber,Sweet potatoes,Sweet potatoes,Sweet potatoes
+125,RootTuber,Cassava,Cassava,Cassava
+128,RootTuber,NA,NA,Cassava dried
+129,RootTuber,NA,NA,"Starch, cassava"
+135,RootTuber,Yautia (cocoyam),Yautia (cocoyam),NA
+136,RootTuber,Taro (cocoyam),Taro (cocoyam),NA
+137,RootTuber,Yams,Yams,NA
+149,RootTuber,"Roots and tubers, nes","Roots and tubers, nes","Roots and tubers, nes"
+150,RootTuber,NA,NA,"Flour, roots and tubers nes"
+156,SugarCrop,Sugar cane,Sugar cane,NA
+157,SugarCrop,Sugar beet,Sugar beet,Sugar beet
+162,SugarCrop,Sugar Raw Centrifugal,NA,Sugar Raw Centrifugal
+163,SugarCrop,NA,NA,Sugar non-centrifugal
+164,SugarCrop,NA,NA,Sugar refined
+165,SugarCrop,Molasses,NA,Molasses
+166,SugarCrop,NA,NA,"Fructose and syrup, other"
+168,SugarCrop,NA,NA,Sugar confectionery
+169,Vegetables,NA,NA,Beet pulp
+171,SugarCrop,NA,NA,Sugar flavoured
+172,SugarCrop,NA,NA,Glucose and dextrose
+176,Legumes,"Beans, dry","Beans, dry","Beans, dry"
+181,Vegetables,"Broad beans, horse beans, dry","Broad beans, horse beans, dry","Broad beans, horse beans, dry"
+187,Legumes,"Peas, dry","Peas, dry","Peas, dry"
+191,Legumes,Chick peas,Chick peas,Chick peas
+195,Legumes,"Cow peas, dry","Cow peas, dry",NA
+197,Legumes,Pigeon peas,Pigeon peas,NA
+201,Legumes,Lentils,Lentils,Lentils
+203,Legumes,Bambara beans,Bambara beans,Bambara beans
+205,FodderHerb,Vetches,Vetches,Vetches
+210,Legumes,Lupins,Lupins,NA
+211,Legumes,"Pulses, nes","Pulses, nes",NA
+212,Legumes,NA,NA,"Flour, pulses"
+216,NutsSeeds,"Brazil nuts, with shell","Brazil nuts, with shell",NA
+217,NutsSeeds,"Cashew nuts, with shell","Cashew nuts, with shell","Cashew nuts, with shell"
+220,NutsSeeds,Chestnut,Chestnut,Chestnut
+221,NutsSeeds,"Almonds, with shell","Almonds, with shell",NA
+222,NutsSeeds,"Walnuts, with shell","Walnuts, with shell","Walnuts, with shell"
+223,NutsSeeds,Pistachios,Pistachios,Pistachios
+224,NutsSeeds,Kola nuts,Kola nuts,Kola nuts
+225,NutsSeeds,"Hazelnuts, with shell","Hazelnuts, with shell",NA
+226,NutsSeeds,Areca nuts,Areca nuts,NA
+229,NutsSeeds,NA,NA,"Brazil nuts, shelled"
+230,NutsSeeds,NA,NA,"Cashew nuts, shelled"
+231,NutsSeeds,NA,NA,Almonds shelled
+232,NutsSeeds,NA,NA,"Walnuts, shelled"
+233,NutsSeeds,NA,NA,"Hazelnuts, shelled"
+234,NutsSeeds,"Nuts, nes","Nuts, nes","Nuts, nes"
+235,NutsSeeds,NA,NA,"Nuts, prepared (exc. groundnuts)"
+236,Soybean,Soybeans,Soybeans,Soybeans
+237,Soybean oil,"Oil, soybean",NA,"Oil, soybean"
+238,Soybean feedcake,NA,NA,"Cake, soybeans"
+239,Soybean,NA,NA,Soya sauce
+240,Soybean,NA,NA,Soya paste
+241,Soybean,NA,NA,Soya curd
+242,NutsSeeds,"Groundnuts, with shell","Groundnuts, with shell",NA
+243,NutsSeeds,NA,NA,"Groundnuts, shelled"
+244,NutsSeeds,"Oil, groundnut",NA,"Oil, groundnut"
+245,NutsSeeds,NA,NA,"Cake, groundnuts"
+247,NutsSeeds,NA,NA,Peanut butter
+249,MiscCrop,Coconuts,Coconuts,Coconuts
+250,MiscCrop,NA,NA,"Coconuts, desiccated"
+251,MiscCrop,NA,NA,Copra
+252,MiscCrop,"Oil, coconut (copra)",NA,"Oil, coconut (copra)"
+254,PalmFruit,"Oil, palm fruit",Oil palm fruit,NA
+256,PalmFruit,Palm kernels,Palm kernels,NA
+257,PalmFruit oil,"Oil, palm","Oil, palm","Oil, palm"
+258,PalmFruit oil,"Oil, palm kernel",NA,"Oil, palm kernel"
+259,PalmFruit feedcake,NA,NA,"Cake, palm kernel"
+260,OilCrop,Olives,Olives,Olives
+261,OilCrop oil,"Oil, olive, virgin",NA,"Oil, olive, virgin"
+262,OilCrop,NA,NA,Olives preserved
+263,OilCrop,Karite nuts (sheanuts),Karite nuts (sheanuts),NA
+264,OilCrop,NA,NA,Butter of karite nuts
+265,OilCrop,Castor oil seed,Castor oil seed,NA
+266,OilCrop oil,NA,NA,"Oil, castor beans"
+267,OilCrop,Sunflower seed,Sunflower seed,Sunflower seed
+268,OilCrop oil,"Oil, sunflower",NA,"Oil, sunflower"
+269,OilCrop feedcake,NA,NA,"Cake, sunflower"
+270,Rapeseed,Rapeseed,Rapeseed,Rapeseed
+271,Rapeseed oil,"Oil, rapeseed",NA,"Oil, rapeseed"
+272,Rapeseed feedcake,NA,NA,"Cake, rapeseed"
+274,OilCrop oil,NA,NA,"Oil, olive residues"
+275,OilCrop,Tung nuts,Tung nuts,NA
+277,OilCrop,Jojoba seed,Jojoba seed,NA
+280,OilCrop,Safflower seed,Safflower seed,NA
+281,OilCrop oil,"Oil, safflower",NA,"Oil, safflower"
+282,OilCrop feedcake,NA,NA,"Cake, safflower"
+289,OilCrop,Sesame seed,Sesame seed,Sesame seed
+290,OilCrop oil,"Oil, sesame",NA,"Oil, sesame"
+291,OilCrop feedcake,NA,NA,"Cake, sesame seed"
+292,OilCrop,Mustard seed,Mustard seed,Mustard seed
+294,Rapeseed feedcake,NA,NA,"Cake, mustard"
+295,OilCrop,NA,NA,"Flour, mustard"
+296,OilCrop,Poppy seed,Poppy seed,Poppy seed
+297,OilCrop oil,NA,NA,"Oil, poppy"
+299,OilCrop,Melonseed,Melonseed,NA
+305,NutsSeeds,Tallowtree seed,Tallowtree seed,NA
+306,OilCrop,NA,Vegetable tallow,Vegetable tallow
+307,OilCrop oil,NA,"Oil, stillingia",NA
+310,OilCrop,Kapok fruit,Kapok fruit,NA
+311,OilCrop,Kapokseed in shell,NA,Kapokseed in shell
+312,OilCrop,NA,NA,Kapokseed shelled
+313,OilCrop oil,NA,NA,"Oil, kapok"
+314,OilCrop feedcake,NA,NA,"Cake, kapok"
+328,FiberCrop,Seed cotton,Seed cotton,NA
+329,FiberCrop,Cottonseed,Cottonseed,Cottonseed
+331,FiberCrop,"Oil, cottonseed",NA,"Oil, cottonseed"
+332,FiberCrop,NA,NA,"Cake, cottonseed"
+333,OilCrop,Linseed,Linseed,Linseed
+334,OilCrop oil,"Oil, linseed",NA,"Oil, linseed"
+335,OilCrop feedcake,NA,NA,"Cake, linseed"
+336,OilCrop,Hempseed,Hempseed,NA
+338,OilCrop feedcake,NA,NA,"Cake, hempseed"
+339,OilCrop,Oilseeds nes,Oilseeds nes,Oilseeds nes
+340,OilCrop oil,NA,NA,"Oil, vegetable origin nes"
+358,Vegetables,Cabbages and other brassicas,Cabbages and other brassicas,Cabbages and other brassicas
+366,Vegetables,Artichokes,Artichokes,Artichokes
+367,Vegetables,Asparagus,Asparagus,Asparagus
+372,Vegetables,Lettuce and chicory,Lettuce and chicory,Lettuce and chicory
+373,Vegetables,Spinach,Spinach,Spinach
+378,Vegetables,Cassava leaves,NA,NA
+388,Vegetables,Tomatoes,Tomatoes,Tomatoes
+390,Vegetables,NA,NA,"Juice, tomato"
+391,Vegetables,NA,NA,"Tomatoes, paste"
+392,Vegetables,NA,NA,"Tomatoes, peeled"
+393,Vegetables,Cauliflowers and broccoli,Cauliflowers and broccoli,Cauliflowers and broccoli
+394,Vegetables,"Pumpkins, squash and gourds","Pumpkins, squash and gourds","Pumpkins, squash and gourds"
+397,Vegetables,Cucumbers and gherkins,Cucumbers and gherkins,Cucumbers and gherkins
+399,Vegetables,Eggplants (aubergines),Eggplants (aubergines),Eggplants (aubergines)
+401,Vegetables,"Chillies and peppers, green","Chillies and peppers, green","Chillies and peppers, green"
+402,Vegetables,"Onions, shallots, green","Onions, shallots, green","Onions, shallots, green"
+403,Vegetables,"Onions, dry","Onions, dry","Onions, dry"
+406,Vegetables,Garlic,Garlic,Garlic
+407,Vegetables,"Leeks, other alliaceous vegetables","Leeks, other alliaceous vegetables","Leeks, other alliaceous vegetables"
+414,Vegetables,"Beans, green","Beans, green","Beans, green"
+417,Vegetables,"Peas, green","Peas, green","Peas, green"
+420,Vegetables,"Vegetables, leguminous nes","Vegetables, leguminous nes",NA
+423,Vegetables,String beans,String beans,NA
+426,Vegetables,Carrots and turnips,Carrots and turnips,Carrots and turnips
+430,Vegetables,Okra,Okra,NA
+446,Corn,"Maize, green","Maize, green","Maize, green"
+447,Corn,NA,NA,Sweet corn frozen
+448,Corn,NA,NA,Sweet corn prep or preserved
+449,Vegetables,Mushrooms and truffles,Mushrooms and truffles,Mushrooms and truffles
+451,Vegetables,NA,NA,"Mushrooms, canned"
+459,Vegetables,Chicory roots,Chicory roots,NA
+460,Vegetables,NA,NA,"Vegetables, fresh or dried products nes"
+461,MiscCrop,Carobs,Carobs,NA
+463,Vegetables,"Vegetables, fresh nes","Vegetables, fresh nes","Vegetables, fresh nes"
+464,Vegetables,NA,NA,"Vegetables, dried nes"
+465,Vegetables,NA,NA,"Vegetables, canned nes"
+469,Vegetables,NA,NA,"Vegetables, dehydrated"
+471,Vegetables,NA,NA,Vegetables in vinegar
+472,Vegetables,NA,NA,"Vegetables, preserved nes"
+473,Vegetables,NA,NA,"Vegetables, frozen"
+474,Vegetables,NA,NA,"Vegetables, temporarily preserved"
+475,Vegetables,NA,NA,"Vegetables, preserved, frozen"
+476,Vegetables,NA,NA,"Vegetables, homogenized preparations"
+486,Fruits,Bananas,Bananas,Bananas
+489,Fruits,Plantains and others,Plantains,Plantains
+490,Fruits,Oranges,Oranges,Oranges
+491,Fruits,NA,NA,"Juice, orange, single strength"
+492,Fruits,NA,NA,"Juice, orange, concentrated"
+495,Fruits,"Tangerines, mandarins, clementines, satsumas","Tangerines, mandarins, clementines, satsumas","Tangerines, mandarins, clementines, satsumas"
+497,Fruits,Lemons and limes,Lemons and limes,Lemons and limes
+499,Fruits,NA,NA,"Juice, lemon, concentrated"
+507,Fruits,Grapefruit (inc. pomelos),Grapefruit (inc. pomelos),Grapefruit (inc. pomelos)
+509,Fruits,NA,NA,"Juice, grapefruit"
+510,Fruits,NA,NA,"Juice, grapefruit, concentrated"
+512,Fruits,"Fruit, citrus nes","Fruit, citrus nes",NA
+513,Fruits,NA,NA,"Juice, citrus, single strength"
+514,Fruits,NA,NA,"Juice, citrus, concentrated"
+515,Fruits,Apples,Apples,Apples
+521,Fruits,Pears,Pears,Pears
+523,Fruits,Quinces,Quinces,Quinces
+526,Fruits,Apricots,Apricots,Apricots
+527,Fruits,NA,NA,"Apricots, dry"
+530,Fruits,"Cherries, sour","Cherries, sour","Cherries, sour"
+531,Fruits,Cherries,Cherries,Cherries
+534,Fruits,Peaches and nectarines,Peaches and nectarines,Peaches and nectarines
+536,Fruits,Plums and sloes,Plums and sloes,Plums and sloes
+537,Fruits,NA,NA,Plums dried (prunes)
+538,Fruits,NA,NA,"Juice, plum, single strength"
+539,Fruits,NA,NA,"Juice, plum, concentrated"
+541,Fruits,"Fruit, stone nes","Fruit, stone nes",NA
+542,Fruits,"Fruit, pome nes","Fruit, pome nes",NA
+544,Fruits,Strawberries,Strawberries,Strawberries
+547,Fruits,Raspberries,Raspberries,NA
+549,Fruits,Gooseberries,Gooseberries,Gooseberries
+550,Fruits,Currants,Currants,Currants
+552,Fruits,Blueberries,Blueberries,Blueberries
+554,Fruits,Cranberries,Cranberries,Cranberries
+558,Fruits,Berries nes,Berries nes,NA
+560,Fruits,Grapes,Grapes,Grapes
+561,Fruits,NA,NA,Raisins
+562,Fruits,NA,NA,"Juice, grape"
+567,Fruits,Watermelons,Watermelons,Watermelons
+568,Fruits,"Melons, other (inc.cantaloupes)","Melons, other (inc.cantaloupes)","Melons, other (inc.cantaloupes)"
+569,Fruits,Figs,Figs,Figs
+570,Fruits,NA,NA,Figs dried
+571,Fruits,"Mangoes, mangosteens, guavas","Mangoes, mangosteens, guavas","Mangoes, mangosteens, guavas"
+572,Fruits,Avocados,Avocados,Avocados
+574,Fruits,Pineapples,Pineapples,Pineapples
+575,Fruits,NA,NA,Pineapples canned
+576,Fruits,NA,NA,"Juice, pineapple"
+577,Fruits,Dates,Dates,Dates
+580,Fruits,NA,NA,"Juice, pineapple, concentrated"
+587,Fruits,Persimmons,Persimmons,Persimmons
+591,Fruits,Cashewapple,Cashewapple,Cashewapple
+592,Fruits,Kiwi fruit,Kiwi fruit,Kiwi fruit
+600,Fruits,Papayas,Papayas,Papayas
+603,Fruits,"Fruit, tropical fresh nes","Fruit, tropical fresh nes","Fruit, tropical fresh nes"
+619,Fruits,"Fruit, fresh nes","Fruit, fresh nes","Fruit, fresh nes"
+620,Fruits,NA,NA,"Fruit, dried nes"
+622,Fruits,NA,NA,"Juice, fruit nes"
+623,Fruits,NA,NA,"Fruit, prepared nes"
+626,Fruits,NA,NA,"Fruit, cooked, homogenized preparations"
+639,FodderGrass,NA,NA,"Forage and silage, grasses nes"
+640,FodderHerb,NA,NA,"Forage and silage, clover"
+643,FodderHerb,NA,NA,"Forage and silage, legumes"
+646,FodderHerb,NA,NA,Turnips for fodder
+651,FodderGrass,NA,NA,Forage products
+656,MiscCrop,"Coffee, green","Coffee, green","Coffee, green"
+657,MiscCrop,NA,NA,"Coffee, roasted"
+658,MiscCrop,NA,NA,"Coffee, substitutes containing coffee"
+659,MiscCrop,NA,NA,"Coffee, extracts"
+660,MiscCrop,NA,NA,"Coffee, husks and skins"
+661,MiscCrop,"Cocoa, beans","Cocoa, beans","Cocoa, beans"
+662,MiscCrop,NA,NA,"Cocoa, paste"
+664,MiscCrop,NA,NA,"Cocoa, butter"
+665,MiscCrop,NA,NA,"Cocoa, powder & cake"
+666,MiscCrop,NA,NA,Chocolate products nes
+667,MiscCrop,Tea,Tea,Tea
+671,MiscCrop,Mate,Mate,Mate
+672,MiscCrop,NA,NA,"Tea, mate extracts"
+674,MiscCrop,NA,Tea nes,NA
+677,MiscCrop,Hops,Hops,Hops
+687,MiscCrop,Pepper (piper spp.),Pepper (piper spp.),Pepper (piper spp.)
+689,Vegetables,"Chillies and peppers, dry","Chillies and peppers, dry","Chillies and peppers, dry"
+692,MiscCrop,Vanilla,Vanilla,Vanilla
+693,MiscCrop,Cinnamon (canella),Cinnamon (canella),Cinnamon (canella)
+698,MiscCrop,Cloves,Cloves,Cloves
+702,MiscCrop,"Nutmeg, mace and cardamoms","Nutmeg, mace and cardamoms","Nutmeg, mace and cardamoms"
+711,MiscCrop,"Anise, badian, fennel, coriander","Anise, badian, fennel, coriander","Anise, badian, fennel, coriander"
+720,MiscCrop,Ginger,Ginger,Ginger
+723,MiscCrop,"Spices, nes","Spices, nes","Spices, nes"
+737,OilCrop oil,NA,NA,"Oil, citronella"
+748,MiscCrop,Peppermint,Peppermint,Peppermint
+753,OilCrop oil,NA,NA,"Oil, essential nes"
+754,MiscCrop,"Pyrethrum, dried","Pyrethrum, dried","Pyrethrum, dried"
+755,MiscCrop,NA,NA,"Pyrethrum, extraction"
+767,FiberCrop,Cotton lint,Cotton lint,Cotton lint
+768,FiberCrop,NA,NA,"Cotton, carded, combed"
+769,FiberCrop,NA,NA,Cotton waste
+770,FiberCrop,NA,NA,Cotton linter
+771,FiberCrop,NA,NA,Flax fibre raw
+773,FiberCrop,Flax fibre and tow,Flax fibre and tow,Flax fibre and tow
+774,FiberCrop,NA,NA,Flax tow waste
+777,FiberCrop,Hemp tow waste,Hemp tow waste,NA
+778,FiberCrop,Kapok fibre,NA,Kapok fibre
+780,FiberCrop,Jute,Jute,Jute
+782,FiberCrop,"Bastfibres, other","Bastfibres, other",NA
+788,FiberCrop,Ramie,Ramie,NA
+789,FiberCrop,Sisal,Sisal,NA
+800,FiberCrop,Agave fibres nes,Agave fibres nes,NA
+809,FiberCrop,Manila fibre (abaca),Manila fibre (abaca),Manila fibre (abaca)
+821,FiberCrop,Fibre crops nes,Fibre crops nes,NA
+826,MiscCrop,"Tobacco, unmanufactured","Tobacco, unmanufactured","Tobacco, unmanufactured"
+828,MiscCrop,NA,NA,Cigarettes
+829,MiscCrop,NA,NA,"Cigars, cheroots"
+831,MiscCrop,NA,NA,Tobacco products nes
+846,Corn,NA,NA,"Feed and meal, gluten"
+858,FodderHerb,NA,NA,"Hay (clover, lucerne,etc)"
+859,FodderHerb,NA,NA,Hay (unspecified)
+867,Beef,"Meat, cattle","Meat, cattle","Meat, cattle"
+868,OtherMeat_Fish,NA,NA,"Offals, edible, cattle"
+869,OtherMeat_Fish,NA,NA,"Fat, cattle"
+870,Beef,NA,NA,"Meat, cattle, boneless (beef & veal)"
+874,Beef,NA,NA,"Meat, beef and veal sausages"
+875,Beef,NA,NA,"Meat, beef, preparations"
+882,Dairy,"Milk, whole fresh cow","Milk, whole fresh cow","Milk, whole fresh cow"
+885,Dairy,Cream fresh,NA,Cream fresh
+886,Dairy,"Butter, cow milk",NA,"Butter, cow milk"
+887,Dairy,"Ghee, butteroil of cow milk",NA,NA
+888,Dairy,"Milk, skimmed cow",NA,"Milk, skimmed cow"
+889,Dairy,"Milk, whole condensed",NA,"Milk, whole condensed"
+890,Dairy,"Whey, condensed",NA,"Whey, condensed"
+891,Dairy,Yoghurt,NA,NA
+892,Dairy,NA,NA,"Yoghurt, concentrated or not"
+893,Dairy,NA,NA,"Buttermilk, curdled, acidified milk"
+894,Dairy,"Milk, whole evaporated",NA,"Milk, whole evaporated"
+895,Dairy,"Milk, skimmed evaporated",NA,NA
+896,Dairy,"Milk, skimmed condensed",NA,NA
+897,Dairy,"Milk, whole dried",NA,"Milk, whole dried"
+898,Dairy,"Milk, skimmed dried",NA,"Milk, skimmed dried"
+899,Dairy,"Milk, dry buttermilk",NA,NA
+900,Dairy,"Whey, dry",NA,"Whey, dry"
+901,Dairy,"Cheese, whole cow milk",NA,"Cheese, whole cow milk"
+904,Dairy,"Cheese, skimmed cow milk",NA,NA
+907,Dairy,NA,NA,"Cheese, processed"
+908,Dairy,NA,NA,"Milk, reconstituted"
+909,Dairy,NA,NA,"Milk, products of natural constituents nes"
+910,Dairy,NA,NA,Ice cream and edible ice
+947,Beef,"Meat, buffalo","Meat, buffalo",NA
+951,Dairy,"Milk, whole fresh buffalo","Milk, whole fresh buffalo",NA
+952,Dairy,"Butter, buffalo milk",NA,NA
+953,Dairy,"Ghee, of buffalo milk",NA,"Ghee, of buffalo milk"
+955,Dairy,"Cheese, buffalo milk",NA,NA
+977,SheepGoat,"Meat, sheep","Meat, sheep","Meat, sheep"
+978,OtherMeat_Fish,NA,NA,"Offals, sheep,edible"
+982,Dairy,"Milk, whole fresh sheep","Milk, whole fresh sheep","Milk, whole fresh sheep"
+983,Dairy,"Butter and ghee, sheep milk",NA,NA
+984,Dairy,"Cheese, sheep milk",NA,"Cheese, sheep milk"
+994,OtherMeat_Fish,NA,NA,Grease incl. lanolin wool
+1017,SheepGoat,"Meat, goat","Meat, goat","Meat, goat"
+1018,OtherMeat_Fish,NA,NA,"Offals, edible, goats"
+1020,Dairy,"Milk, whole fresh goat","Milk, whole fresh goat",NA
+1021,Dairy,Cheese of goat mlk,NA,NA
+1022,Dairy,Butter of goat mlk,NA,NA
+1035,Pork,"Meat, pig","Meat, pig","Meat, pig"
+1036,OtherMeat_Fish,NA,NA,"Offals, pigs, edible"
+1037,OtherMeat_Fish,NA,NA,"Fat, pigs"
+1038,Pork,NA,NA,"Meat, pork"
+1039,Pork,NA,NA,Bacon and ham
+1041,Pork,NA,NA,"Meat, pig sausages"
+1042,Pork,NA,NA,"Meat, pig, preparations"
+1043,OtherMeat_Fish,Lard,NA,Lard
+1058,Poultry,"Meat, chicken","Meat, chicken","Meat, chicken"
+1059,OtherMeat_Fish,NA,NA,"Offals, liver chicken"
+1060,Poultry,NA,NA,"Fat, liver prepared (foie gras)"
+1061,Poultry,NA,NA,"Meat, chicken, canned"
+1062,Poultry,"Eggs, hen, in shell","Eggs, hen, in shell","Eggs, hen, in shell"
+1063,Poultry,NA,NA,"Eggs, liquid"
+1064,Poultry,NA,NA,"Eggs, dried"
+1069,Poultry,"Meat, duck","Meat, duck","Meat, duck"
+1073,Poultry,"Meat, goose and guinea fowl","Meat, goose and guinea fowl","Meat, goose and guinea fowl"
+1074,OtherMeat_Fish,NA,NA,"Offals, liver geese"
+1075,OtherMeat_Fish,NA,NA,"Offals, liver duck"
+1080,Poultry,"Meat, turkey","Meat, turkey","Meat, turkey"
+1089,OtherMeat_Fish,"Meat, bird nes","Meat, bird nes",NA
+1091,Poultry,"Eggs, other bird, in shell","Eggs, other bird, in shell","Eggs, other bird, in shell"
+1097,OtherMeat_Fish,"Meat, horse","Meat, horse","Meat, horse"
+1108,OtherMeat_Fish,"Meat, ass","Meat, ass","Meat, ass"
+1111,OtherMeat_Fish,"Meat, mule","Meat, mule",NA
+1127,OtherMeat_Fish,"Meat, camel","Meat, camel",NA
+1129,OtherMeat_Fish,NA,NA,"Fat, camels"
+1130,Dairy,"Milk, whole fresh camel","Milk, whole fresh camel",NA
+1141,OtherMeat_Fish,"Meat, rabbit","Meat, rabbit","Meat, rabbit"
+1151,OtherMeat_Fish,"Meat, other rodents","Meat, other rodents",NA
+1158,OtherMeat_Fish,"Meat, other camelids","Meat, other camelids",NA
+1159,OtherMeat_Fish,NA,NA,"Offals, other camelids"
+1163,OtherMeat_Fish,"Meat, game","Meat, game","Meat, game"
+1164,OtherMeat_Fish,NA,NA,"Meat, dried nes"
+1166,OtherMeat_Fish,"Meat, nes","Meat, nes","Meat, nes"
+1167,OtherMeat_Fish,"Offals, nes",NA,NA
+1168,OtherMeat_Fish,NA,NA,"Oils, fats of animal nes"
+1176,OtherMeat_Fish,"Snails, not sea","Snails, not sea",NA
+1225,OtherMeat_Fish,Tallow,NA,Tallow
+1241,OilCrop,NA,NA,"Margarine, liquid"
+1242,OilCrop,"Margarine, short",NA,"Margarine, short"
+1243,OtherMeat_Fish,NA,NA,"Fat, nes, prepared"
+1274,OilCrop oil,NA,NA,"Oil, boiled etc"
+1276,OilCrop,NA,NA,Fatty acids
+1277,OilCrop,NA,NA,Fatty substance residues
+654,DDGS,"Dregs from brewing, distillation","Dregs from brewing, distillation","Dregs from brewing, distillation"

@@ -1,0 +1,20 @@
+# File: RTI_peatland_categories.csv
+# Title: Assignments of land categories between GCAM and Kemen Austin (RTI) data
+# Units: n/a
+# Comments: Unknown natural vegetation assigned to grassland and other vegetation assigned to shrubland
+# Column types: cc
+# Source: Kemen Austin, RTI. kaustin@rti.org
+# ----------
+RTI_LUT,Intermediate_Land_Type
+Cropland,Cropland
+Pasture,Pasture
+Urban,UrbanLand
+NatVeg_Unk,Grassland
+NatVeg_Forest,UnmanagedForest
+NatVeg_Grass,Grassland
+NatVeg_Other,Shrubland
+Timber_LR,Forest
+Timber_SR,Forest
+OilPalmFruit,PalmFruit
+Plantation_ag,
+Pasture,UnmanagedPasture

@@ -1,0 +1,37 @@
+# File: A_an_input_subsector.csv
+# Title: Subsectors of inputs to animal production
+# Units: Various
+# Source: NA
+# Column types: ccicnccccc 
+# ----------
+supplysector,subsector,logit.exponent,year.fillout,share.weight,apply.to,from.year,to.year,interpolation.function,logit.type
+FodderHerb_Residue,FodderHerb,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FodderHerb_Residue,Residue,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+Pasture_FodderGrass,Pasture,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+Pasture_FodderGrass,FodderGrass,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Corn,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,FiberCrop,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Fruits,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Legumes,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,MiscCrop,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,NutsSeeds,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,OilCrop,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,OtherGrain,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,PalmFruit,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Rapeseed,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Rice,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,RootTuber,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Soybean,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,SugarCrop,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Vegetables,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Wheat,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,DDGS,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,OilCrop feedcake,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,PalmFruit feedcake,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Rapeseed feedcake,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Soybean feedcake,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,OilCrop oil,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,PalmFruit oil,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Rapeseed oil,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+FeedCrops,Soybean oil,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,
+Scavenging_Other,Scavenging_Other,-6,start-year,1,share-weight,final-calibration-year,end-year,fixed,

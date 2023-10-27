@@ -1,0 +1,11 @@
+# File: A_Crushing_technology_coef.csv
+# Title: Input-output coefficients of oil crushing technologies
+# Units: Unitless (kg of crop inputs per kg of oil)
+# Source: OilCrop Rapeseed and Soybean calculated as (1 + sec out coef) * 1.04. Loss coef from DOI: 10.1051/ocl/2015012. PalmFruit calculated assuming oil content of 25%. http://www.fao.org/3/y4355e/y4355e03.htm
+# Column types: cccccnnnn
+# ----------
+supplysector,subsector,technology,minicam.energy.input,primary.crop,1971,2010,2015,2100
+OilCrop oil,OilCrop oil,OilCrop oil,regional oilcrop,OilCrop,2.08,2.08,2.08,2.08
+PalmFruit oil,PalmFruit oil,PalmFruit oil,regional palmfruit,PalmFruit,4.7,4.7,4.7,4.7
+Rapeseed oil,Rapeseed oil,Rapeseed oil,regional rapeseed,Rapeseed,2.496,2.496,2.4375,2.4375
+Soybean oil,Soybean oil,Soybean oil,regional soybean,Soybean,5.263,5.263,5.263,5.263

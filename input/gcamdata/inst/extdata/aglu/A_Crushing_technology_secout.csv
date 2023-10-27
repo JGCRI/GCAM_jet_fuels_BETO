@@ -1,0 +1,12 @@
+# File: A_Crushing_technology_secout.csv
+# Title: Feed:oil secondary output names
+# Units: coefficients (not read in this table) are unitless mass ratio (feed / oil)
+# Comments: no values are provided, to avoid filling in non-existent technologies (doing so would require a global-tech supply curve)
+# Source: Values filled in from statistical data
+# Column types: cccc
+# ----------
+supplysector,subsector,technology,fractional.secondary.output
+OilCrop oil,OilCrop oil,OilCrop oil,OilCrop feedcake
+PalmFruit oil,PalmFruit oil,PalmFruit oil,PalmFruit feedcake
+Rapeseed oil,Rapeseed oil,Rapeseed oil,Rapeseed feedcake
+Soybean oil,Soybean oil,Soybean oil,Soybean feedcake

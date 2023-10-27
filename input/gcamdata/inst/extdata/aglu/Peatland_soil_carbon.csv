@@ -1,0 +1,17 @@
+# File: Peatland_soil_carbon.csv
+# Title: Assumptions of soil carbon density by land use type for peatland
+# Units: tC/ha
+# Comments: Vegetation carbon densities inherited from specific assumptions
+# Column types: cn
+# Source: values set equal in order to use exogenous emissions factors to estimate CO2 emissions from peat soils
+# ----------
+Land_Type,soil_c
+Forest,600
+Grassland,600
+HarvCropLand,600
+OtherArableLand,600
+Pasture,600
+Shrubland,600
+UnmanagedForest,600
+UnmanagedPasture,600
+UrbanLand,600

@@ -1,0 +1,11 @@
+# File: A_Crushing_technology_cost.csv
+# Title: Exogenous non-feedstock cost of oilcrop crushing
+# Units: 1975$/kg of oil produced
+# Source: Difference between crop and crop oil prices (CME)
+# Column types: ccccnn
+# ----------
+supplysector,subsector,technology,minicam.non.energy.input,1971,2100
+OilCrop oil,OilCrop oil,OilCrop oil,non-feedstock,0.1,0.1
+PalmFruit oil,PalmFruit oil,PalmFruit oil,non-feedstock,0.1,0.1
+Rapeseed oil,Rapeseed oil,Rapeseed oil,non-feedstock,0.1,0.1
+Soybean oil,Soybean oil,Soybean oil,non-feedstock,0.1,0.1

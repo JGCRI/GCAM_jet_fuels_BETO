@@ -1,0 +1,11 @@
+# File: A_agRsrc.csv
+# Title: Sets the market names of depletable resources used in the aglu module
+# Units: Various
+# Source: NA
+# Column types: cccc 
+# ----------
+resource,output.unit,price.unit,market
+OilCrop feedcake,Mt,1975$/kg,regional
+PalmFruit feedcake,Mt,1975$/kg,regional
+Rapeseed feedcake,Mt,1975$/kg,regional
+Soybean feedcake,Mt,1975$/kg,regional
