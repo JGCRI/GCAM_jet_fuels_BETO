@@ -48,6 +48,7 @@ module_energy_batch_en_distribution_xml <- function(command, ...) {
     L226.StubTechCoef_electd <- get_data(all_data, "L226.StubTechCoef_electd")
     L226.StubTechCoef_gaspipe <- get_data(all_data, "L226.StubTechCoef_gaspipe")
 
+
     # #=======#=======#=======#=======#=======#=======#=========
 
     # Produce outputs

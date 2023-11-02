@@ -1,13 +1,13 @@
-# File: A271.freight_coef.csv,,,,,,,,,,
-# Title: Coefficients of freight inputs to energy and ag commodities,,,,,,,,,,
-# Units: million tkm per EJ = ton-meters per GJ,,,,,,,,,,
-# Comments: price-unit-conversion takes into account the following:,,,,,,,,,,
-#  (1) transportation output unit is 1e6 times the price unit denominator whereas all other sectors are 1e9.,,,,,,,,,,
-#  (2) transportation price unit is 1990$ whereas others are 1975$.,,,,,,,,,,
-#  (3) trn_freight costs are 17x higher than rail mode (the dominant mode for some of these fuels). Some de-rating is appropriate.,,,,,,,,,,
-# Note: the methods are not set up to handle different tkm inputs for different refined liquid fuel commodities (e.g., ref liq industrial, ref liq enduse need to have the same coef in each region),,,,,,,,
-# Column types: cccccnnnnnn,,,,,,,,,,
-# ----------,,,,,,,,,,
+# File: A271.freight_coef.csv
+# Title: Coefficients of freight inputs to energy and ag commodities
+# Units: million tkm per EJ = ton-meters per GJ
+# Comments: price-unit-conversion takes into account the following:
+#  (1) transportation output unit is 1e6 times the price unit denominator whereas all other sectors are 1e9.
+#  (2) transportation price unit is 1990$ whereas others are 1975$.
+#  (3) trn_freight costs are 17x higher than rail mode (the dominant mode for some of these fuels). Some de-rating is appropriate.
+# Note: the methods are not set up to handle different tkm inputs for different refined liquid fuel commodities (e.g., ref liq industrial, ref liq enduse need to have the same coef in each region)
+# Column types: cccccnnnnnn
+# ----------
 region,supplysector,subsector,technology,minicam.energy.input,price.unit.conversion,1971,1990,2000,2015,2100
 USA,FeedCrops,Corn,Corn,trn_freight,3.62E-05,600,600,600,600,600
 USA,FeedCrops,FiberCrop,FiberCrop,trn_freight,3.62E-05,600,600,600,600,600
@@ -69,6 +69,10 @@ USA,refined liquids enduse,biodiesel,oilcrop biodiesel,trn_freight,4.52E-04,2800
 USA,refined liquids enduse,biodiesel,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,refined liquids enduse,biodiesel,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,refined liquids enduse,biodiesel,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,refined liquids enduse,renewable diesel,oilcrop renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,refined liquids enduse,renewable diesel,palmfruit renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,refined liquids enduse,renewable diesel,rapeseed renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,refined liquids enduse,renewable diesel,soybean renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,refined liquids enduse,refined oil,refined oil,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,refined liquids gasoline pool,ethanol,corn ethanol,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,refined liquids gasoline pool,ethanol,sugar cane ethanol,trn_freight,4.52E-04,2800,2800,2800,2800,2800
@@ -4702,3 +4706,291 @@ USA,traded oil,South Korea traded oil,South Korea traded oil,trn_shipping_intl,0
 USA,traded oil,Southeast Asia traded oil,Southeast Asia traded oil,trn_shipping_intl,0.000452,60000,60000,60000,60000,60000
 USA,traded oil,Taiwan traded oil,Taiwan traded oil,trn_shipping_intl,0.000452,12000,12000,12000,12000,12000
 USA,traded oil,USA traded oil,USA traded oil,trn_shipping_intl,0.000452,60000,60000,60000,60000,60000
+USA,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,biodiesel,oilcrop biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,biodiesel,rapeseed biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,biodiesel,palmfruit biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,biodiesel,soybean biodiesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,renewable diesel,oilcrop renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,renewable diesel,rapeseed renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,renewable diesel,palmfruit renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
