@@ -25,3 +25,4 @@ regional soybean renewable diesel,imported soybean renewable diesel,-6,start-yea
 regional rapeseed renewable diesel,imported rapeseed renewable diesel,-6,start-year,1,share-weight,final-calibration-year,end-year,s-curve,
 regional palmfruit renewable diesel,imported palmfruit renewable diesel,-6,start-year,1,share-weight,final-calibration-year,end-year,s-curve,
 regional oilcrop renewable diesel,imported oilcrop renewable diesel,-6,start-year,1,share-weight,final-calibration-year,end-year,s-curve,
+regional soybean renewable diesel,domestic soybean RD jet high,-6,start-year,1,share-weight,final-calibration-year,end-year,s-curve,
