@@ -138,8 +138,18 @@ module_energy_L222.en_transformation <- function(command, ...) {
       filter(grepl("biodiesel", supplysector)) %>%
       mutate(supplysector = gsub("biodiesel", "renewable diesel", supplysector))
 
+    L222.renewable_diesel_joint_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel joint", supplysector))
+
+    L222.renewable_diesel_jet_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel jet fuel", supplysector))
+
     # combine renewable diesel filter with other biofuels
-    L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R)
+    L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R,
+                                        L222.renewable_diesel_joint_filter_R,
+                                        L222.renewable_diesel_jet_filter_R)
 
 
     L222.Supplysector_en <- anti_join(L222.Supplysector_en, L222.biofuel_type_filter_R, by = c("region", "supplysector"))
@@ -367,7 +377,16 @@ module_energy_L222.en_transformation <- function(command, ...) {
                            A_regions) %>%
       mutate(market = region) %>%
       select(LEVEL2_DATA_NAMES[["PortfolioStdConstraint"]]) ->
-      L222.jet_fuel_credits
+      L222.jet_fuel_credits_all
+
+    jet_credit_filter <- L222.biofuel_type_filter_R %>%
+      filter(grepl("renewable diesel", supplysector)) %>%
+      mutate(policy.portfolio.standard = paste0(supplysector, " jet credit")) %>%
+      select(-supplysector)
+
+
+    L222.jet_fuel_credits <- anti_join(L222.jet_fuel_credits_all, jet_credit_filter,
+                                       by = c("region", "policy.portfolio.standard"))
 
 
     #2d. Calibration and region-specific data
