@@ -31,7 +31,8 @@ module_energy_batch_en_transformation_xml <- function(command, ...) {
              "L222.StubTechCoef_refining",
              "L222.AbsCostLogitBaseValue_ethanol",
              "L222.GlobalTechSecOut",
-             "L222.jet_fuel_credits"))
+             "L222.jet_fuel_credits",
+             "L222.jet_fuel_credits_min_price"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "en_transformation.xml"))
   } else if(command == driver.MAKE) {
@@ -59,6 +60,7 @@ module_energy_batch_en_transformation_xml <- function(command, ...) {
     L222.AbsCostLogitBaseValue_ethanol <- get_data(all_data, "L222.AbsCostLogitBaseValue_ethanol")
     L222.GlobalTechSecOut <- get_data(all_data, "L222.GlobalTechSecOut")
     L222.jet_fuel_credits <- get_data(all_data, "L222.jet_fuel_credits")
+    L222.jet_fuel_credits_min_price <- get_data(all_data, "L222.jet_fuel_credits_min_price")
 
     year.share.weight <- share.weight <- NULL # silence package checks
     # #=======#=======#=======#=======#=======#=======#=========
@@ -89,6 +91,7 @@ module_energy_batch_en_transformation_xml <- function(command, ...) {
       add_xml_data(L222.AbsCostLogitBaseValue_ethanol, "AbsCostLogitBaseValue") %>%
       add_xml_data(L222.GlobalTechSecOut, "GlobalTechRESSecOut") %>%
       add_xml_data(L222.jet_fuel_credits, "PortfolioStdConstraint") %>%
+      add_xml_data(L222.jet_fuel_credits_min_price, "PortfolioStdMinPrice") %>%
       add_precursors("L222.Supplysector_en",
                      "L222.SectorUseTrialMarket_en",
                      "L222.SubsectorLogit_en",
