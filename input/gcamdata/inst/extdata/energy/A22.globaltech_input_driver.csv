@@ -21,7 +21,6 @@ refining,coal to liquids,coal to liquids,regional coal
 refining,coal to liquids,coal to liquids CCS level 1,regional coal
 refining,coal to liquids,coal to liquids CCS level 2,regional coal
 refining,gas to liquids,gas to liquids,regional natural gas
-refining,oil refining,oil refining,regional oil
 refining,biomass liquids,BTL with hydrogen,H2 industrial
 refining,biomass liquids,BTL with hydrogen,regional biomass
 #soybean renewable diesel,soybean renewable diesel,soybean renewable diesel,regional biomassOil soybean
@@ -36,3 +35,4 @@ soybean renewable diesel joint low,soybean renewable diesel joint low,soybean re
 rapeseed renewable diesel joint low,rapeseed renewable diesel joint low,rapeseed renewable diesel joint low,regional biomassOil rapeseed
 palmfruit renewable diesel joint low,palmfruit renewable diesel joint low,palmfruit renewable diesel joint low,regional biomassOil palmfruit
 oilcrop renewable diesel joint low,oilcrop renewable diesel joint low,oilcrop renewable diesel joint low,regional biomassOil oilcrop
+refining joint,refining joint,refining joint,regional oil
