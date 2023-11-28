@@ -8,6 +8,7 @@ supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
 gas processing,EJ,EJ,1975$/GJ,-6,
 nuclearFuelGenII,EJ,EJ,1975$/GJ,-3,
 nuclearFuelGenIII,EJ,EJ,1975$/GJ,-3,
+refining,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
 cellulosic ethanol,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
 corn ethanol,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
 sugar cane ethanol,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
@@ -15,10 +16,6 @@ oilcrop biodiesel,EJ,EJ,1975$/GJ,-6,
 palmfruit biodiesel,EJ,EJ,1975$/GJ,-6,
 rapeseed biodiesel,EJ,EJ,1975$/GJ,-6,
 soybean biodiesel,EJ,EJ,1975$/GJ,-6,
-#soybean renewable diesel,EJ,EJ,1975$/GJ,-6,
-#rapeseed renewable diesel,EJ,EJ,1975$/GJ,-6,
-#palmfruit renewable diesel,EJ,EJ,1975$/GJ,-6,
-#oilcrop renewable diesel,EJ,EJ,1975$/GJ,-6,
 soybean renewable diesel joint high,EJ,EJ,1975$/GJ,-6,
 soybean renewable diesel joint low,EJ,EJ,1975$/GJ,-6,
 soybean renewable diesel,EJ,EJ,1975$/GJ,-6,
@@ -35,6 +32,4 @@ oilcrop renewable diesel joint high,EJ,EJ,1975$/GJ,-6,
 oilcrop renewable diesel joint low,EJ,EJ,1975$/GJ,-6,
 oilcrop renewable diesel,EJ,EJ,1975$/GJ,-6,
 oilcrop renewable diesel jet fuel,EJ,EJ,1975$/GJ,-6,
-refining joint,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
-refined oil jet,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
-refining,EJ,EJ,1975$/GJ,-6,absolute-cost-logit
+refined jet,EJ,EJ,1975$/GJ,-6,

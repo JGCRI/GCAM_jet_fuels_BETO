@@ -4706,38 +4706,38 @@ USA,traded oil,South Korea traded oil,South Korea traded oil,trn_shipping_intl,0
 USA,traded oil,Southeast Asia traded oil,Southeast Asia traded oil,trn_shipping_intl,0.000452,60000,60000,60000,60000,60000
 USA,traded oil,Taiwan traded oil,Taiwan traded oil,trn_shipping_intl,0.000452,12000,12000,12000,12000,12000
 USA,traded oil,USA traded oil,USA traded oil,trn_shipping_intl,0.000452,60000,60000,60000,60000,60000
-USA,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Africa_Eastern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Africa_Northern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Africa_Southern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Africa_Western,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Australia_NZ,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Brazil,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Canada,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Central America and Caribbean,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Central Asia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-China,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-EU-12,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-EU-15,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Europe_Eastern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Europe_Non_EU,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-European Free Trade Association,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-India,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Indonesia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Japan,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Mexico,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Middle East,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Pakistan,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Russia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-South Africa,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-South America_Northern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-South America_Southern,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-South Asia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-South Korea,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Southeast Asia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Taiwan,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Argentina,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
-Colombia,aviation fuels,refined oil jet,refined oil jet,trn_freight,2800,2800,2800,2800,2800,2800
+USA,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Eastern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Northern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Southern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Africa_Western,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Australia_NZ,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Brazil,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Canada,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Central America and Caribbean,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Central Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+China,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+EU-12,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+EU-15,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Eastern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Europe_Non_EU,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+European Free Trade Association,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+India,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Indonesia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Japan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Mexico,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Middle East,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Pakistan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Russia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Africa,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Northern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South America_Southern,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+South Korea,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Southeast Asia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Taiwan,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Argentina,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
+Colombia,aviation fuels,refined oil,refined oil,trn_freight,2800,2800,2800,2800,2800,2800
 USA,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
 Africa_Eastern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800
 Africa_Northern,aviation fuels,renewable diesel,soybean renewable diesel,trn_freight,2800,2800,2800,2800,2800,2800

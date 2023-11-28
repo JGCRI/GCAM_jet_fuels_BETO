@@ -21,6 +21,7 @@ module_energy_L1262.refinedOil_GrossTrade <- function(command, ...) {
              FILE = "energy/mappings/comtrade_trade_flow_code_mapping",
              FILE = "energy/comtrade_biofuels",
              FILE = "energy/comtrade_refinedLiquids",
+             FILE="energy/transport_data",
              "L1011.en_bal_EJ_R_Si_Fi_Yh"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L1262.refinedOil_GrossTrade_EJ_R_C_Y",
@@ -46,7 +47,7 @@ module_energy_L1262.refinedOil_GrossTrade <- function(command, ...) {
     comtrade_refinedLiquids <- get_data(all_data, "energy/comtrade_refinedLiquids")
     comtrade_biofuels <- get_data(all_data, "energy/comtrade_biofuels")
     L1011.en_bal_EJ_R_Si_Fi_Yh <- get_data(all_data, "L1011.en_bal_EJ_R_Si_Fi_Yh")
-
+    L154.in_EJ_R_trn_m_sz_tech_F_Yh <- get_data(all_data, "energy/transport_data")
     non_GCAM_ISO <- c("wld", "n/a", "ata", "atf", "sgs", "umi", "iot", "hmd", "sxm", "blm", "bes")
     # 1: Filter and prepare the bi-lateral trade flow volume data by country and comtrade commodity
 
@@ -178,11 +179,17 @@ module_energy_L1262.refinedOil_GrossTrade <- function(command, ...) {
         select(GCAM_region_ID, GCAM_commodity, year, TPES = value) ->
         L1262.in_EJ_R_TPES_liq
 
+
+      L154.in_EJ_R_trn_m_sz_tech_F_Yh %>%
+        filter(mode %in% c("Air Domestic","Air International")) %>%
+        group_by(GCAM_region_ID,year) %>%
+        summarize(air_value=sum(value))->L1262_aviation_adj
+
       # Do not allow imports to exceed total primary energy supply. Reduce trade by this amount.
       L1262.XregTrade_EJ_R_C <- L1262.XregTrade_EJ_R_C %>%
         left_join_error_no_match(L1262.in_EJ_R_TPES_liq,
                                  by = c("GCAM_region_ID", "GCAM_commodity", "year")) %>%
-        mutate(trade_reduction = if_else(gross_imports > TPES, gross_imports - TPES, 0),
+        mutate(trade_reduction = if_else(gross_imports > (TPES), gross_imports - TPES, 0),
                gross_exports = pmax(0, gross_exports - trade_reduction),
                gross_imports = pmax(0, gross_imports - trade_reduction),
                net_trade = gross_exports - gross_imports) %>%
@@ -220,7 +227,8 @@ module_energy_L1262.refinedOil_GrossTrade <- function(command, ...) {
                      "energy/mappings/comtrade_trade_flow_code_mapping",
                      "energy/comtrade_biofuels",
                      "energy/comtrade_refinedLiquids",
-                     "L1011.en_bal_EJ_R_Si_Fi_Yh") ->
+                     "L1011.en_bal_EJ_R_Si_Fi_Yh",
+                     "energy/transport_data") ->
       L1262.refinedOil_GrossTrade_EJ_R_C_Y
 
     L1262.Biofuel_GrossTrade_EJ_R_C_Y %>%

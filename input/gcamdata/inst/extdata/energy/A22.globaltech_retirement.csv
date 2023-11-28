@@ -10,7 +10,7 @@
 # Column types: ccccicinni 
 # ----------
 supplysector,subsector,technology,year,lifetime,shutdown.rate,half.life,steepness,median.shutdown.point,profit.shutdown.steepness
-refining joint,refining joint,refining joint,final-calibration-year,50,,30,0.2,-0.1,10
+refining,oil refining,oil refining,final-calibration-year,50,,30,0.2,-0.1,10
 refining,coal to liquids,coal to liquids,final-calibration-year,45,,25,0.2,-0.1,10
 refining,coal to liquids,coal to liquids CCS level 1,final-calibration-year,45,,25,0.2,-0.1,10
 refining,coal to liquids,coal to liquids CCS level 2,final-calibration-year,45,,25,0.2,-0.1,10
