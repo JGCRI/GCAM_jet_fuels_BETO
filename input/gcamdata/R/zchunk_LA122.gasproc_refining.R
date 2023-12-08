@@ -30,6 +30,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
              "L121.share_R_TPES_biofuel_tech",
              "L1262.refinedOil_GrossTrade_EJ_R_C_Y",
              "L1262.Biofuel_GrossTrade_EJ_R_C_Y",
+             FILE="energy/A_jet_fuel_net_trade",
              FILE = "energy/bio_feed_mapping"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L122.out_EJ_R_gasproc_F_Yh",
@@ -81,7 +82,9 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
              technology=sector) %>%
       mutate(technology = "soybean biodiesel")
     bio_feed_mapping <- get_data(all_data, "energy/bio_feed_mapping")
-
+    jet_fuel_net_trade <- get_data(all_data, "energy/A_jet_fuel_net_trade") %>%
+                         select(GCAM_region_ID,year,net_jet=value) %>%
+                         left_join_error_no_match(GCAM_region_names, by =c("GCAM_region_ID"))
 
     # #=======#=======#=======#=======#=======#=======#=========
     # Perform computations: Will start with refining
@@ -260,9 +263,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
 
     #Adjust the output of each region to match the output necessary for each region's TPES + net_trade
     #This is based off comtrade's bilateral data
+    ##KBN also just this fot jet fuel net trade from IEA
     L122.out_EJ_R_IEA_oilrefining_Yh %>%
       left_join_error_no_match(L1262.refinedOil_GrossTrade_EJ_R_C_Y %>% select(GCAM_region_ID, year, net_trade), by = c("GCAM_region_ID", "year")) %>%
-      mutate(value = value + net_trade) %>%
+      left_join_error_no_match(jet_fuel_net_trade %>% select(GCAM_region_ID, year, net_jet), by = c("GCAM_region_ID", "year")) %>%
+      mutate(value = value + net_trade+net_jet) %>%
       select(names(L122.out_EJ_R_IEA_oilrefining_Yh)) ->
       L122.out_EJ_R_oilrefining_Yh
 
@@ -283,7 +288,10 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       left_join(L1262.refinedOil_GrossTrade_EJ_R_C_Y %>%
                   select(GCAM_region_ID, year, net_trade) %>%
                   mutate(fuel = "oil"), by =c("GCAM_region_ID", "year", "fuel")) %>%
-      mutate(value = if_else(is.na(net_trade), value, value + net_trade)) %>%
+      left_join(jet_fuel_net_trade %>% mutate(fuel="oil"), by=c("GCAM_region_ID","year","fuel")) %>%
+      mutate(net_trade= if_else(is.na(net_trade),0,net_trade),
+             net_jet= if_else(is.na(net_jet),0,net_jet),
+             value = net_trade+net_jet+value) %>%
       select(names(L122.in_EJ_R_oilrefining_F_Yh)) ->
       L122.in_EJ_R_oilrefining_F_Yh
 
@@ -504,7 +512,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_legacy_name("L122.IO_R_oilrefining_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "energy/calibrated_techs",
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1012.en_bal_EJ_R_Si_Fi_Yh",
-                     "L121.in_EJ_R_unoil_F_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y") ->
+                     "L121.in_EJ_R_unoil_F_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y","energy/A_jet_fuel_net_trade") ->
       L122.IO_R_oilrefining_F_Yh
 
     L122.out_EJ_R_refining_F_Yh %>%
@@ -514,7 +522,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_legacy_name("L122.out_EJ_R_refining_F_Yh") %>%
       add_precursors("common/GCAM_region_names",  "energy/calibrated_techs",
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1012.en_bal_EJ_R_Si_Fi_Yh",
-                     "L121.in_EJ_R_unoil_F_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y", "L1262.Biofuel_GrossTrade_EJ_R_C_Y")  ->
+                     "L121.in_EJ_R_unoil_F_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y", "L1262.Biofuel_GrossTrade_EJ_R_C_Y","energy/A_jet_fuel_net_trade")  ->
       L122.out_EJ_R_refining_F_Yh
 
     L122.out_EJ_R_IEA_refining_F_Yh %>%

@@ -32,7 +32,8 @@ module_energy_LA121.liquids <- function(command, ...) {
              "L111.Prod_EJ_R_F_Yh",
              "L1262.refinedOil_GrossTrade_EJ_R_C_Y",
              FILE = "energy/bio_feed_mapping",
-             "L1012.en_bal_EJ_R_Si_Fi_Yh"))
+             "L1012.en_bal_EJ_R_Si_Fi_Yh",
+             FILE="energy/A_jet_fuel_net_trade"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L121.in_EJ_R_unoil_F_Yh",
              "L121.in_EJ_R_supply_crude_Yh",
@@ -67,6 +68,9 @@ module_energy_LA121.liquids <- function(command, ...) {
       filter(minicam.energy.input == "regional natural gas") %>%
       gather_years(value_col = "gas_coef") %>%
       repeat_add_columns(tibble(region = c(iso_GCAM_regID$GCAM_region_ID)))
+
+    jet_fuel_net_trade <- get_data(all_data, "energy/A_jet_fuel_net_trade") %>%
+      select(GCAM_region_ID,year,net_jet=value)
 
     # L100.IEA_en_bal_ctry_hist might be null (meaning the data system is running
     # without the proprietary IEA data files). If this is the case, we substitute
@@ -164,7 +168,9 @@ module_energy_LA121.liquids <- function(command, ...) {
       # by each region
       L121.in_EJ_R_TPES_crude_Yh %>%
         left_join(L1262.refinedOil_GrossTrade_EJ_R_C_Y %>% select(GCAM_region_ID, year, net_trade), by = c("GCAM_region_ID", "year")) %>%
-        mutate(value = value + net_trade) %>%
+        left_join(jet_fuel_net_trade %>% select(GCAM_region_ID, year, net_jet), by = c("GCAM_region_ID", "year")) %>%
+        mutate(net_jet=if_else(is.na(net_jet),0,net_jet),
+               value = value + net_trade+net_jet) %>%
         select(names(L121.in_EJ_R_TPES_crude_Yh)) ->
         L121.in_EJ_R_supply_crude_Yh
 
@@ -257,7 +263,7 @@ module_energy_LA121.liquids <- function(command, ...) {
         add_units("EJ") %>%
         add_comments("Unconventional oil subtracted from total primary energy supply of liquids") %>%
         add_comments("to determine crude oil supply. Then net trade added by region") %>%
-        add_precursors("L1012.en_bal_EJ_R_Si_Fi_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y") ->
+        add_precursors("L1012.en_bal_EJ_R_Si_Fi_Yh", "L1262.refinedOil_GrossTrade_EJ_R_C_Y","energy/A_jet_fuel_net_trade") ->
         L121.in_EJ_R_supply_crude_Yh
 
       L121.in_EJ_R_TPES_unoil_Yh %>%
