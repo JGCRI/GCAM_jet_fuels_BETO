@@ -166,9 +166,9 @@ module_energy_L222.en_transformation <- function(command, ...) {
 
     # combine renewable diesel filter with other biofuels
     L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R,
-                                        #L222.renewable_diesel_joint_filter_R,
-                                        L222.renewable_diesel_joint_high_filter_R,
-                                        L222.renewable_diesel_joint_low_filter_R,
+                                        L222.renewable_diesel_joint_filter_R,
+                                        #L222.renewable_diesel_joint_high_filter_R,
+                                        #L222.renewable_diesel_joint_low_filter_R,
                                         L222.renewable_diesel_jet_filter_R)
 
 
