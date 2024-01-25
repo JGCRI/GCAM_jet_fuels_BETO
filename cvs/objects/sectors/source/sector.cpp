@@ -332,8 +332,8 @@ double Sector::getPrice( const GDP* aGDP, const int aPeriod ) const {
         if( subsecShares[ i ] > util::getSmallNumber() ){
             sumSubsecShares += subsecShares[ i ];
 			// maw march 2017
-			//double currPrice = mSubsectors[ i ]->getPrice( aGDP, aPeriod );
-			double currPrice = mSubsectors[ i ]->getPureTechnologyPrice( aGDP, aPeriod );
+			double currPrice = mSubsectors[ i ]->getPrice( aGDP, aPeriod );
+			//double currPrice = mSubsectors[ i ]->getPureTechnologyPrice( aGDP, aPeriod );
             sectorPrice += subsecShares[ i ] * currPrice;
         }
     }
