@@ -5,4 +5,5 @@
 # Column types: ccin
 # ----------
 policy.portfolio.standard,policyType,constraint, min.price
-jet credit,RES,1,0.00E+00
+jet credit RD,RES,1,0.00E+00
+jet credit oil,RES,1,0.00E+00
