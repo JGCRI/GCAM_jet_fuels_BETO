@@ -15,7 +15,8 @@
 #'  \code{L222.GlobalTechCost_en}, \code{L222.GlobalTechShrwt_en}, \code{L222.GlobalTechCapture_en},
 #'  \code{L222.GlobalTechShutdown_en}, \code{L222.GlobalTechSCurve_en}, \code{L222.GlobalTechLifetime_en},
 #'  \code{L222.GlobalTechProfitShutdown_en}, \code{L222.StubTechProd_gasproc}, \code{L222.StubTechProd_refining},
-#'   \code{L222.StubTechCoef_refining}, \code{L222.GlobalTechCost_low_en}. The corresponding file in the
+#'   \code{L222.StubTechCoef_refining}, \code{L222.GlobalTechCost_low_en}, \code{L222.GlobalTechSecOut},
+#'   \code{L222.jet_fuel_credits}, \code{L222.jet_fuel_credits_min_price}. The corresponding file in the
 #' original data system was \code{L222.en_transformation.R} (energy level2).
 #' @details This chunk sets up the energy transformation global technology database as well as writing out assumptions to all regions for shareweights and logits.
 #' Calibrated outputs for gas processing and oil refining as well as I:O coefficients are interpolated from historical values to base model years.
@@ -40,8 +41,11 @@ module_energy_L222.en_transformation <- function(command, ...) {
              FILE = "energy/A22.globaltech_interp",
              FILE = "energy/A22.globaltech_co2capture",
              FILE = "energy/A22.globaltech_retirement",
+             FILE = "energy/A22.globaltech_secondary_output",
+             FILE = "energy/A22.jet_credits",
              "L121.share_R_TPES_biofuel_tech",
              FILE = "energy/A22.globaltech_keyword",
+             FILE="energy/transport_data",
              "L122.out_EJ_R_gasproc_F_Yh",
              "L122.out_EJ_R_refining_F_Yh",
              "L122.IO_R_oilrefining_F_Yh"))
@@ -69,7 +73,10 @@ module_energy_L222.en_transformation <- function(command, ...) {
              "L222.StubTechCoef_refining",
              "L222.GlobalTechCost_low_en",
              "L222.AbsCostLogitBaseValue_ethanol",
-             "L222.biofuel_type_filter_R"))
+             "L222.biofuel_type_filter_R",
+             "L222.GlobalTechSecOut",
+             "L222.jet_fuel_credits",
+             "L222.jet_fuel_credits_min_price"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -97,11 +104,20 @@ module_energy_L222.en_transformation <- function(command, ...) {
     A22.globaltech_interp <- get_data(all_data, "energy/A22.globaltech_interp", strip_attributes = TRUE)
     A22.globaltech_co2capture <- get_data(all_data, "energy/A22.globaltech_co2capture")
     A22.globaltech_retirement <- get_data(all_data, "energy/A22.globaltech_retirement", strip_attributes = TRUE)
+    A22.globaltech_secondary_output <- get_data(all_data, "energy/A22.globaltech_secondary_output", strip_attributes = TRUE)
+    A22.jet_credits <- get_data(all_data, "energy/A22.jet_credits", strip_attributes = TRUE)
     L121.share_R_TPES_biofuel_tech <- get_data(all_data, "L121.share_R_TPES_biofuel_tech")
     A22.globaltech_keyword <- get_data(all_data, "energy/A22.globaltech_keyword", strip_attributes = TRUE)
     L122.out_EJ_R_gasproc_F_Yh <- get_data(all_data, "L122.out_EJ_R_gasproc_F_Yh")
     L122.out_EJ_R_refining_F_Yh <- get_data(all_data, "L122.out_EJ_R_refining_F_Yh", strip_attributes = TRUE)
     L122.IO_R_oilrefining_F_Yh <- get_data(all_data, "L122.IO_R_oilrefining_F_Yh")
+    L154.in_EJ_R_trn_m_sz_tech_F_Yh <- get_data(all_data,"energy/transport_data")
+
+    L154.in_EJ_R_trn_m_sz_tech_F_Yh %>%
+      filter(mode %in% c("Air Domestic","Air International")) %>%
+
+      group_by(GCAM_region_ID,year) %>%
+      summarize(air_value=0)->L1262_aviation_adj
 
     # ===================================================
 
@@ -132,8 +148,28 @@ module_energy_L222.en_transformation <- function(command, ...) {
       filter(grepl("biodiesel", supplysector)) %>%
       mutate(supplysector = gsub("biodiesel", "renewable diesel", supplysector))
 
+    L222.renewable_diesel_joint_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel joint", supplysector))
+
+    L222.renewable_diesel_joint_high_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel joint high", supplysector))
+
+    L222.renewable_diesel_joint_low_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel joint low", supplysector))
+
+    L222.renewable_diesel_jet_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(grepl("biodiesel", supplysector)) %>%
+      mutate(supplysector = gsub("biodiesel", "renewable diesel jet fuel", supplysector))
+
     # combine renewable diesel filter with other biofuels
-    L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R)
+    L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R,
+                                        L222.renewable_diesel_joint_filter_R,
+                                        #L222.renewable_diesel_joint_high_filter_R,
+                                        #L222.renewable_diesel_joint_low_filter_R,
+                                        L222.renewable_diesel_jet_filter_R)
 
 
     L222.Supplysector_en <- anti_join(L222.Supplysector_en, L222.biofuel_type_filter_R, by = c("region", "supplysector"))
@@ -343,6 +379,60 @@ module_energy_L222.en_transformation <- function(command, ...) {
       filter(year %in% MODEL_YEARS) ->
       L222.GlobalTechKeyword_en
 
+    # L222.GlobalTechSecondaryOutput: Global tech secondary outputs
+    # (for renewable diesel jet fuel secondary output)
+    # addition TRW 11/2/23
+    A22.globaltech_secondary_output %>%
+      repeat_add_columns(tibble(year = c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS))) %>%
+      rename(sector.name = supplysector, subsector.name = subsector) %>%
+      select(LEVEL2_DATA_NAMES[["GlobalTechRESSecOut"]]) ->
+      L222.GlobalTechSecOut
+
+    # L222.jet_fuel_credits: credits for jet fuel production from joint liquids sectors
+    # addition TRW 11/9/23
+    A22.jet_credits %>%
+      repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
+      write_to_all_regions(c("region", "policy.portfolio.standard", "policyType",
+                             "constraint", "min.price", "year"),
+                           A_regions) %>%
+      mutate(market = region) %>%
+      select(LEVEL2_DATA_NAMES[["PortfolioStdConstraint"]]) ->
+      L222.jet_fuel_credits_all
+
+
+
+    jet_credit_high_filter <- L222.biofuel_type_filter_R %>%
+      filter(grepl("renewable diesel", supplysector)) %>%
+      mutate(policy.portfolio.standard = paste0(supplysector, " jet credit high")) %>%
+      select(-supplysector)
+
+    jet_credit_low_filter <- L222.biofuel_type_filter_R %>%
+      filter(grepl("renewable diesel", supplysector)) %>%
+      mutate(policy.portfolio.standard = paste0(supplysector, " jet credit low")) %>%
+      select(-supplysector)
+
+    jet_credit_filter <- rbind(jet_credit_high_filter, jet_credit_low_filter)
+
+
+    L222.jet_fuel_credits <- anti_join(L222.jet_fuel_credits_all, jet_credit_filter,
+                                       by = c("region", "policy.portfolio.standard"))
+
+
+    # add the min.price to the jet credit policy portfolio standards
+    A22.jet_credits %>%
+      repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
+      write_to_all_regions(c("region", "policy.portfolio.standard", "policyType",
+                             "constraint", "min.price", "year"),
+                           A_regions) %>%
+      mutate(market = region) %>%
+      select(LEVEL2_DATA_NAMES[["PortfolioStdMinPrice"]]) ->
+      L222.jet_fuel_min_price_all
+
+    L222.jet_fuel_credits_min_price <- anti_join(L222.jet_fuel_min_price_all,
+                                                 jet_credit_filter,
+                                                 by = c("region", "policy.portfolio.standard"))
+
+
     #2d. Calibration and region-specific data
     #  generate base year calibrated outputs of gas processing by interpolating from historical values
     L122.out_EJ_R_gasproc_F_Yh %>%
@@ -403,11 +493,17 @@ module_energy_L222.en_transformation <- function(command, ...) {
       left_join(L222.out_EJ_R_refining_F_Yh, by = c("sector", "fuel")) %>%
       # rounds and renames outputs and adds year column for shareweights
       mutate(calOutputValue = round(value, energy.DIGITS_CALOUTPUT), year.share.weight = year) %>%
+      left_join_keep_first_only(L1262_aviation_adj, by=c("GCAM_region_ID" ,"year")) %>%
+      mutate(air_value=if_else(is.na(air_value),0,air_value),
+             air_value=if_else(subsector=="oil refining",air_value,0)) %>%
+      mutate(calOutputValue= calOutputValue- air_value) %>%
       select(-sector, -GCAM_region_ID, -fuel, -value) %>%
       # sets shareweight to 1 if output exists, otherwise 0
       mutate(share.weight = if_else(calOutputValue > 0, 1, 0)) %>%
       set_subsector_shrwt() ->
       L222.StubTechProd_refining
+
+
     # reorders columns to match expected model interface input
     L222.StubTechProd_refining <- L222.StubTechProd_refining[c(LEVEL2_DATA_NAMES[["StubTechYr"]], "calOutputValue", "year.share.weight", "subs.share.weight", "share.weight")]
 
@@ -659,7 +755,7 @@ module_energy_L222.en_transformation <- function(command, ...) {
       add_units("EJ") %>%
       add_comments("Historical values of output for liquid refining for base model years by region") %>%
       add_legacy_name("L222.StubTechProd_refining") %>%
-      add_precursors("L122.out_EJ_R_refining_F_Yh", "energy/calibrated_techs", "common/GCAM_region_names") ->
+      add_precursors("L122.out_EJ_R_refining_F_Yh", "energy/calibrated_techs", "common/GCAM_region_names","energy/transport_data") ->
       L222.StubTechProd_refining
 
     L222.StubTechCoef_refining %>%
@@ -692,6 +788,27 @@ module_energy_L222.en_transformation <- function(command, ...) {
       add_precursors("energy/A_regions", "L121.share_R_TPES_biofuel_tech") ->
       L222.biofuel_type_filter_R
 
+    L222.GlobalTechSecOut %>%
+      add_title("Secondary outputs for refining techs") %>%
+      add_units("none") %>%
+      add_comments("Used to add jet fuel as secondary output of renewable diesel") %>%
+      add_precursors("energy/A22.globaltech_secondary_output") ->
+      L222.GlobalTechSecOut
+
+    L222.jet_fuel_credits %>%
+      add_title("Jet fuel production credits") %>%
+      add_units("none") %>%
+      add_comments("Credits to produce jet fuels from joint liquids sectors") %>%
+      add_precursors("energy/A22.jet_credits") ->
+      L222.jet_fuel_credits
+
+    L222.jet_fuel_credits_min_price %>%
+      add_title("Jet fuel production credit min price") %>%
+      add_units("none") %>%
+      add_comments("Large negative min price sets RES as exact constraint rather than floor") %>%
+      add_precursors("energy/A22.jet_credits") ->
+      L222.jet_fuel_credits_min_price
+
     return_data(L222.Supplysector_en, L222.SectorUseTrialMarket_en, L222.SubsectorLogit_en, L222.SubsectorShrwt_en,
                 L222.SubsectorShrwtFllt_en, L222.SubsectorInterp_en, L222.SubsectorInterpTo_en,
                 L222.StubTech_en, L222.GlobalTechInterp_en, L222.GlobalTechCoef_en, L222.GlobalTechCost_en,
@@ -699,7 +816,7 @@ module_energy_L222.en_transformation <- function(command, ...) {
                 L222.GlobalTechSCurve_en, L222.GlobalTechLifetime_en, L222.GlobalTechProfitShutdown_en,
                 L222.StubTechProd_gasproc, L222.StubTechProd_refining, L222.StubTechCoef_refining,
                 L222.GlobalTechCost_low_en, L222.GlobalTechKeyword_en, L222.AbsCostLogitBaseValue_ethanol,
-                L222.biofuel_type_filter_R)
+                L222.biofuel_type_filter_R, L222.GlobalTechSecOut, L222.jet_fuel_credits, L222.jet_fuel_credits_min_price)
   } else {
     stop("Unknown command")
   }

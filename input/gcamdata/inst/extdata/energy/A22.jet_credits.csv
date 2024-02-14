@@ -1,0 +1,9 @@
+# File: A22.jet_credits.csv
+# Title: Jet fuel production credits
+# Units: N/A
+# Description: Credits to produce jet fuels from joint liquids sectors
+# Column types: ccin
+# ----------
+policy.portfolio.standard,policyType,constraint, min.price
+jet credit RD,RES,1,0.00E+00
+jet credit oil,RES,1,0.00E+00

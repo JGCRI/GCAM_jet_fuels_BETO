@@ -213,6 +213,7 @@ module_energy_L271.ag_en_freight_inputs <- function(command, ...) {
                                     year %in% MODEL_BASE_YEARS,
                                     # filtering out these refined liquids that we don't have data for
                                     !(supplysector == "refined liquids enduse" & subsector == "biodiesel"),
+                                    !(supplysector == "refined liquids enduse" & subsector == "renewable diesel"),
                                     supplysector != "refined liquids gasoline pool",
                                     supplysector != "refined liquids industrial",
                                     supplysector != "aviation fuels",

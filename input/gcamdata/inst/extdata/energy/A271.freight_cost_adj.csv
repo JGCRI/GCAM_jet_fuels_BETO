@@ -10,6 +10,10 @@ USA,refined liquids enduse,biodiesel,oilcrop biodiesel,non-energy,0.9,0.9
 USA,refined liquids enduse,biodiesel,rapeseed biodiesel,non-energy,0.9,0.9
 USA,refined liquids enduse,biodiesel,palmfruit biodiesel,non-energy,0.9,0.9
 USA,refined liquids enduse,biodiesel,soybean biodiesel,non-energy,0.9,0.9
+USA,refined liquids enduse,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+USA,refined liquids enduse,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+USA,refined liquids enduse,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+USA,refined liquids enduse,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
 USA,refined liquids industrial,refined liquids industrial,refined liquids industrial,non-energy,-0.2,-0.2
 USA,refined liquids gasoline pool,refining,refining,non-energy,0.9,0.9
 USA,refined liquids gasoline pool,ethanol,corn ethanol,non-energy,0.9,0.9
@@ -359,3 +363,131 @@ Southeast Asia,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Taiwan,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Argentina,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Colombia,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
+USA,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Africa_Eastern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Africa_Northern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Africa_Southern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Africa_Western,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Australia_NZ,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Brazil,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Canada,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Central America and Caribbean,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Central Asia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+China,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+EU-12,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+EU-15,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Europe_Eastern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Europe_Non_EU,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+European Free Trade Association,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+India,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Indonesia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Japan,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Mexico,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Middle East,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Pakistan,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Russia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+South Africa,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+South America_Northern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+South America_Southern,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+South Asia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+South Korea,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Southeast Asia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Taiwan,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Argentina,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+Colombia,aviation fuels,renewable diesel,soybean renewable diesel,non-energy,0.9,0.9
+USA,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Africa_Eastern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Africa_Northern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Africa_Southern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Africa_Western,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Australia_NZ,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Brazil,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Canada,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Central America and Caribbean,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Central Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+China,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+EU-12,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+EU-15,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Europe_Eastern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Europe_Non_EU,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+European Free Trade Association,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+India,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Indonesia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Japan,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Mexico,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Middle East,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Pakistan,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Russia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+South Africa,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+South America_Northern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+South America_Southern,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+South Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+South Korea,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Southeast Asia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Taiwan,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Argentina,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+Colombia,aviation fuels,renewable diesel,rapeseed renewable diesel,non-energy,0.9,0.9
+USA,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Africa_Eastern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Africa_Northern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Africa_Southern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Africa_Western,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Australia_NZ,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Brazil,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Canada,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Central America and Caribbean,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Central Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+China,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+EU-12,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+EU-15,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Europe_Eastern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Europe_Non_EU,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+European Free Trade Association,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+India,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Indonesia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Japan,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Mexico,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Middle East,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Pakistan,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Russia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+South Africa,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+South America_Northern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+South America_Southern,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+South Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+South Korea,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Southeast Asia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Taiwan,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Argentina,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+Colombia,aviation fuels,renewable diesel,palmfruit renewable diesel,non-energy,0.9,0.9
+USA,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Africa_Eastern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Africa_Northern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Africa_Southern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Africa_Western,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Australia_NZ,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Brazil,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Canada,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Central America and Caribbean,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Central Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+China,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+EU-12,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+EU-15,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Europe_Eastern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Europe_Non_EU,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+European Free Trade Association,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+India,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Indonesia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Japan,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Mexico,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Middle East,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Pakistan,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Russia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+South Africa,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+South America_Northern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+South America_Southern,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+South Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+South Korea,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Southeast Asia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Taiwan,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Argentina,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
+Colombia,aviation fuels,renewable diesel,oilcrop renewable diesel,non-energy,0.9,0.9
