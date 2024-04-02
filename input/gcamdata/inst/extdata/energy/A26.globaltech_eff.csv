@@ -21,6 +21,7 @@ aviation fuels,renewable diesel,soybean renewable diesel,regional soybean renewa
 aviation fuels,renewable diesel,rapeseed renewable diesel,regional rapeseed renewable diesel jet fuel,1,1,1
 aviation fuels,renewable diesel,palmfruit renewable diesel,regional palmfruit renewable diesel jet fuel,1,1,1
 aviation fuels,renewable diesel,oilcrop renewable diesel,regional oilcrop renewable diesel jet fuel,1,1,1
+aviation fuels,ETJ,corn ETJ,regional corn ETJ jet fuel,1,1,1
 refined liquids enduse,refined oil,refined oil,regional refined oil,1,1,1
 refined liquids enduse,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 refined liquids enduse,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
@@ -31,3 +32,4 @@ refined liquids enduse,renewable diesel,soybean renewable diesel,regional soybea
 refined liquids enduse,renewable diesel,rapeseed renewable diesel,regional rapeseed renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,palmfruit renewable diesel,regional palmfruit renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,oilcrop renewable diesel,regional oilcrop renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1

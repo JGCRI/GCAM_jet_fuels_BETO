@@ -82,3 +82,9 @@ oilcrop renewable diesel jet fuel,oilcrop renewable diesel jet fuel,oilcrop rene
 oilcrop renewable diesel,oilcrop renewable diesel,oilcrop renewable diesel,oilcrop renewable diesel joint,1,1,1
 refined jet,refined jet,refined jet,refining,1,1,1
 refined jet,refined jet,refined jet,jet credit oil,1,1,1
+corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol,1,1,1
+corn ETJ joint,corn ETJ joint,corn ETJ joint,wholesale gas,0.318,0.318,0.318
+corn ETJ joint,corn ETJ joint,corn ETJ joint,elect_td_ind,0.026,0.026,0.026
+corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewable diesel,corn ETJ joint,1,1,1
+corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ joint,1,1,1
+corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,jet credit ETJ,1,1,1
