@@ -23,30 +23,30 @@ refining,coal to liquids,initial-future-year,,0
 refining,coal to liquids,2025,,0.001
 refining,gas to liquids,initial-future-year,,0
 refining,gas to liquids,2025,,0.001
-soybean renewable diesel joint,soybean renewable diesel joint,start-year,,0
-soybean renewable diesel joint,soybean renewable diesel joint,initial-future-year,,1
-soybean renewable diesel,soybean renewable diesel,start-year,,0
-soybean renewable diesel,soybean renewable diesel,initial-future-year,,1
-soybean renewable diesel jet fuel,soybean renewable diesel jet fuel,start-year,,0
-soybean renewable diesel jet fuel,soybean renewable diesel jet fuel,initial-future-year,,1
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,start-year,,0
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,initial-future-year,,1
-rapeseed renewable diesel,rapeseed renewable diesel,start-year,,0
-rapeseed renewable diesel,rapeseed renewable diesel,initial-future-year,,1
-rapeseed renewable diesel jet fuel,rapeseed renewable diesel jet fuel,start-year,,0
-rapeseed renewable diesel jet fuel,rapeseed renewable diesel jet fuel,initial-future-year,,1
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,start-year,,0
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,initial-future-year,,1
-palmfruit renewable diesel,palmfruit renewable diesel,start-year,,0
-palmfruit renewable diesel,palmfruit renewable diesel,initial-future-year,,1
-palmfruit renewable diesel jet fuel,palmfruit renewable diesel jet fuel,start-year,,0
-palmfruit renewable diesel jet fuel,palmfruit renewable diesel jet fuel,initial-future-year,,1
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,start-year,,0
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,initial-future-year,,1
-oilcrop renewable diesel,oilcrop renewable diesel,start-year,,0
-oilcrop renewable diesel,oilcrop renewable diesel,initial-future-year,,1
-oilcrop renewable diesel jet fuel,oilcrop renewable diesel jet fuel,start-year,,0
-oilcrop renewable diesel jet fuel,oilcrop renewable diesel jet fuel,initial-future-year,,1
+soybean HEFA joint,soybean HEFA joint,start-year,,0
+soybean HEFA joint,soybean HEFA joint,initial-future-year,,1
+soybean HEFA renewable diesel,soybean HEFA renewable diesel,start-year,,0
+soybean HEFA renewable diesel,soybean HEFA renewable diesel,initial-future-year,,1
+soybean HEFA jet fuel,soybean HEFA jet fuel,start-year,,0
+soybean HEFA jet fuel,soybean HEFA jet fuel,initial-future-year,,1
+rapeseed HEFA joint,rapeseed HEFA joint,start-year,,0
+rapeseed HEFA joint,rapeseed HEFA joint,initial-future-year,,1
+rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,start-year,,0
+rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,initial-future-year,,1
+rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,start-year,,0
+rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,initial-future-year,,1
+palmfruit HEFA joint,palmfruit HEFA joint,start-year,,0
+palmfruit HEFA joint,palmfruit HEFA joint,initial-future-year,,1
+palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,start-year,,0
+palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,initial-future-year,,1
+palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,start-year,,0
+palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,initial-future-year,,1
+oilcrop HEFA joint,oilcrop HEFA joint,start-year,,0
+oilcrop HEFA joint,oilcrop HEFA joint,initial-future-year,,1
+oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,start-year,,0
+oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,initial-future-year,,1
+oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,start-year,,0
+oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,initial-future-year,,1
 refined jet,refined jet,start-year,,1
 corn ETJ joint,corn ETJ joint,start-year,,0
 corn ETJ joint,corn ETJ joint,initial-future-year,,1

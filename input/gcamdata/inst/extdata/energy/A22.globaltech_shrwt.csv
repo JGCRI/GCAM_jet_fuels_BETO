@@ -28,22 +28,22 @@ rapeseed biodiesel,rapeseed biodiesel,rapeseed biodiesel,0,1,1,1,1,1
 palmfruit biodiesel,palmfruit biodiesel,palmfruit biodiesel,0,1,1,1,1,1
 soybean biodiesel,soybean biodiesel,soybean biodiesel,0,1,1,1,1,1
 refining,biomass liquids,BTL with hydrogen,0,0,0,1,1,1
-soybean renewable diesel,soybean renewable diesel,soybean renewable diesel,0,0,1,1,1,1
-soybean renewable diesel jet fuel,soybean renewable diesel jet fuel,soybean renewable diesel jet fuel,0,0,1,1,1,1
-soybean renewable diesel joint,soybean renewable diesel joint,soybean renewable diesel joint high,0,0,1,1,1,1
-soybean renewable diesel joint,soybean renewable diesel joint,soybean renewable diesel joint low,0,0,1,1,1,1
-rapeseed renewable diesel,rapeseed renewable diesel,rapeseed renewable diesel,0,0,1,1,1,1
-rapeseed renewable diesel jet fuel,rapeseed renewable diesel jet fuel,rapeseed renewable diesel jet fuel,0,0,1,1,1,1
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,rapeseed renewable diesel joint high,0,0,1,1,1,1
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,rapeseed renewable diesel joint low,0,0,1,1,1,1
-palmfruit renewable diesel,palmfruit renewable diesel,palmfruit renewable diesel,0,0,1,1,1,1
-palmfruit renewable diesel jet fuel,palmfruit renewable diesel jet fuel,palmfruit renewable diesel jet fuel,0,0,1,1,1,1
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,palmfruit renewable diesel joint high,0,0,1,1,1,1
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,palmfruit renewable diesel joint low,0,0,1,1,1,1
-oilcrop renewable diesel,oilcrop renewable diesel,oilcrop renewable diesel,0,0,1,1,1,1
-oilcrop renewable diesel jet fuel,oilcrop renewable diesel jet fuel,oilcrop renewable diesel jet fuel,0,0,1,1,1,1
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,oilcrop renewable diesel joint high,0,0,1,1,1,1
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,oilcrop renewable diesel joint low,0,0,1,1,1,1
+soybean HEFA renewable diesel,soybean HEFA renewable diesel,soybean HEFA renewable diesel,0,0,1,1,1,1
+soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,0,0,1,1,1,1
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,0,0,1,1,1,1
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,0,0,1,1,1,1
+rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,0,0,1,1,1,1
+rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,0,0,1,1,1,1
+rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,0,0,1,1,1,1
+rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,0,0,1,1,1,1
+palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,0,0,1,1,1,1
+palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,0,0,1,1,1,1
+palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,0,0,1,1,1,1
+palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,0,0,1,1,1,1
+oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,0,0,1,1,1,1
+oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,0,0,1,1,1,1
+oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,0,0,1,1,1,1
+oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,0,0,1,1,1,1
 refined jet,refined jet,refined jet,1,1,1,1,1,1
 corn ETJ joint,corn ETJ joint,corn ETJ joint,0,0,1,1,1,1
 corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewable diesel,0,0,1,1,1,1
