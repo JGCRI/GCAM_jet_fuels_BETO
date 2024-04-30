@@ -17,17 +17,19 @@ gas pipeline,gas pipeline,gas pipeline,gas processing,1,1,1
 wholesale gas,wholesale gas,wholesale gas,gas pipeline,1,1,1
 delivered gas,delivered gas,delivered gas,gas pipeline,1,1,1
 aviation fuels,refined oil,refined oil,regional refined jet,1,1,1
-aviation fuels,renewable diesel,soybean renewable diesel,regional soybean renewable diesel jet fuel,1,1,1
-aviation fuels,renewable diesel,rapeseed renewable diesel,regional rapeseed renewable diesel jet fuel,1,1,1
-aviation fuels,renewable diesel,palmfruit renewable diesel,regional palmfruit renewable diesel jet fuel,1,1,1
-aviation fuels,renewable diesel,oilcrop renewable diesel,regional oilcrop renewable diesel jet fuel,1,1,1
+aviation fuels,HEFA,soybean HEFA,regional soybean HEFA jet fuel,1,1,1
+aviation fuels,HEFA,rapeseed HEFA,regional rapeseed HEFA jet fuel,1,1,1
+aviation fuels,HEFA,palmfruit HEFA,regional palmfruit HEFA jet fuel,1,1,1
+aviation fuels,HEFA,oilcrop HEFA,regional oilcrop HEFA jet fuel,1,1,1
+aviation fuels,ETJ,corn ETJ,regional corn ETJ jet fuel,1,1,1
 refined liquids enduse,refined oil,refined oil,regional refined oil,1,1,1
 refined liquids enduse,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 refined liquids enduse,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
 refined liquids enduse,biodiesel,palmfruit biodiesel,regional palmfruit biodiesel,1,1,1
 refined liquids enduse,biodiesel,soybean biodiesel,regional soybean biodiesel,1,1,1
 refined liquids industrial,refined liquids industrial,refined liquids industrial,regional refined oil,1,1,1
-refined liquids enduse,renewable diesel,soybean renewable diesel,regional soybean renewable diesel,1,1,1
-refined liquids enduse,renewable diesel,rapeseed renewable diesel,regional rapeseed renewable diesel,1,1,1
-refined liquids enduse,renewable diesel,palmfruit renewable diesel,regional palmfruit renewable diesel,1,1,1
-refined liquids enduse,renewable diesel,oilcrop renewable diesel,regional oilcrop renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,soybean HEFA,regional soybean HEFA renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,rapeseed HEFA,regional rapeseed HEFA renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
+refined liquids enduse,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1

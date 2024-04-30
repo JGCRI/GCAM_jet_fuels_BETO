@@ -9,11 +9,12 @@ rapeseed biodiesel,rapeseed biodiesel,rapeseed biodiesel,biomass
 palmfruit biodiesel,palmfruit biodiesel,palmfruit biodiesel,biomass
 soybean biodiesel,soybean biodiesel,soybean biodiesel,biomass
 refining,biomass liquids,BTL with hydrogen,biomass
-soybean renewable diesel joint,soybean renewable diesel joint,soybean renewable diesel joint high,biomass
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,rapeseed renewable diesel joint high,biomass
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,palmfruit renewable diesel joint high,biomass
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,oilcrop renewable diesel joint high,biomass
-soybean renewable diesel joint,soybean renewable diesel joint,soybean renewable diesel joint low,biomass
-rapeseed renewable diesel joint,rapeseed renewable diesel joint,rapeseed renewable diesel joint low,biomass
-palmfruit renewable diesel joint,palmfruit renewable diesel joint,palmfruit renewable diesel joint low,biomass
-oilcrop renewable diesel joint,oilcrop renewable diesel joint,oilcrop renewable diesel joint low,biomass
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,biomass
+rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,biomass
+palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,biomass
+oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,biomass
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,biomass
+rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,biomass
+palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,biomass
+oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,biomass
+corn ETJ joint,corn ETJ joint,corn ETJ joint,biomass
