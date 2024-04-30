@@ -146,30 +146,47 @@ module_energy_L222.en_transformation <- function(command, ...) {
     # for renewable diesel)
     L222.renewable_diesel_filter_R <- L222.biofuel_type_filter_R %>%
       filter(grepl("biodiesel", supplysector)) %>%
-      mutate(supplysector = gsub("biodiesel", "renewable diesel", supplysector))
+      mutate(supplysector = gsub("biodiesel", "HEFA renewable diesel", supplysector))
 
     L222.renewable_diesel_joint_filter_R <- L222.biofuel_type_filter_R %>%
       filter(grepl("biodiesel", supplysector)) %>%
-      mutate(supplysector = gsub("biodiesel", "renewable diesel joint", supplysector))
+      mutate(supplysector = gsub("biodiesel", "HEFA joint", supplysector))
 
     L222.renewable_diesel_joint_high_filter_R <- L222.biofuel_type_filter_R %>%
       filter(grepl("biodiesel", supplysector)) %>%
-      mutate(supplysector = gsub("biodiesel", "renewable diesel joint high", supplysector))
+      mutate(supplysector = gsub("biodiesel", "HEFA joint high", supplysector))
 
     L222.renewable_diesel_joint_low_filter_R <- L222.biofuel_type_filter_R %>%
       filter(grepl("biodiesel", supplysector)) %>%
-      mutate(supplysector = gsub("biodiesel", "renewable diesel joint low", supplysector))
+      mutate(supplysector = gsub("biodiesel", "HEFA joint low", supplysector))
 
     L222.renewable_diesel_jet_filter_R <- L222.biofuel_type_filter_R %>%
       filter(grepl("biodiesel", supplysector)) %>%
-      mutate(supplysector = gsub("biodiesel", "renewable diesel jet fuel", supplysector))
+      mutate(supplysector = gsub("biodiesel", "HEFA jet fuel", supplysector))
+
+    # use the same filter for corn ethanol-to-jet as for corn ethanol
+    L222.corn_rd_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(supplysector == "corn ethanol") %>%
+      mutate(supplysector = "corn ethanol renewable diesel")
+
+    L222.corn_etj_joint_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(supplysector == "corn ethanol") %>%
+      mutate(supplysector = "corn ETJ joint")
+
+    L222.corn_etj_jet_filter_R <- L222.biofuel_type_filter_R %>%
+      filter(supplysector == "corn ethanol") %>%
+      mutate(supplysector = "corn ETJ jet fuel")
+
 
     # combine renewable diesel filter with other biofuels
     L222.biofuel_type_filter_R <- rbind(L222.biofuel_type_filter_R, L222.renewable_diesel_filter_R,
                                         L222.renewable_diesel_joint_filter_R,
                                         #L222.renewable_diesel_joint_high_filter_R,
                                         #L222.renewable_diesel_joint_low_filter_R,
-                                        L222.renewable_diesel_jet_filter_R)
+                                        L222.renewable_diesel_jet_filter_R,
+                                        L222.corn_rd_filter_R,
+                                        L222.corn_etj_joint_filter_R,
+                                        L222.corn_etj_jet_filter_R)
 
 
     L222.Supplysector_en <- anti_join(L222.Supplysector_en, L222.biofuel_type_filter_R, by = c("region", "supplysector"))
@@ -399,19 +416,10 @@ module_energy_L222.en_transformation <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["PortfolioStdConstraint"]]) ->
       L222.jet_fuel_credits_all
 
-
-
-    jet_credit_high_filter <- L222.biofuel_type_filter_R %>%
-      filter(grepl("renewable diesel", supplysector)) %>%
-      mutate(policy.portfolio.standard = paste0(supplysector, " jet credit high")) %>%
+    # remove jet credit ETJ from regions that don't have corn ETJ
+    jet_credit_filter <- L222.corn_etj_joint_filter_R %>%
+      mutate(policy.portfolio.standard = "jet credit ETJ") %>%
       select(-supplysector)
-
-    jet_credit_low_filter <- L222.biofuel_type_filter_R %>%
-      filter(grepl("renewable diesel", supplysector)) %>%
-      mutate(policy.portfolio.standard = paste0(supplysector, " jet credit low")) %>%
-      select(-supplysector)
-
-    jet_credit_filter <- rbind(jet_credit_high_filter, jet_credit_low_filter)
 
 
     L222.jet_fuel_credits <- anti_join(L222.jet_fuel_credits_all, jet_credit_filter,
