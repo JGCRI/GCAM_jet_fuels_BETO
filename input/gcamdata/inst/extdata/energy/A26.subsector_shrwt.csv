@@ -19,12 +19,11 @@ wholesale gas,wholesale gas,start-year,,1
 delivered gas,delivered gas,start-year,,1
 aviation fuels,refined oil,start-year,,1
 aviation fuels,HEFA,1975,,0
-aviation fuels,HEFA,initial-future-year,,1
+aviation fuels,HEFA,initial-future-year,,0.5
 aviation fuels,ETJ,start-year,,0
-aviation fuels,ETJ,initial-future-year,,1
+aviation fuels,ETJ,initial-future-year,,0.5
 refined liquids enduse,refined oil,start-year,,1
 refined liquids enduse,biodiesel,start-year,,0.5
 refined liquids industrial,refined liquids industrial,start-year,,1
-refined liquids enduse,renewable diesel,1975,,0
-refined liquids enduse,renewable diesel,final-calibration-year,,0
-refined liquids enduse,renewable diesel,end-year,,0.5
+refined liquids enduse,renewable diesel,start-year,,0
+refined liquids enduse,renewable diesel,initial-future-year,,0.5

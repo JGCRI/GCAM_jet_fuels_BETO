@@ -3,7 +3,7 @@
 # Units: NA
 # Description: Default shareweights for final energy transformation technologies, used to interpolate shareweights for all model years
 # Source: NA
-# Column types: ccciiii
+# Column types: cccnnnn
 # ----------
 supplysector,subsector,technology,1971,2015,2020,2100
 backup_electricity,gas,gas (steam/CT),1,1,1,1
@@ -30,8 +30,8 @@ refined liquids enduse,biodiesel,palmfruit biodiesel,1,1,1,1
 refined liquids enduse,biodiesel,soybean biodiesel,1,1,1,1
 refined liquids enduse,biodiesel,other biodiesel,0,0,0,0
 refined liquids industrial,refined liquids industrial,refined liquids industrial,1,1,1,1
-refined liquids enduse,renewable diesel,soybean HEFA,0,0,1,1
-refined liquids enduse,renewable diesel,rapeseed HEFA,0,0,1,1
-refined liquids enduse,renewable diesel,palmfruit HEFA,0,0,1,1
-refined liquids enduse,renewable diesel,oilcrop HEFA,0,0,1,1
-refined liquids enduse,renewable diesel,corn ethanol renewable diesel,0,0,1,1
+refined liquids enduse,renewable diesel,soybean HEFA,0,0,0.5,0.5
+refined liquids enduse,renewable diesel,rapeseed HEFA,0,0,0.5,0.5
+refined liquids enduse,renewable diesel,palmfruit HEFA,0,0,0.5,0.5
+refined liquids enduse,renewable diesel,oilcrop HEFA,0,0,0.5,0.5
+refined liquids enduse,renewable diesel,corn ethanol renewable diesel,0,0,0.5,0.5
