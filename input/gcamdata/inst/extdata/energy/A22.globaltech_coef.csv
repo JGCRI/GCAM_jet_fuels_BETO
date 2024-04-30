@@ -45,7 +45,7 @@ soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,wholesale gas,0.018
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,elect_td_ind,0.0098,0.0098,0.0098
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,H2 industrial,0.1095,0.1095,0.1095
 soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA joint,1,1,1
-soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,jet credit RD,1,1,1
+soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,jet credit HEFA,1,1,1
 soybean HEFA renewable diesel,soybean HEFA renewable diesel,soybean HEFA renewable diesel,soybean HEFA joint,1,1,1
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,regional biomassOil rapeseed,1.0685,1.0685,1.0685
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
@@ -56,7 +56,7 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,wholesale gas,0.
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,elect_td_ind,0.0098,0.0098,0.0098
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,H2 industrial,0.1095,0.1095,0.1095
 rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA joint,1,1,1
-rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,jet credit RD,1,1,1
+rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,jet credit HEFA,1,1,1
 rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,rapeseed HEFA joint,1,1,1
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,regional biomassOil palmfruit,1.0685,1.0685,1.0685
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
@@ -67,7 +67,7 @@ palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,wholesale gas
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,elect_td_ind,0.0098,0.0098,0.0098
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,H2 industrial,0.1095,0.1095,0.1095
 palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA joint,1,1,1
-palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,jet credit RD,1,1,1
+palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,jet credit HEFA,1,1,1
 palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,palmfruit HEFA joint,1,1,1
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,regional biomassOil oilcrop,1.0685,1.0685,1.0685
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
@@ -78,13 +78,14 @@ oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,wholesale gas,0.018
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,elect_td_ind,0.0098,0.0098,0.0098
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,H2 industrial,0.1095,0.1095,0.1095
 oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA joint,1,1,1
-oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,jet credit RD,1,1,1
+oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,jet credit HEFA,1,1,1
 oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,oilcrop HEFA joint,1,1,1
 refined jet,refined jet,refined jet,refining,1,1,1
 refined jet,refined jet,refined jet,jet credit oil,1,1,1
 corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol,1,1,1
-corn ETJ joint,corn ETJ joint,corn ETJ joint,wholesale gas,0.318,0.318,0.318
-corn ETJ joint,corn ETJ joint,corn ETJ joint,elect_td_ind,0.026,0.026,0.026
+corn ETJ joint,corn ETJ joint,corn ETJ joint,wholesale gas,0.331,0.331,0.331
+corn ETJ joint,corn ETJ joint,corn ETJ joint,elect_td_ind,0.074,0.074,0.074
+corn ETJ joint,corn ETJ joint,corn ETJ joint,H2 industrial,0.061,0.061,0.061
 corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewable diesel,corn ETJ joint,1,1,1
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ joint,1,1,1
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,jet credit ETJ,1,1,1
