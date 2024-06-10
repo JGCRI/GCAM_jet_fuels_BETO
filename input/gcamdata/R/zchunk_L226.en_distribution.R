@@ -30,6 +30,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
              FILE = "energy/A26.globaltech_cost",
              FILE = "energy/A26.globaltech_interp",
              FILE = "energy/A26.globaltech_shrwt",
+             "L222.biofuel_type_filter_R",
              "L126.IO_R_elecownuse_F_Yh",
              "L126.IO_R_electd_F_Yh",
              "L126.IO_R_gaspipe_F_Yh"))
@@ -73,6 +74,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
     L126.IO_R_elecownuse_F_Yh <- get_data(all_data, "L126.IO_R_elecownuse_F_Yh", strip_attributes = TRUE)
     L126.IO_R_electd_F_Yh <- get_data(all_data, "L126.IO_R_electd_F_Yh")
     L126.IO_R_gaspipe_F_Yh <- get_data(all_data, "L126.IO_R_gaspipe_F_Yh")
+    L222.biofuel_type_filter_R <- get_data(all_data, "L222.biofuel_type_filter_R")
 
     # #=======#=======#=======#=======#=======#=======#=========
 
@@ -146,6 +148,66 @@ module_energy_L226.en_distribution <- function(command, ...) {
       write_to_all_regions(LEVEL2_DATA_NAMES[["TechInterp"]], GCAM_region_names) %>%
       rename(stub.technology = technology) ->
       L226.StubTechInterp_en
+
+    # TRW 5/8/24: filter out biojet technologies that are not produced domestically
+    # since we are turning off biojet trade
+
+    # first make a filter for the biojet technologies
+    L226.biofuel_type_filter_reg_biojet <- L222.biofuel_type_filter_R %>%
+      filter(grepl("HEFA|ETJ", supplysector),
+             grepl("joint", supplysector)) %>%
+      mutate(stub.technology = gsub(" joint", "", supplysector),
+             supplysector = "aviation fuels",
+             subsector = if_else(grepl("HEFA", stub.technology), "HEFA", "ETJ"))
+
+    # then add in the corn ETJ renewable diesel co-product (it has a different
+    # name than the biojet ETJ technology)
+    L226.biofuel_type_filter_reg_biojet_all <- L226.biofuel_type_filter_reg_biojet %>%
+      rbind(L226.biofuel_type_filter_reg_biojet %>%
+              filter(stub.technology == "corn ETJ") %>%
+              mutate(stub.technology = "corn ethanol renewable diesel"))
+
+    L226.StubTech_en <- anti_join(L226.StubTech_en, L226.biofuel_type_filter_reg_biojet,
+                                  by = c("region", "supplysector", "stub.technology"))
+
+    L226.StubTechInterp_en <- anti_join(L226.StubTechInterp_en, L226.biofuel_type_filter_reg_biojet,
+                                        by = c("region", "supplysector", "stub.technology"))
+
+
+    # also filter out subsectors that have no domestically produced technology
+    # this can only be true for corn ETJ (all regions have at least one HEFA tech)
+    L226.SubsectorLogit_en <- anti_join(L226.SubsectorLogit_en,
+                                        filter(L226.biofuel_type_filter_reg_biojet,
+                                               subsector == "ETJ"),
+                                        by = c("region", "supplysector", "subsector"))
+
+    if(exists("L226.SubsectorShrwt_en")){
+      L226.SubsectorShrwt_en <- anti_join(L226.SubsectorShrwt_en,
+                                          filter(L226.biofuel_type_filter_reg_biojet,
+                                                 subsector == "ETJ"),
+                                          by = c("region", "supplysector", "subsector"))
+    }
+
+    if(exists("L226.SubsectorShrwtFllt_en")){
+      L226.SubsectorShrwtFllt_en <- anti_join(L226.SubsectorShrwtFllt_en,
+                                              filter(L226.biofuel_type_filter_reg_biojet,
+                                                     subsector == "ETJ"),
+                                              by = c("region", "supplysector", "subsector"))
+    }
+
+    if(exists("L226.SubsectorInterp_en")){
+      L226.SubsectorInterp_en <- anti_join(L226.SubsectorInterp_en,
+                                           filter(L226.biofuel_type_filter_reg_biojet,
+                                                  subsector == "ETJ"),
+                                           by = c("region", "supplysector", "subsector"))
+    }
+
+    if(exists("L226.SubsectorInterpTo_en")){
+      L226.SubsectorInterpTo_en <- anti_join(L226.SubsectorInterpTo_en,
+                                             filter(L226.biofuel_type_filter_reg_biojet,
+                                                    subsector == "ETJ"),
+                                             by = c("region", "supplysector", "subsector"))
+    }
 
 
     # Set number of digits to round final values of elecownuse, electd, and elecgaspipe coefficients, globaltech efficiency, and globaltech cost

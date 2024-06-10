@@ -15,7 +15,8 @@ module_energy_batch_ag_en_freight_inputs_xml <- function(command, ...) {
              "L271.StubTechInputPMult_freight_NonFoodDemand",
              "L271.TechInputPMult_freight_en_ag_other",
              "L271.TechCost_freight",
-             "L271.BaseService_freightNetEnAg"))
+             "L271.BaseService_freightNetEnAg",
+             "L222.biofuel_type_filter_R"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "ag_en_freight_inputs.xml"))
   } else if(command == driver.MAKE) {
@@ -31,6 +32,34 @@ module_energy_batch_ag_en_freight_inputs_xml <- function(command, ...) {
     L271.TechInputPMult_freight_en_ag_other <- get_data(all_data, "L271.TechInputPMult_freight_en_ag_other")
     L271.TechCost_freight <- get_data(all_data, "L271.TechCost_freight")
     L271.BaseService_freightNetEnAg <- get_data(all_data, "L271.BaseService_freightNetEnAg")
+
+    L222.biofuel_type_filter_R <- get_data(all_data, "L222.biofuel_type_filter_R")
+
+    # TRW 5/8/24: filter out biojet technologies that are not produced domestically
+    # since we are turning off biojet trade
+
+    # first make a filter for the biojet technologies
+    biofuel_type_filter_reg_biojet <- L222.biofuel_type_filter_R %>%
+      filter(grepl("HEFA|ETJ", supplysector),
+             grepl("joint", supplysector)) %>%
+      mutate(technology = gsub(" joint", "", supplysector),
+             supplysector = "aviation fuels",
+             subsector = if_else(grepl("HEFA", technology), "HEFA", "ETJ"))
+
+    # then add in the corn ETJ renewable diesel co-product (it has a different
+    # name than the biojet ETJ technology)
+    biofuel_type_filter_reg_biojet_all <- biofuel_type_filter_reg_biojet %>%
+      rbind(biofuel_type_filter_reg_biojet %>%
+              filter(technology == "corn ETJ") %>%
+              mutate(technology = "corn ethanol renewable diesel"))
+
+    L271.TechCoef_freight_en_ag_other <- anti_join(L271.TechCoef_freight_en_ag_other,
+                                                   biofuel_type_filter_reg_biojet,
+                                                   by = c("region", "supplysector", "technology"))
+
+    L271.TechInputPMult_freight_en_ag_other <- anti_join(L271.TechInputPMult_freight_en_ag_other,
+                                                         biofuel_type_filter_reg_biojet_all,
+                                                         by = c("region", "supplysector", "technology"))
 
     # #=======#=======#=======#=======#=======#=======#=========
 

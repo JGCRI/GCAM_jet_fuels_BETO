@@ -335,6 +335,27 @@ module_energy_L2262.refined_liquids_trade <- function(command, ...) {
     L2262.Production_refinedLiquids_reg_dom <- anti_join(L2262.Production_refinedLiquids_reg_dom, L2262.biofuel_type_filter_reg,
                                                          by = c("region", "supplysector", "subsector"))
 
+    # TRW 5/8/24: for biojet, since we are turning off trade, remove entire
+    # regional supplysector if not produced domestically
+    L2262.biofuel_type_filter_reg_biojet <- L222.biofuel_type_filter_R %>%
+      filter(grepl("HEFA|ETJ", supplysector),
+             grepl("jet", supplysector)
+             ) %>%
+      mutate(supplysector = paste0("regional ", supplysector))
+
+    L2262.SubsectorAll_refinedLiquids_reg <- anti_join(L2262.SubsectorAll_refinedLiquids_reg, L2262.biofuel_type_filter_reg_biojet,
+                                                       by = c("region", "supplysector"))
+    L2262.TechShrwt_refinedLiquids_reg <- anti_join(L2262.TechShrwt_refinedLiquids_reg, L2262.biofuel_type_filter_reg_biojet,
+                                                     by = c("region", "supplysector"))
+    L2262.TechCoef_refinedLiquids_reg <- anti_join(L2262.TechCoef_refinedLiquids_reg, L2262.biofuel_type_filter_reg_biojet,
+                                                   by = c("region", "supplysector"))
+    L2262.Production_refinedLiquids_reg_dom <- anti_join(L2262.Production_refinedLiquids_reg_dom, L2262.biofuel_type_filter_reg_biojet,
+                                                         by = c("region", "supplysector"))
+
+    # also filter out the supplysectors
+    L2262.Supplysector_refinedLiquids_reg <- anti_join(L2262.Supplysector_refinedLiquids_reg, L2262.biofuel_type_filter_reg_biojet,
+                                                       by = c("region", "supplysector"))
+
     # 12/2021: We adjust biodiesel shareweights to correct the behaviour in some regions
     # We use a hybrid approach:
     #  - Self-producers (domestic prod > imports) -> Long-term share-weights of imports to 0.2
