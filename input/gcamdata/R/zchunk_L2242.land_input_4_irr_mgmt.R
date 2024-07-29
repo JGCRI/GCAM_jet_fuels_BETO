@@ -107,9 +107,9 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       L2242.LN4_NodeGhostShare
 
     # 7/23/2019 revision for OTAQ - zero out purpose-grown bioenergy in the USA
-    L2242.LN4_NodeGhostShare %>%
-      mutate(ghost.unnormalized.share = if_else(region == "USA", 0, ghost.unnormalized.share)) ->
-      L2242.LN4_NodeGhostShare
+    #L2242.LN4_NodeGhostShare %>%
+    #  mutate(ghost.unnormalized.share = if_else(region == "USA", 0, ghost.unnormalized.share)) ->
+    #  L2242.LN4_NodeGhostShare
 
     # L2242.LN4_NodeIsGhostShareRel:
     # Specify whether bioenergy ghost node share is relative.

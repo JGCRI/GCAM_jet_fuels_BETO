@@ -16,9 +16,9 @@ USA,cellulosic ethanol,cellulosic ethanol,cellulosic ethanol,0,0,0,0,0,0,0,0
 USA,cellulosic ethanol,cellulosic ethanol,cellulosic ethanol (no constraint),0,0,0,0,0,0,0,0
 USA,cellulosic ethanol,cellulosic ethanol,cellulosic ethanol CCS level 1,0,0,0,0,0,0,0,0
 USA,cellulosic ethanol,cellulosic ethanol,cellulosic ethanol CCS level 2,0,0,0,0,0,0,0,0
-USA,refining,biomass liquids,FT biofuels,0,0,0,0,0,0,0,0
-USA,refining,biomass liquids,FT biofuels CCS level 1,0,0,0,0,0,0,0,0
-USA,refining,biomass liquids,FT biofuels CCS level 2,0,0,0,0,0,0,0,0
+USA,refining,biomass liquids,FT biofuels,1,1,1,1,1,1,1,1
+USA,refining,biomass liquids,FT biofuels CCS level 1,1,1,1,1,1,1,1,1
+USA,refining,biomass liquids,FT biofuels CCS level 2,1,1,1,1,1,1,1,1
 USA,corn ethanol,corn ethanol,corn ethanol,1,1,1,1,1,1,1,1
 USA,corn ethanol,corn ethanol,corn ethanol (no constraint),1,1,1,1,1,1,1,1
 USA,soybean biodiesel,soybean biodiesel,soybean biodiesel,1,1,1,1,1,1,1,1
