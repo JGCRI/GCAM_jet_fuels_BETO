@@ -82,3 +82,10 @@ traded oilcrop HEFA jet fuel,19.6,0
 traded refined jet,19.6,0
 traded corn ethanol renewable diesel,19.6,0
 traded corn ETJ jet fuel,19.6,0
+FT biofuel,23,0
+FT biofuel RD,23,0
+FT biojet,23,0
+regional FT biofuel RD,23,0
+regional FT biojet,23,0
+traded FT biofuel RD,23,1
+traded FT biojet,23,1

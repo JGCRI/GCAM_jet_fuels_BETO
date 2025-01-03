@@ -24,6 +24,7 @@ aviation fuels,HEFA,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
 aviation fuels,HEFA,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
 aviation fuels,HEFA,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
 aviation fuels,ETJ,corn ETJ,non-energy,1.1,1.1,1.1,1.1
+aviation fuels,FT,FT biojet,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,biodiesel,oilcrop biodiesel,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,biodiesel,rapeseed biodiesel,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,biodiesel,palmfruit biodiesel,non-energy,1.1,1.1,1.1,1.1
@@ -34,3 +35,4 @@ refined liquids enduse,renewable diesel,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,renewable diesel,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,renewable diesel,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,non-energy,1.1,1.1,1.1,1.1
+refined liquids enduse,renewable diesel,FT biofuel RD,non-energy,1.1,1.1,1.1,1.1
