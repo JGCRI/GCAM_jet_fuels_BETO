@@ -9,7 +9,7 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L226.SectorLogitTables[[ curr_table ]]$data}, \code{L226.Supplysector_en}, \code{L226.SubsectorLogitTables[[ curr_table ]]$data}, \code{L226.SubsectorLogit_en}, \code{L226.SubsectorShrwt_en}, \code{L226.SubsectorShrwtFllt_en}, \code{L226.SubsectorInterp_en}, \code{L226.SubsectorInterpTo_en}, \code{L226.StubTech_en}, \code{L226.GlobalTechEff_en}, \code{L226.GlobalTechCost_en}, \code{L226.GlobalTechShrwt_en}, \code{L226.StubTechCoef_elecownuse}, \code{L226.StubTechCoef_electd}, \code{L226.StubTechCoef_gaspipe}. The corresponding file in the
+#' the generated outputs: \code{L226.SectorLogitTables[[ curr_table ]]$data}, \code{L226.Supplysector_en}, \code{L226.SubsectorLogitTables[[ curr_table ]]$data}, \code{L226.SubsectorLogit_en}, \code{L226.SubsectorShrwt_en}, \code{L226.SubsectorShrwtFllt_en}, \code{L226.SubsectorInterp_en}, \code{L226.SubsectorInterpTo_en}, \code{L226.StubTech_en}, \code{L226.GlobalTechEff_en}, \code{L226.GlobalTechCost_en}, \code{L226.GlobalTechShrwt_en}, \code{L226.StubTechCoef_elecownuse}, \code{L226.StubTechCoef_electd}, \code{L226.StubTechCoef_gaspipe}, \code{L226.fixOut_waste_HEFA}. The corresponding file in the
 #' original data system was \code{L226.en_distribution.R} (energy level2).
 #' @details Prepares Level 2 data on energy distribution sector for the generation of en_distribution.xml.
 #' Creates global technology database info--cost, shareweight, logit, efficiencies, and interpolations--and regional values where applicable for electricity net ownuse, gas pipelines, and transmission and distribution.
@@ -30,6 +30,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
              FILE = "energy/A26.globaltech_cost",
              FILE = "energy/A26.globaltech_interp",
              FILE = "energy/A26.globaltech_shrwt",
+             FILE = "energy/A26.fixOut_waste_HEFA",
              "L222.biofuel_type_filter_R",
              "L126.IO_R_elecownuse_F_Yh",
              "L126.IO_R_electd_F_Yh",
@@ -48,7 +49,8 @@ module_energy_L226.en_distribution <- function(command, ...) {
              "L226.StubTechInterp_en",
              "L226.StubTechCoef_elecownuse",
              "L226.StubTechCoef_electd",
-             "L226.StubTechCoef_gaspipe"))
+             "L226.StubTechCoef_gaspipe",
+             "L226.fixOut_waste_HEFA"))
   } else if(command == driver.MAKE) {
 
     # Silence global variable package check
@@ -71,6 +73,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
     A26.globaltech_cost <- get_data(all_data, "energy/A26.globaltech_cost")
     A26.globaltech_interp <- get_data(all_data, "energy/A26.globaltech_interp")
     A26.globaltech_shrwt <- get_data(all_data, "energy/A26.globaltech_shrwt", strip_attributes = TRUE)
+    A26.fixOut_waste_HEFA <- get_data(all_data, "energy/A26.fixOut_waste_HEFA", strip_attributes = TRUE)
     L126.IO_R_elecownuse_F_Yh <- get_data(all_data, "L126.IO_R_elecownuse_F_Yh", strip_attributes = TRUE)
     L126.IO_R_electd_F_Yh <- get_data(all_data, "L126.IO_R_electd_F_Yh")
     L126.IO_R_gaspipe_F_Yh <- get_data(all_data, "L126.IO_R_gaspipe_F_Yh")
@@ -348,6 +351,12 @@ module_energy_L226.en_distribution <- function(command, ...) {
       rename(coefficient = value, stub.technology = technology) ->
       L226.StubTechCoef_gaspipe
 
+
+    # assign fixed outputs for waste HEFA in the USA
+    A26.fixOut_waste_HEFA %>%
+      select(LEVEL2_DATA_NAMES[["StubTechFixOut_otherBiod"]]) ->
+      L226.fixOut_waste_HEFA
+
     # #=======#=======#=======#=======#=======#=======#=========
 
     # Produce outputs
@@ -493,11 +502,20 @@ module_energy_L226.en_distribution <- function(command, ...) {
       add_precursors("L126.IO_R_gaspipe_F_Yh") ->
       L226.StubTechCoef_gaspipe
 
+    L226.fixOut_waste_HEFA %>%
+      add_title("Fixed outputs of waste oil HEFA in the USA") %>%
+      add_units("EJ") %>%
+      add_comments("assumed quantity of waste oil HEFA") %>%
+      add_legacy_name("L226.fixOut_waste_HEFA") %>%
+      add_precursors("A26.fixOut_waste_HEFA") ->
+      L226.fixOut_waste_HEFA
+
     return_data(L226.Supplysector_en, L226.SubsectorLogit_en, L226.SubsectorShrwt_en,
                 L226.SubsectorShrwtFllt_en, L226.SubsectorInterp_en, L226.SubsectorInterpTo_en,
                 L226.StubTech_en, L226.GlobalTechEff_en, L226.GlobalTechCost_en, L226.GlobalTechShrwt_en,
                 L226.StubTechInterp_en,
-                L226.StubTechCoef_elecownuse, L226.StubTechCoef_electd, L226.StubTechCoef_gaspipe)
+                L226.StubTechCoef_elecownuse, L226.StubTechCoef_electd, L226.StubTechCoef_gaspipe,
+                L226.fixOut_waste_HEFA)
   } else {
     stop("Unknown command")
   }

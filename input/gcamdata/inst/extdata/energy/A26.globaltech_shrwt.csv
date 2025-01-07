@@ -22,6 +22,7 @@ aviation fuels,HEFA,soybean HEFA,0,0,1,1
 aviation fuels,HEFA,rapeseed HEFA,0,0,1,1
 aviation fuels,HEFA,palmfruit HEFA,0,0,1,1
 aviation fuels,HEFA,oilcrop HEFA,0,0,1,1
+aviation fuels,HEFA,waste oil HEFA,0,0,0,0
 aviation fuels,ETJ,corn ETJ,0,0,0.1,0.5
 aviation fuels,FT,FT biojet,0,0,0.1,0.5
 refined liquids enduse,refined oil,refined oil,1,1,1,1
