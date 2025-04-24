@@ -5,7 +5,7 @@
 # Column types: ccin
 # ----------
 policy.portfolio.standard,policyType,constraint, min.price
-jet credit HEFA,RES,1,0.00E+00
+jet credit HEFA,RES,1,-10
 jet credit oil,RES,1,0.00E+00
-jet credit ETJ,RES,1,0.00E+00
-jet credit FT,RES,1,0.00E+00
+jet credit ETJ,RES,1,-10
+jet credit FT,RES,1,-10
