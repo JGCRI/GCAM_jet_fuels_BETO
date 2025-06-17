@@ -97,6 +97,17 @@ module_emissions_L231.proc_sector <- function(command, ...) {
     ) %>%
       repeat_add_columns(tibble(year = MODEL_BASE_YEARS))
 
+    L231.FinalDemand_landfill <- tibble(region = A_regions$region,
+                                   energy.final.demand = "landfills",
+                                   perCapitaBased = emissions.URBAN_PROCESS_PERCAPITABASED,
+                                   income.elasticity = emissions.URBAN_PROCESS_INCOME_ELASTICITY,
+                                   base.service = 0.001,
+                                   aeei = emissions.URBAN_PROCESS_AEEI # Autonomous Energy Efficiency Improvement
+    ) %>%
+      repeat_add_columns(tibble(year = MODEL_BASE_YEARS))
+
+    L231.FinalDemand_urb <- bind_rows(L231.FinalDemand_urb, L231.FinalDemand_landfill)
+
     # L231.Supplysector_ind: Supply sector information for urban & industrial processes sectors
     L231.Supplysector_urb_ind <- A31.sector %>%
       write_to_all_regions(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME), GCAM_region_names = GCAM_region_names )
