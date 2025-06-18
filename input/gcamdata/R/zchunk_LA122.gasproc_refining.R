@@ -433,10 +433,20 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       mutate(value = value/gas_coef) %>%
       select(-gas_coef) -> L122.out_EJ_R_gasproc_coal_Yh
 
-    # Natural gas is equal to regional TPES minus upstream use of natural gas (e.g. GTL). Procedure and assumptiosn are explained below
+    # Natural gas is equal to regional TPES minus upstream use of natural gas (e.g. GTL). Procedure and assumptions are explained below
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
       filter(sector == "TPES", fuel == "gas") %>%
       mutate(sector = "gas processing") -> L122.out_EJ_R_gasproc_gas_Yh
+
+    # set up landfill sector for gas processing
+
+    L122.gasproc_coef%>%
+      filter(fuel == "captured methane")%>%
+      mutate(sector = supplysector,
+             value = 0)%>%
+      repeat_add_columns(tibble(GCAM_region_ID  = GCAM_region_names$GCAM_region_ID))%>%
+      select(GCAM_region_ID, sector, fuel, year, value) -> L122.out_EJ_R_gasproc_landfills_Yh
+
 
     # Note: The following code and their reason is given in  "NOTE2" (pasted from original code) below
     # NOTE2 (copied from original code): This is complicated. Several of the "upstream" energy users--in GCAM 3.0, unconventional oil production and gas-to-liquids--are assumed
@@ -476,7 +486,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
     }
 
     # Combine (rbind) individual fuel tables
-    bind_rows(L122.out_EJ_R_gasproc_gas_Yh, L122.out_EJ_R_gasproc_bio_Yh, L122.out_EJ_R_gasproc_coal_Yh) -> L122.out_EJ_R_gasproc_F_Yh
+    bind_rows(L122.out_EJ_R_gasproc_gas_Yh, L122.out_EJ_R_gasproc_bio_Yh, L122.out_EJ_R_gasproc_coal_Yh, L122.out_EJ_R_gasproc_landfills_Yh) -> L122.out_EJ_R_gasproc_F_Yh
 
     # Calculate the inputs to gas processing
     L122.out_EJ_R_gasproc_F_Yh %>%
@@ -585,3 +595,4 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
     stop("Unknown command")
   }
 }
+

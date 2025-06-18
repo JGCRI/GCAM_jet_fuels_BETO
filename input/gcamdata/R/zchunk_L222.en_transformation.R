@@ -130,9 +130,12 @@ module_energy_L222.en_transformation <- function(command, ...) {
       L222.Supplysector_en
 
     # Create a filter for first-generation biofuels (ethanol, biodiesel) that are NOT produced in each region
-    biofuel_types_R <- gather(select(A_regions, GCAM_region_ID, ethanol, biodiesel),
-                              key = "Biofuel", value = "technology",
-                              -GCAM_region_ID) %>%
+    biofuel_types_R <- A_regions %>%
+      select(GCAM_region_ID, ethanol, biodiesel) %>%
+      tidyr::pivot_longer(
+        cols = ethanol:biodiesel,
+        names_to = "Biofuel",
+        values_to = "technology")%>%
       bind_rows(select(L121.share_R_TPES_biofuel_tech, GCAM_region_ID, Biofuel, technology)) %>%
       distinct() %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
