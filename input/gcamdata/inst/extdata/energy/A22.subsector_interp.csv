@@ -30,3 +30,9 @@ corn ETJ joint,corn ETJ joint,share-weight,final-calibration-year,end-year,,line
 corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,final-calibration-year,end-year,,linear
 corn ETJ jet fuel,corn ETJ jet fuel,share-weight,final-calibration-year,end-year,,linear
 captured methane,captured methane,share-weight,final-calibration-year,end-year,,linear
+methanol,e-methanol,share-weight,start-year,2020,,fixed
+methanol,e-methanol,share-weight,2020,2050,,linear
+methanol,e-methanol,share-weight,2050,end-year,,fixed
+methanol,bio-methanol,share-weight,start-year,2020,,fixed
+methanol,bio-methanol,share-weight,2020,2050,,linear
+methanol,bio-methanol,share-weight,2050,end-year,,fixed

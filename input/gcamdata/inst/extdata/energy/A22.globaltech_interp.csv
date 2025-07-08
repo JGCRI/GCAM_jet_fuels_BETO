@@ -9,3 +9,5 @@ cellulosic ethanol,cellulosic ethanol,cellulosic ethanol,share-weight,final-cali
 refining,biomass liquids,FT biofuels,share-weight,final-calibration-year,2020,linear
 corn ethanol,corn ethanol,corn ethanol,share-weight,final-calibration-year,end-year,linear
 sugar cane ethanol,sugar cane ethanol,sugar cane ethanol,share-weight,final-calibration-year,end-year,linear
+methanol,e-methanol,e-methanol,share-weight,final-calibration-year,end-year,linear
+methanol,bio-methanol,bio-methanol,share-weight,final-calibration-year,end-year,linear

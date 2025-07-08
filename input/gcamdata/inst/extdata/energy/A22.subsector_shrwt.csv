@@ -57,3 +57,7 @@ corn ETJ jet fuel,corn ETJ jet fuel,start-year,,0
 corn ETJ jet fuel,corn ETJ jet fuel,initial-future-year,,1
 captured methane,captured methane,start-year,,0
 captured methane,captured methane,initial-future-year,,1
+methanol,e-methanol,start-year,,0
+methanol,e-methanol,2025,,1
+methanol,bio-methanol,start-year,,0
+methanol,bio-methanol,2025,,1

@@ -22,7 +22,6 @@ refining,coal to liquids,coal to liquids CCS level 1,regional coal
 refining,coal to liquids,coal to liquids CCS level 2,regional coal
 refining,gas to liquids,gas to liquids,regional natural gas
 refining,oil refining,oil refining,regional oil
-refining,biomass liquids,BTL with hydrogen,H2 industrial
 refining,biomass liquids,BTL with hydrogen,regional biomass
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,regional biomassOil soybean
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,regional biomassOil rapeseed
@@ -33,3 +32,5 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,regional biomass
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,regional biomassOil palmfruit
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,regional biomassOil oilcrop
 corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol
+methanol,e-methanol,e-methanol,elect_td_ind
+methanol,bio-methanol,bio-methanol,regional biomass

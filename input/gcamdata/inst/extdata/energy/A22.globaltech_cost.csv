@@ -39,3 +39,5 @@ oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,non-energy,2.23,2.2
 corn ETJ joint,corn ETJ joint,corn ETJ joint,non-energy,4.13,4.13,4.13,4.13,4.13,4.13,4.13,4.13,4.13,4.13,4.13,,,
 captured methane,captured methane,captured methane,non-energy,0,0,0,0,0,0,0,0,0,0,0,,,
 landfills,landfill captured,landfill captured,non-energy,1,1,1,1,1,1,1,1,1,1,1,,,
+methanol,bio-methanol,bio-methanol,non-energy,6.03,6.03,6.03,,,,
+methanol,e-methanol,e-methanol,non-energy,2.36,2.36,2.36,,,,
