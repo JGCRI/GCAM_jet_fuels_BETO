@@ -7,7 +7,7 @@
 #           steepness: shape parameter used by the s-curve-shutdown-decider retirement function.
 #           median.shutdown.point: profit-ratio at which 50% of the cohort is shut down for lack of profitability.
 #           profit.shutdown.steepness: shape parameter of profit-shutdown-decider function.
-# Column types: ccccicinni 
+# Column types: ccccicinni
 # ----------
 supplysector,subsector,technology,year,lifetime,shutdown.rate,half.life,steepness,median.shutdown.point,profit.shutdown.steepness
 refining,oil refining,oil refining,final-calibration-year,50,,30,0.2,-0.1,10
@@ -54,4 +54,5 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,initial-future-y
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,initial-future-year,45,,30,0.3,-0.1,10
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,initial-future-year,45,,30,0.3,-0.1,10
 corn ETJ joint,corn ETJ joint,corn ETJ joint,initial-future-year,45,,30,0.3,-0.1,10
-captured methane,captured methane,captured methane,initial-future-year,45,,30,0.3,-0.1,10
+captured methane,captured methane,captured methane,initial-future-year,15,,30,0.3,-0.1,10
+uncaptured methane,uncaptured methane,uncaptured methane,initial-future-year,30,,30,0.3,-0.1,10

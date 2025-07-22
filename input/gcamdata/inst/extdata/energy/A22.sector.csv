@@ -2,7 +2,7 @@
 # Title: Primary energy transformation supplysectors
 # Units: N/A
 # Description: Energy transformation supplysector units and logit exponents
-# Column types: ccccic 
+# Column types: ccccic
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
 gas processing,EJ,EJ,1975$/GJ,-6,
@@ -32,4 +32,5 @@ refined jet,EJ,EJ,1975$/GJ,-6,
 corn ETJ joint,EJ,EJ,1975$/GJ,-6,
 corn ethanol renewable diesel,EJ,EJ,1975$/GJ,-6,
 corn ETJ jet fuel,EJ,EJ,1975$/GJ,-6,
-captured methane,EJ,EJ,1975$/GJ,-6,
+captured methane,EJ,Tg,1975$/GJ,-6,
+uncaptured methane,EJ,Tg,1975$/GJ,-6,
