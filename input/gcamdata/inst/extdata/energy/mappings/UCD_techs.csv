@@ -220,3 +220,5 @@ Freight,Truck,Truck (>32t),Hybrid Liquids,Liquids,trn_road and rail,refined liqu
 Freight,Truck,Truck,Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight_road,Truck,Hybrid Liquids,refined liquids enduse,refined liquids gasoline pool
 Passenger,LDV_3W,Three-Wheeler,BEV,Electricity,trn_road and rail,electricity,trn_pass_road_LDV,Three-Wheeler,BEV,elect_td_trn,elect_td_trn
 Freight,Ship International,All,LNG,LNG,trn_international ship,gas,trn_shipping_intl,International Ship,Gas,international shipping fuels,international shipping fuels
+Freight,Ship Domestic,All,methanol,methanol,trn_domestic ship,methanol,trn_freight,Domestic Ship,methanol,methanol
+Freight,Ship International,All,methanol,methanol,trn_international ship,methanol,trn_shipping_intl,International Ship,methanol,methanol
