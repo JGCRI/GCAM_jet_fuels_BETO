@@ -217,8 +217,6 @@ module_energy_L271.ag_en_freight_inputs <- function(command, ...) {
                                     supplysector != "refined liquids gasoline pool",
                                     supplysector != "refined liquids industrial",
                                     supplysector != "aviation fuels",
-                                    supplysector != "domestic shipping fuels",
-                                    supplysector != "international shipping fuels",
                                     !supplysector %in% L271.in_EJ_R_Fossil$supplysector
     ) %>%
       left_join_error_no_match(L271.calValue_en_crops_nonFossil,

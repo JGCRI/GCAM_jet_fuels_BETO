@@ -9,10 +9,6 @@
 # Column types: cccccnnnnnn
 # ----------
 region,supplysector,subsector,technology,minicam.energy.input,price.unit.conversion,1971,1990,2000,2015,2100
-USA,domestic shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,domestic shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
 USA,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Eastern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Northern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800

@@ -204,7 +204,7 @@ module_emissions_L231.proc_sector <- function(command, ...) {
       # Assign values to all regions
       repeat_add_columns(tibble(region = A_regions$region)) %>%
       mutate(minicam.energy.input = "misc emissions sources",
-             calibrated.value = emissions.INDURB_PROCESS_MISCEMISSIONS_CALVAL) %>%
+             calibrated.value =  if_else(technology == "landfill captured", 0,emissions.INDURB_PROCESS_MISCEMISSIONS_CALVAL)) %>%
       select(region, sector.name, subsector.name, technology, year, minicam.energy.input, calibrated.value)
 
     # Resource Information
