@@ -5,7 +5,8 @@
 # ----------
 supplysector,subsector,year.fillout,year,share.weight
 urban processes,waste_incineration,start-year,,1
-landfills,landfills,start-year,,1
+landfills,landfill uncaptured,start-year,,1
+landfills,landfill captured,final-calibration-year,,1
 urban processes,wastewater,start-year,,1
 urban processes,aerosols,start-year,,1
 urban processes,fire_exting,start-year,,1

@@ -5,7 +5,8 @@
 # ----------
 supplysector,subsector,logit.exponent,logit.type
 urban processes,waste_incineration,-6,
-landfills,landfills,-6,
+landfills,landfill uncaptured,-6,
+landfills,landfill captured,-6,
 urban processes,wastewater,-6,
 urban processes,aerosols,-6,
 urban processes,fire_exting,-6,
