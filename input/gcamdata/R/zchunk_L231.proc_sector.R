@@ -157,7 +157,8 @@ module_emissions_L231.proc_sector <- function(command, ...) {
       # Interpolate to all years
       repeat_add_columns(tibble(year = c(HISTORICAL_YEARS, MODEL_FUTURE_YEARS))) %>%
       left_join(A31.globaltech_shrwt, by = c("supplysector", "subsector", "technology", "year")) %>%
-      mutate(share.weight = approx_fun(year, value = share.weight, rule = 1)) %>%
+      mutate(share.weight = if_else(technology == "landfill captured" & year <= 2020, 0,
+                                    approx_fun(year, value = share.weight, rule = 1))) %>%
       filter(year %in% MODEL_YEARS) %>%
       select(sector.name = supplysector, subsector.name = subsector, technology, year, share.weight)
 

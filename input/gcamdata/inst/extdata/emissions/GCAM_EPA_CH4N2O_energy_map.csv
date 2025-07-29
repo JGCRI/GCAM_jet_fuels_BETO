@@ -124,7 +124,8 @@ industrial processes,HCFC_22_Prod,HCFC_22_Prod,Industrial processes Other
 industrial processes,nitric acid,nitric acid,Industrial processes Nitric
 industrial processes,other industrial processes,other industrial processes,Industrial processes Other
 industrial processes,solvents,solvents,Industrial processes Other
-landfills,landfills,landfills,Waste
+landfills,landfill uncaptured,landfill uncaptured,Waste
+landfills,landfill captured,landfill captured,Waste
 urban processes,wastewater,wastewater,Waste
 urban processes,waste_incineration,waste_incineration,Waste
 comm cooling,gas,gas,Combustion_general
