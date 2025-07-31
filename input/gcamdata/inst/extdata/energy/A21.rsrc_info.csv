@@ -5,4 +5,4 @@
 # ----------
 resource,market,output-unit,price-unit,1971,2015
 DDGS,regional,Mt,1975$/kg,0.077,0.077
-captured CH4,regional,Tg,1975$/Tg,1,1
+captured methane,regional,Tg,1975$/Tg,1,1
