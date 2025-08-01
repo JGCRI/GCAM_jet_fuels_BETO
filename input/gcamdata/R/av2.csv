@@ -1,0 +1,4 @@
+constants.R:                                   "aviation fuels")
+zchunk_batch_ag_en_freight_inputs_xml.R:             supplysector = "aviation fuels",
+zchunk_L226.en_distribution.R:             supplysector = "aviation fuels",
+zchunk_L271.ag_en_freight_inputs.R:                                    supplysector != "aviation fuels",

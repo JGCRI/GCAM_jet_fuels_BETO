@@ -9,10 +9,10 @@ sector,fuel,supplysector,subsector,technology,minicam.energy.input,calibration,U
 trn_domestic air,refined liquids,transportation,refined liquids,refined liquids,aviation fuels,input,trn_air
 trn_domestic ship,coal,transportation,coal,coal,delivered coal,input,trn_domestic ship
 trn_domestic ship,gas,transportation,gas,gas,delivered gas,input,trn_domestic ship
-trn_domestic ship,refined liquids,transportation,refined liquids,refined liquids,refined liquids enduse,input,trn_domestic ship
+trn_domestic ship,refined liquids,transportation,refined liquids,refined liquids,domestic shipping fuels,input,trn_domestic ship
 trn_international air,refined liquids,transportation,refined liquids,refined liquids,aviation fuels,input,trn_air
 trn_international ship,coal,transportation,coal,coal,delivered coal,input,trn_international ship
-trn_international ship,refined liquids,transportation,refined liquids,refined liquids,refined liquids enduse,input,trn_international ship
+trn_international ship,refined liquids,transportation,refined liquids,refined liquids,international shipping fuels,input,trn_international ship
 trn_rail,coal,transportation,coal,coal,delivered coal,input,trn_road and rail
 trn_rail,electricity,transportation,electricity,electricity,elect_td_trn,input,trn_road and rail
 trn_rail,refined liquids,transportation,refined liquids,refined liquids,refined liquids enduse,input,trn_road and rail
