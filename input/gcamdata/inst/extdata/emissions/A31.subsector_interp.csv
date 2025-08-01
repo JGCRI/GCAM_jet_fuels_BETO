@@ -5,8 +5,8 @@
 # ----------
 supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
 urban processes,waste_incineration,share-weight,final-calibration-year,end-year,,fixed
-landfills,landfill uncaptured,share-weight,final-calibration-year,end-year,,fixed
-landfills,landfill captured,share-weight,final-calibration-year,end-year,,fixed
+landfills,landfill uncaptured,share-weight,final-calibration-year,end-year,,linear
+landfills,landfill captured,share-weight,final-calibration-year,end-year,,linear
 urban processes,wastewater,share-weight,final-calibration-year,end-year,,fixed
 urban processes,aerosols,share-weight,final-calibration-year,end-year,,fixed
 urban processes,fire_exting,share-weight,final-calibration-year,end-year,,fixed
