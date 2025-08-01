@@ -23,4 +23,3 @@ refined liquids enduse,biodiesel,share-weight,final-calibration-year,2020,,fixed
 refined liquids enduse,biodiesel,share-weight,2020,end-year,,linear
 refined liquids industrial,refined liquids industrial,share-weight,final-calibration-year,end-year,,linear
 refined liquids enduse,renewable diesel,share-weight,final-calibration-year,end-year,,linear
-shipping fuels,liquids,share-weight,final-calibration-year,end-year,,linear
