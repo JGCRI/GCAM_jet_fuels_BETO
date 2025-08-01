@@ -9,6 +9,70 @@
 # Column types: cccccnnnnnn
 # ----------
 region,supplysector,subsector,technology,minicam.energy.input,price.unit.conversion,1971,1990,2000,2015,2100
+USA,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,shipping fuels,liquids,liquids,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 USA,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Eastern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Northern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800

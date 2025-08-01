@@ -19,3 +19,4 @@ aviation fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fix
 aviation fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 aviation fuels,ETJ,corn ETJ,share-weight,initial-future-year,end-year,fixed
 aviation fuels,refined oil,refined oil,share-weight,final-calibration-year,end-year,fixed
+shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed

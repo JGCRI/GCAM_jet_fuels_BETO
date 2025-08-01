@@ -27,3 +27,4 @@ refined liquids enduse,biodiesel,start-year,,0.5
 refined liquids industrial,refined liquids industrial,start-year,,1
 refined liquids enduse,renewable diesel,start-year,,0
 refined liquids enduse,renewable diesel,initial-future-year,,0.5
+shipping fuels,liquids,start-year,,1
