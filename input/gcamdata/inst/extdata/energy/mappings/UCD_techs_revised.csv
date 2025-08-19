@@ -205,8 +205,8 @@ Freight,Truck,Truck (>32t),FCEV,Hydrogen,trn_road and rail,hydrogen,trn_freight_
 Freight,Truck,Truck,FCEV,Hydrogen,trn_road and rail,hydrogen,trn_freight_road,Medium truck,FCEV,H2 retail dispensing,H2 retail dispensing
 Passenger,Bus,All,Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_pass_road,Bus,Hybrid Liquids,refined liquids enduse,refined liquids enduse
 Freight,Rail,All,Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight,Freight Rail,Hybrid Liquids,refined liquids enduse,refined liquids enduse
-Freight,Ship Domestic,All,Hybrid Liquids,Liquids,trn_domestic ship,refined liquids,trn_freight,Domestic Ship,Hybrid Liquids,refined liquids enduse,refined liquids enduse
-Freight,Ship International,All,Hybrid Liquids,Liquids,trn_international ship,refined liquids,trn_shipping_intl,International Ship,Hybrid Liquids,refined liquids enduse,refined liquids enduse
+Freight,Ship Domestic,All,Hybrid Liquids,Liquids,trn_domestic ship,refined liquids,trn_freight,Domestic Ship,Hybrid Liquids,domestic shipping fuels,domestic shipping fuels
+Freight,Ship International,All,Hybrid Liquids,Liquids,trn_international ship,refined liquids,trn_shipping_intl,International Ship,Hybrid Liquids,international shipping fuels,international shipping fuels
 Freight,Truck,Truck (0-2.7t),Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight_road,Light truck,Hybrid Liquids,refined liquids enduse,refined liquids gasoline pool
 Freight,Truck,Truck (2.7-4.5t),Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight_road,Medium truck,Hybrid Liquids,refined liquids enduse,refined liquids enduse
 Freight,Truck,Truck (4.5-12t),Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight_road,Medium truck,Hybrid Liquids,refined liquids enduse,refined liquids enduse

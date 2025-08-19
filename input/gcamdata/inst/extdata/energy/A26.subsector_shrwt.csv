@@ -33,3 +33,5 @@ domestic shipping fuels,gas,start-year,,0
 domestic shipping fuels,gas,initial-future-year,,0.5
 international shipping fuels,gas,start-year,,0
 international shipping fuels,gas,initial-future-year,,0.5
+domestic shipping fuels,hybrid liquids,start-year,,0
+international shipping fuels,hybrid liquids,initial-future-year,,0.5

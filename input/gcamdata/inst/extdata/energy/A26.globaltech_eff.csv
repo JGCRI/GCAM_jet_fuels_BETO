@@ -34,10 +34,8 @@ refined liquids enduse,renewable diesel,palmfruit HEFA,regional palmfruit HEFA r
 refined liquids enduse,renewable diesel,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
 domestic shipping fuels,liquids,liquids,regional refined oil,1,1,1
-domestic shipping fuels,liquids,liquids,regional refined oil,1,1,1
 international shipping fuels,liquids,liquids,regional refined oil,1,1,1
-international shipping fuels,liquids,liquids,regional refined oil,1,1,1
-domestic shipping fuels,gas,gas,regional natural gas,1,1,1
-domestic shipping fuels,gas,gas,regional natural gas,1,1,1
+domestic shipping fuels,gas,gas,gas processing,1,1,1
 international shipping fuels,gas,gas,gas processing,1,1,1
-international shipping fuels,gas,gas,gas processing,1,1,1
+domestic shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1
+international shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1

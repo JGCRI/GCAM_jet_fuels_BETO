@@ -23,3 +23,5 @@ domestic shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-
 domestic shipping fuels,gas,gas,share-weight,final-calibration-year,end-year,fixed
 international shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
 international shipping fuels,gas,gas,share-weight,final-calibration-year,end-year,fixed
+domestic shipping fuels,hybrid liquids,hybrid liquids,share-weight,final-calibration-year,end-year,fixed
+international shipping fuels,hybrid liquids,hybrid liquids,share-weight,final-calibration-year,end-year,fixed
