@@ -36,8 +36,26 @@ refined liquids enduse,renewable diesel,palmfruit HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,oilcrop HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,0,0,0.5,0.5
 domestic shipping fuels,liquids,liquids,1,1,1,1
+domestic shipping fuels,liquids,oilcrop biodiesel,0,0,1,1
+domestic shipping fuels,liquids,rapeseed biodiesel,0,0,1,1
+domestic shipping fuels,liquids,palmfruit biodiesel,0,0,1,1
+domestic shipping fuels,liquids,soybean biodiesel,0,0,1,1
+domestic shipping fuels,liquids,soybean HEFA,0,0,1,1
+domestic shipping fuels,liquids,rapeseed HEFA,0,0,1,1
+domestic shipping fuels,liquids,palmfruit HEFA,0,0,1,1
+domestic shipping fuels,liquids,oilcrop HEFA,0,0,1,1
+domestic shipping fuels,liquids,corn ethanol renewable diesel,0,0,1,1
 domestic shipping fuels,gas,gas,0,0,1,1
-international shipping fuels,liquids,liquids,1,1,1,1
-international shipping fuels,gas,gas,0,0,1,1
 domestic shipping fuels,hybrid liquids,hybrid liquids,0,0,0,1
+international shipping fuels,liquids,liquids,1,1,1,1
+international shipping fuels,liquids,oilcrop biodiesel,0,0,1,1
+international shipping fuels,liquids,rapeseed biodiesel,0,0,1,1
+international shipping fuels,liquids,palmfruit biodiesel,0,0,1,1
+international shipping fuels,liquids,soybean biodiesel,0,0,1,1
+international shipping fuels,liquids,soybean HEFA,0,0,1,1
+international shipping fuels,liquids,rapeseed HEFA,0,0,1,1
+international shipping fuels,liquids,palmfruit HEFA,0,0,1,1
+international shipping fuels,liquids,oilcrop HEFA,0,0,1,1
+international shipping fuels,liquids,corn ethanol renewable diesel,0,0,1,1
+international shipping fuels,gas,gas,0,0,1,1
 international shipping fuels,hybrid liquids,hybrid liquids,0,0,0,1

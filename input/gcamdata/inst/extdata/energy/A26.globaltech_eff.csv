@@ -2,7 +2,7 @@
 # Title: Final energy delivery efficiencies in global technology database
 # Units: Fraction
 # Description: Final energy delivery efficiency in global technology database, many of which are over-written in stub technologies
-# Column types: ccccnnn 
+# Column types: ccccnnn
 # ----------
 supplysector,subsector,technology,minicam.energy.input,1971,2005,2100
 backup_electricity,gas,gas (steam/CT),wholesale gas,0.377,0.377,0.428
@@ -34,8 +34,26 @@ refined liquids enduse,renewable diesel,palmfruit HEFA,regional palmfruit HEFA r
 refined liquids enduse,renewable diesel,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
 domestic shipping fuels,liquids,liquids,regional refined oil,1,1,1
-international shipping fuels,liquids,liquids,regional refined oil,1,1,1
+domestic shipping fuels,liquids,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
+domestic shipping fuels,liquids,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
+domestic shipping fuels,liquids,palmfruit biodiesel,regional palmfruit biodiesel,1,1,1
+domestic shipping fuels,liquids,soybean biodiesel,regional soybean biodiesel,1,1,1
+domestic shipping fuels,liquids,soybean HEFA,regional soybean HEFA renewable diesel,1,1,1
+domestic shipping fuels,liquids,rapeseed HEFA,regional rapeseed HEFA renewable diesel,1,1,1
+domestic shipping fuels,liquids,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
+domestic shipping fuels,liquids,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
+domestic shipping fuels,liquids,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
 domestic shipping fuels,gas,gas,gas processing,1,1,1
-international shipping fuels,gas,gas,gas processing,1,1,1
 domestic shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1
+international shipping fuels,liquids,liquids,regional refined oil,1,1,1
+international shipping fuels,liquids,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
+international shipping fuels,liquids,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
+international shipping fuels,liquids,palmfruit biodiesel,regional palmfruit biodiesel,1,1,1
+international shipping fuels,liquids,soybean biodiesel,regional soybean biodiesel,1,1,1
+international shipping fuels,liquids,soybean HEFA,regional soybean HEFA renewable diesel,1,1,1
+international shipping fuels,liquids,rapeseed HEFA,regional rapeseed HEFA renewable diesel,1,1,1
+international shipping fuels,liquids,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
+international shipping fuels,liquids,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
+international shipping fuels,liquids,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
+international shipping fuels,gas,gas,gas processing,1,1,1
 international shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1

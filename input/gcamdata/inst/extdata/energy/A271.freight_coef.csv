@@ -9,10 +9,6 @@
 # Column types: cccccnnnnnn
 # ----------
 region,supplysector,subsector,technology,minicam.energy.input,price.unit.conversion,1971,1990,2000,2015,2100
-USA,domestic shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,domestic shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-USA,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
 USA,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Eastern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Northern,aviation fuels,ETJ,corn ETJ,trn_freight,4.52E-04,2800,2800,2800,2800,2800
@@ -5058,3 +5054,739 @@ Southeast Asia,refined liquids enduse,renewable diesel,corn ethanol renewable di
 Taiwan,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Argentina,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Colombia,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Brazil,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Canada,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+China,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-12,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-15,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+India,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Japan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Mexico,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Middle East,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Russia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Africa,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Korea,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Argentina,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Colombia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+USA,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Brazil,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Canada,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+China,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-12,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-15,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+India,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Japan,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Mexico,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Middle East,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Russia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Africa,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Asia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Korea,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Argentina,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Colombia,domestic shipping fuels,hybrid liquids,hybrid liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+USA,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,palmfruit HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,rapeseed HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,oilcrop biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,rapeseed biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,palmfruit biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,soybean biodiesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,soybean HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Brazil,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Canada,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+China,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-12,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+EU-15,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+India,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Japan,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Mexico,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Middle East,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Russia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Africa,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Asia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+South Korea,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Argentina,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+Colombia,domestic shipping fuels,liquids,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Brazil,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Canada,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+China,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-12,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-15,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+India,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Japan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Mexico,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Middle East,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Russia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Africa,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Korea,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Argentina,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Colombia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+USA,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Brazil,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Canada,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+China,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-12,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-15,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+India,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Japan,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Mexico,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Middle East,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Russia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Africa,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Asia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Korea,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Argentina,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Colombia,international shipping fuels,hybrid liquids,hybrid liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+USA,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,palmfruit HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,rapeseed HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,oilcrop biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,rapeseed biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,palmfruit biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,soybean biodiesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,soybean HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Eastern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Northern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Southern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Africa_Western,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Australia_NZ,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Brazil,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Canada,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central America and Caribbean,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Central Asia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+China,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-12,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+EU-15,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Eastern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Europe_Non_EU,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+European Free Trade Association,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+India,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Indonesia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Japan,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Mexico,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Middle East,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Pakistan,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Russia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Africa,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Northern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South America_Southern,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Asia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+South Korea,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Southeast Asia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Taiwan,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Argentina,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+Colombia,international shipping fuels,liquids,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Brazil,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Canada,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+China,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-12,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-15,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+India,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Japan,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Mexico,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Middle East,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Russia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Africa,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Asia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Korea,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Argentina,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Colombia,international shipping fuels,gas,gas,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
