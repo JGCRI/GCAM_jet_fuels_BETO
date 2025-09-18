@@ -20,26 +20,25 @@ aviation fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 aviation fuels,ETJ,corn ETJ,share-weight,initial-future-year,end-year,fixed
 aviation fuels,refined oil,refined oil,share-weight,final-calibration-year,end-year,fixed
 domestic shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
-domestic shipping fuels,liquids,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,soybean HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,gas,gas,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,biodiesel,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,HEFA,soybean HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,hybrid liquids,hybrid liquids,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
-international shipping fuels,liquids,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,soybean HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,biodiesel,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,HEFA,soybean HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,gas,gas,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,hybrid liquids,hybrid liquids,share-weight,initial-future-year,end-year,fixed

@@ -28,12 +28,24 @@ refined liquids industrial,refined liquids industrial,start-year,,1
 refined liquids enduse,renewable diesel,start-year,,0
 refined liquids enduse,renewable diesel,initial-future-year,,0.5
 domestic shipping fuels,liquids,start-year,,1
+domestic shipping fuels,hybrid liquids,start-year,,0
+domestic shipping fuels,hybrid liquids,initial-future-year,,0.5
+domestic shipping fuels,biodiesel,start-year,,0
+domestic shipping fuels,biodiesel,initial-future-year,,0.5
+domestic shipping fuels,HEFA,start-year,,0
+domestic shipping fuels,HEFA,initial-future-year,,0.5
+domestic shipping fuels,corn ethanol renewable diesel,start-year,,0
+domestic shipping fuels,corn ethanol renewable diesel,initial-future-year,,0.5
 international shipping fuels,liquids,start-year,,1
-domestic shipping fuels,gas,start-year,,0
-domestic shipping fuels,gas,initial-future-year,,0.5
 international shipping fuels,gas,start-year,,0
 international shipping fuels,gas,initial-future-year,,0.5
 international shipping fuels,hybrid liquids,start-year,,0
 international shipping fuels,hybrid liquids,initial-future-year,,0.5
-domestic shipping fuels,hybrid liquids,start-year,,0
-domestic shipping fuels,hybrid liquids,initial-future-year,,0.5
+international shipping fuels,biodiesel,start-year,,0
+international shipping fuels,biodiesel,initial-future-year,,0.5
+international shipping fuels,HEFA,start-year,,0
+international shipping fuels,HEFA,initial-future-year,,0.5
+international shipping fuels,corn ethanol renewable diesel,start-year,,0
+international shipping fuels,corn ethanol renewable diesel,initial-future-year,,0.5
+
+
