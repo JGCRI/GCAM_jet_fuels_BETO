@@ -34,35 +34,3 @@ USA,cellulosic ethanol,cellulosic ethanol,cellulosic ethanol (residue bio),Blend
 USA,soybean biodiesel,soybean biodiesel,soybean biodiesel,regional biomassOil soybean,1.026,1.012,1.008,1.003,0.999,0.994,0.989,0.989
 USA,soybean biodiesel,soybean biodiesel,soybean biodiesel,wholesale gas,0.05767,0.05767,0.05767,0.05767,0.05767,0.05767,0.05767,0.05767
 USA,soybean biodiesel,soybean biodiesel,soybean biodiesel,elect_td_ind,0.008,0.008,0.008,0.008,0.008,0.008,0.008,0.008
-USA,landfills,landfill captured,landfill captured,captured methane, 0.00000503 , 0.00000503 , 0.00000503 , 0.00000503 , 0.00000503 , 0.00000503 , 0.00000503 , 0.00000503 
-Africa_Eastern,landfills,landfill captured,landfill captured,captured methane, 0.00007149 , 0.00007149 , 0.00007149 , 0.00007149 , 0.00007149 , 0.00007149 , 0.00007149 , 0.00007149 
-Africa_Northern,landfills,landfill captured,landfill captured,captured methane, 0.00002381 , 0.00002381 , 0.00002381 , 0.00002381 , 0.00002381 , 0.00002381 , 0.00002381 , 0.00002381 
-Africa_Southern,landfills,landfill captured,landfill captured,captured methane, 0.00000576 , 0.00000576 , 0.00000576 , 0.00000576 , 0.00000576 , 0.00000576 , 0.00000576 , 0.00000576 
-Africa_Western,landfills,landfill captured,landfill captured,captured methane, 0.00001830 , 0.00001830 , 0.00001830 , 0.00001830 , 0.00001830 , 0.00001830 , 0.00001830 , 0.00001830 
-Australia_NZ,landfills,landfill captured,landfill captured,captured methane, 0.00001822 , 0.00001822 , 0.00001822 , 0.00001822 , 0.00001822 , 0.00001822 , 0.00001822 , 0.00001822 
-Brazil,landfills,landfill captured,landfill captured,captured methane, 0.00005691 , 0.00005691 , 0.00005691 , 0.00005691 , 0.00005691 , 0.00005691 , 0.00005691 , 0.00005691 
-Canada,landfills,landfill captured,landfill captured,captured methane, 0.00002388 , 0.00002388 , 0.00002388 , 0.00002388 , 0.00002388 , 0.00002388 , 0.00002388 , 0.00002388 
-Central America and Caribbean,landfills,landfill captured,landfill captured,captured methane, 0.00004698 , 0.00004698 , 0.00004698 , 0.00004698 , 0.00004698 , 0.00004698 , 0.00004698 , 0.00004698 
-Central Asia,landfills,landfill captured,landfill captured,captured methane, 0.00006140 , 0.00006140 , 0.00006140 , 0.00006140 , 0.00006140 , 0.00006140 , 0.00006140 , 0.00006140 
-China,landfills,landfill captured,landfill captured,captured methane, 0.00000655 , 0.00000655 , 0.00000655 , 0.00000655 , 0.00000655 , 0.00000655 , 0.00000655 , 0.00000655 
-EU-12,landfills,landfill captured,landfill captured,captured methane, 0.00001740 , 0.00001740 , 0.00001740 , 0.00001740 , 0.00001740 , 0.00001740 , 0.00001740 , 0.00001740 
-EU-15,landfills,landfill captured,landfill captured,captured methane, 0.00000345 , 0.00000345 , 0.00000345 , 0.00000345 , 0.00000345 , 0.00000345 , 0.00000345 , 0.00000345 
-Europe_Eastern,landfills,landfill captured,landfill captured,captured methane, 0.00000936 , 0.00000936 , 0.00000936 , 0.00000936 , 0.00000936 , 0.00000936 , 0.00000936 , 0.00000936 
-Europe_Non_EU,landfills,landfill captured,landfill captured,captured methane, 0.00001183 , 0.00001183 , 0.00001183 , 0.00001183 , 0.00001183 , 0.00001183 , 0.00001183 , 0.00001183 
-European Free Trade Association,landfills,landfill captured,landfill captured,captured methane, 0.00064755 , 0.00064755 , 0.00064755 , 0.00064755 , 0.00064755 , 0.00064755 , 0.00064755 , 0.00064755 
-India,landfills,landfill captured,landfill captured,captured methane, 0.00000748 , 0.00000748 , 0.00000748 , 0.00000748 , 0.00000748 , 0.00000748 , 0.00000748 , 0.00000748 
-Indonesia,landfills,landfill captured,landfill captured,captured methane, 0.00002467 , 0.00002467 , 0.00002467 , 0.00002467 , 0.00002467 , 0.00002467 , 0.00002467 , 0.00002467 
-Japan,landfills,landfill captured,landfill captured,captured methane, 0.00016789 , 0.00016789 , 0.00016789 , 0.00016789 , 0.00016789 , 0.00016789 , 0.00016789 , 0.00016789 
-Mexico,landfills,landfill captured,landfill captured,captured methane, 0.00001247 , 0.00001247 , 0.00001247 , 0.00001247 , 0.00001247 , 0.00001247 , 0.00001247 , 0.00001247 
-Middle East,landfills,landfill captured,landfill captured,captured methane, 0.00001207 , 0.00001207 , 0.00001207 , 0.00001207 , 0.00001207 , 0.00001207 , 0.00001207 , 0.00001207 
-Pakistan,landfills,landfill captured,landfill captured,captured methane, 0.00010580 , 0.00010580 , 0.00010580 , 0.00010580 , 0.00010580 , 0.00010580 , 0.00010580 , 0.00010580 
-Russia,landfills,landfill captured,landfill captured,captured methane, 0.00000773 , 0.00000773 , 0.00000773 , 0.00000773 , 0.00000773 , 0.00000773 , 0.00000773 , 0.00000773 
-South Africa,landfills,landfill captured,landfill captured,captured methane, 0.00007154 , 0.00007154 , 0.00007154 , 0.00007154 , 0.00007154 , 0.00007154 , 0.00007154 , 0.00007154 
-South America_Northern,landfills,landfill captured,landfill captured,captured methane, 0.00011689 , 0.00011689 , 0.00011689 , 0.00011689 , 0.00011689 , 0.00011689 , 0.00011689 , 0.00011689 
-South America_Southern,landfills,landfill captured,landfill captured,captured methane, 0.00006973 , 0.00006973 , 0.00006973 , 0.00006973 , 0.00006973 , 0.00006973 , 0.00006973 , 0.00006973 
-South Asia,landfills,landfill captured,landfill captured,captured methane, 0.00015526 , 0.00015526 , 0.00015526 , 0.00015526 , 0.00015526 , 0.00015526 , 0.00015526 , 0.00015526 
-South Korea,landfills,landfill captured,landfill captured,captured methane, 0.00091852 , 0.00091852 , 0.00091852 , 0.00091852 , 0.00091852 , 0.00091852 , 0.00091852 , 0.00091852 
-Southeast Asia,landfills,landfill captured,landfill captured,captured methane, 0.00001759 , 0.00001759 , 0.00001759 , 0.00001759 , 0.00001759 , 0.00001759 , 0.00001759 , 0.00001759 
-Taiwan,landfills,landfill captured,landfill captured,captured methane, 0.00022537 , 0.00022537 , 0.00022537 , 0.00022537 , 0.00022537 , 0.00022537 , 0.00022537 , 0.00022537 
-Argentina,landfills,landfill captured,landfill captured,captured methane, 0.00020938 , 0.00020938 , 0.00020938 , 0.00020938 , 0.00020938 , 0.00020938 , 0.00020938 , 0.00020938 
-Colombia,landfills,landfill captured,landfill captured,captured methane, 0.00006359 , 0.00006359 , 0.00006359 , 0.00006359 , 0.00006359 , 0.00006359 , 0.00006359 , 0.00006359 
