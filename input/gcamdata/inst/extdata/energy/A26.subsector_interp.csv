@@ -27,10 +27,8 @@ domestic shipping fuels,liquids,share-weight,final-calibration-year,end-year,,li
 domestic shipping fuels,biodiesel,share-weight,2020,end-year,,linear
 domestic shipping fuels,HEFA,share-weight,2020,end-year,,linear
 domestic shipping fuels,corn ethanol renewable diesel,share-weight,2020,end-year,,linear
-domestic shipping fuels,hybrid liquids,share-weight,2050,end-year,,linear
 international shipping fuels,liquids,share-weight,final-calibration-year,end-year,,linear
 international shipping fuels,biodiesel,share-weight,2020,end-year,,linear
 international shipping fuels,HEFA,share-weight,2020,end-year,,linear
 international shipping fuels,corn ethanol renewable diesel,share-weight,2020,end-year,,linear
 international shipping fuels,gas,share-weight,final-calibration-year,end-year,,linear
-international shipping fuels,hybrid liquids,share-weight,2050,end-year,,linear

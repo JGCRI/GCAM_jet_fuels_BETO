@@ -16,6 +16,7 @@ elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,1,1,1
 gas pipeline,gas pipeline,gas pipeline,gas processing,1,1,1
 wholesale gas,wholesale gas,wholesale gas,gas pipeline,1,1,1
 delivered gas,delivered gas,delivered gas,gas pipeline,1,1,1
+LNG,LNG,LNG,gas pipeline,0.922,0.922,0.922
 aviation fuels,refined oil,refined oil,regional refined jet,1,1,1
 aviation fuels,HEFA,soybean HEFA,regional soybean HEFA jet fuel,1,1,1
 aviation fuels,HEFA,rapeseed HEFA,regional rapeseed HEFA jet fuel,1,1,1
@@ -43,7 +44,6 @@ domestic shipping fuels,HEFA,rapeseed HEFA,regional rapeseed HEFA renewable dies
 domestic shipping fuels,HEFA,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
 domestic shipping fuels,HEFA,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
-domestic shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1
 international shipping fuels,liquids,liquids,regional refined oil,1,1,1
 international shipping fuels,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 international shipping fuels,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
@@ -54,5 +54,4 @@ international shipping fuels,HEFA,rapeseed HEFA,regional rapeseed HEFA renewable
 international shipping fuels,HEFA,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
 international shipping fuels,HEFA,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
-international shipping fuels,gas,gas,gas processing,1,1,1
-international shipping fuels,hybrid liquids,hybrid liquids,regional refined oil,1,1,1
+international shipping fuels,gas,gas,LNG,1,1,1

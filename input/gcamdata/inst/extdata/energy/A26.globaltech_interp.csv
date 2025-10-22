@@ -13,6 +13,7 @@ refined liquids enduse,renewable diesel,rapeseed HEFA,share-weight,final-calibra
 refined liquids enduse,renewable diesel,palmfruit HEFA,share-weight,final-calibration-year,2050,s-curve
 refined liquids enduse,renewable diesel,oilcrop HEFA,share-weight,final-calibration-year,2050,s-curve
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,share-weight,final-calibration-year,end-year,s-curve
+LNG,LNG,LNG,share-weight,initial-future-year,end-year,fixed
 aviation fuels,HEFA,soybean HEFA,share-weight,initial-future-year,end-year,fixed
 aviation fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
 aviation fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
@@ -29,7 +30,6 @@ domestic shipping fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-
 domestic shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,hybrid liquids,hybrid liquids,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
 international shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
@@ -41,4 +41,3 @@ international shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-yea
 international shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,gas,gas,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,hybrid liquids,hybrid liquids,share-weight,initial-future-year,end-year,fixed
