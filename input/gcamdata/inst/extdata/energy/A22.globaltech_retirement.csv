@@ -54,4 +54,6 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,initial-future-y
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,initial-future-year,45,,30,0.3,-0.1,10
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,initial-future-year,45,,30,0.3,-0.1,10
 corn ETJ joint,corn ETJ joint,corn ETJ joint,initial-future-year,45,,30,0.3,-0.1,10
-captured methane,captured methane,captured methane,initial-future-year,15,,30,0.3,-0.1,10
+captured methane,captured methane,captured methane,initial-future-year,30,,15,0.3,-0.1,10
+LFG FT,LFG FT,LFG FT,final-calibration-year,45,,25,0.2,-0.1,10
+

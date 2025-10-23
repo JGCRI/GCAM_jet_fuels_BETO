@@ -8,7 +8,6 @@ supplysector,subsector,logit.exponent,logit.type
 gas processing,natural gas,-6,
 gas processing,biomass gasification,-6,
 gas processing,coal gasification,-6,
-gas processing,captured LFG,-6,
 nuclearFuelGenII,enrichedUranium,-6,
 nuclearFuelGenIII,enrichedUranium,-6,
 refining,oil refining,-6,absolute-cost-logit
@@ -39,4 +38,5 @@ corn ETJ joint,corn ETJ joint,-6,
 corn ethanol renewable diesel,corn ethanol renewable diesel,-6,
 corn ETJ jet fuel,corn ETJ jet fuel,-6,
 captured methane,captured methane,-6,
+LFG FT,LFG FT,-6,
 

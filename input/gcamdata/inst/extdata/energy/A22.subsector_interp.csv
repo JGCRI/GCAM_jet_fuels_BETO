@@ -7,7 +7,6 @@ supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.functio
 gas processing,natural gas,share-weight,final-calibration-year,end-year,,linear
 gas processing,biomass gasification,share-weight,final-calibration-year,end-year,,linear
 gas processing,coal gasification,share-weight,final-calibration-year,end-year,,linear
-gas processing,captured LFG,share-weight,final-calibration-year,end-year,,linear
 nuclearFuelGenII,enrichedUranium,share-weight,final-calibration-year,end-year,,linear
 nuclearFuelGenIII,enrichedUranium,share-weight,final-calibration-year,end-year,,linear
 refining,oil refining,share-weight,final-calibration-year,end-year,,fixed
@@ -30,3 +29,4 @@ corn ETJ joint,corn ETJ joint,share-weight,final-calibration-year,end-year,,line
 corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,final-calibration-year,end-year,,linear
 corn ETJ jet fuel,corn ETJ jet fuel,share-weight,final-calibration-year,end-year,,linear
 captured methane,captured methane,share-weight,final-calibration-year,end-year,,linear
+LFG FT,LFG FT,share-weight,final-calibration-year,end-year,,linear
