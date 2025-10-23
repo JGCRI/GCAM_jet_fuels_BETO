@@ -40,19 +40,21 @@ domestic shipping fuels,biodiesel,oilcrop biodiesel,non-energy,1.1,1.1,1.1,1.1
 domestic shipping fuels,biodiesel,rapeseed biodiesel,non-energy,1.1,1.1,1.1,1.1
 domestic shipping fuels,biodiesel,palmfruit biodiesel,non-energy,1.1,1.1,1.1,1.1
 domestic shipping fuels,biodiesel,soybean biodiesel,non-energy,1.1,1.1,1.1,1.1
-domestic shipping fuels,HEFA,soybean HEFA,non-energy,1.1,1.1,1.1,1.1
-domestic shipping fuels,HEFA,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
-domestic shipping fuels,HEFA,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
-domestic shipping fuels,HEFA,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
-domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,soybean HEFA,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,LFG FT,non-energy,1.1,1.1,1.1,1.1
+domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,liquids,liquids,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,biodiesel,oilcrop biodiesel,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,biodiesel,rapeseed biodiesel,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,biodiesel,palmfruit biodiesel,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,biodiesel,soybean biodiesel,non-energy,1.1,1.1,1.1,1.1
-international shipping fuels,HEFA,soybean HEFA,non-energy,1.1,1.1,1.1,1.1
-international shipping fuels,HEFA,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
-international shipping fuels,HEFA,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
-international shipping fuels,HEFA,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
-international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,soybean HEFA,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,rapeseed HEFA,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,palmfruit HEFA,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,oilcrop HEFA,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,LFG FT,non-energy,1.1,1.1,1.1,1.1
+international shipping fuels,renewable diesel,corn ethanol renewable diesel,non-energy,1.1,1.1,1.1,1.1
 international shipping fuels,gas,gas,non-energy,1.1,1.1,1.1,1.1

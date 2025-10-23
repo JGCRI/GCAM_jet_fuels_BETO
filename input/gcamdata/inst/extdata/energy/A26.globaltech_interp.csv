@@ -25,19 +25,21 @@ domestic shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-
 domestic shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,biodiesel,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,HEFA,soybean HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,soybean HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,LFG FT,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
 international shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,soybean biodiesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,HEFA,soybean HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,HEFA,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,HEFA,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,soybean HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,rapeseed HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,palmfruit HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,LFG FT,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,gas,gas,share-weight,initial-future-year,end-year,fixed

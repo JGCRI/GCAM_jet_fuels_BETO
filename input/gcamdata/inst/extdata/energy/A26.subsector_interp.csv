@@ -25,10 +25,8 @@ refined liquids industrial,refined liquids industrial,share-weight,final-calibra
 refined liquids enduse,renewable diesel,share-weight,final-calibration-year,end-year,,linear
 domestic shipping fuels,liquids,share-weight,final-calibration-year,end-year,,linear
 domestic shipping fuels,biodiesel,share-weight,2020,end-year,,linear
-domestic shipping fuels,HEFA,share-weight,2020,end-year,,linear
-domestic shipping fuels,corn ethanol renewable diesel,share-weight,2020,end-year,,linear
+domestic shipping fuels,renewable diesel,share-weight,2020,end-year,,linear
 international shipping fuels,liquids,share-weight,final-calibration-year,end-year,,linear
 international shipping fuels,biodiesel,share-weight,2020,end-year,,linear
-international shipping fuels,HEFA,share-weight,2020,end-year,,linear
-international shipping fuels,corn ethanol renewable diesel,share-weight,2020,end-year,,linear
+international shipping fuels,renewable diesel,share-weight,2020,end-year,,linear
 international shipping fuels,gas,share-weight,final-calibration-year,end-year,,linear
