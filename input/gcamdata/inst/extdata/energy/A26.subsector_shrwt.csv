@@ -18,7 +18,7 @@ gas pipeline,gas pipeline,start-year,,1
 wholesale gas,wholesale gas,start-year,,1
 delivered gas,delivered gas,start-year,,1
 LNG,LNG,start-year,,0
-LNG,LNG,2025,,1
+LNG,LNG,initial-future-year,,1
 aviation fuels,refined oil,start-year,,1
 aviation fuels,HEFA,1975,,0
 aviation fuels,HEFA,initial-future-year,,0.5

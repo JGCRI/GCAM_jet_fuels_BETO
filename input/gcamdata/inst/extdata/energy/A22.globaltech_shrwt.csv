@@ -11,7 +11,7 @@ cellulosic ethanol,cellulosic ethanol,cellulosic ethanol CCS level 2,0,0,0,0,0,0
 gas processing,natural gas,natural gas,1,1,1,1,1,1
 gas processing,biomass gasification,biomass gasification,1,1,1,1,1,1
 gas processing,coal gasification,coal gasification,1,1,1,1,1,1
-gas processing,biomass gasification,captured LFG,0,0,1,1,1,1
+gas processing,biomass gasification,captured LFG,0,0,.5,.75,1,1
 nuclearFuelGenII,enrichedUranium,enrichedUranium,1,1,1,1,1,1
 nuclearFuelGenIII,enrichedUranium,enrichedUranium,1,1,1,1,1,1
 refining,oil refining,oil refining,1,1,1,1,1,1
