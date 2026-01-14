@@ -7,7 +7,7 @@ supplysector,subsector,technology,minicam.non.energy.input,1971,2010,2015,2020,2
 gas processing,natural gas,natural gas,non-energy,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,,,
 gas processing,biomass gasification,biomass gasification,non-energy,7.0300865,7.0300865,6.7322,6.4763,6.2566,6.0679,5.9059,5.7668,5.6473,5.5447,,0.7,0.03,
 gas processing,coal gasification,coal gasification,non-energy,5.285779323,5.285779323,5.0618,4.8694,4.7042,4.5624,4.4405,4.3359,4.2461,4.169,,0.7,0.03,
-gas processing,biomass gasification,captured LFG,non-energy,10.38,10.22,10.02,9.74,9.38,8.94,8.42,7.82,7.14,6.38,5.19,0.7,0.03,
+gas processing,biomass gasification,captured LFG,non-energy,5.19,5.19,5.19,4.449,3.178,1.816,0.778,0.222,0.200,0.2,,0.7,0.03,
 nuclearFuelGenII,enrichedUranium,enrichedUranium,non-energy,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,,,
 nuclearFuelGenIII,enrichedUranium,enrichedUranium,non-energy,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,0.124464,,,
 refining,oil refining,oil refining,non-energy,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,,,
