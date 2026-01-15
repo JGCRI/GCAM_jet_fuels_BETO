@@ -91,8 +91,10 @@ corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewab
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ joint,1,1,1
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,jet credit ETJ,1,1,1
 captured methane,captured methane,captured methane,misc emissions sources,1,1,1
-captured methane,captured methane,captured methane,methane credit,0.000166,0.000166,0.000166
 methanol,e-methanol,e-methanol,H2 central production,1.16,1.16,1.16
 methanol,e-methanol,e-methanol,elect_td_ind,0.054,0.054,0.054
 methanol,bio-methanol,bio-methanol,regional biomass,1.931,1.931,1.931
 methanol,bio-methanol,bio-methanol,refined liquids industrial,0.026,0.026,0.026
+captured methane,captured methane,captured methane,methane credit,0.00014,0.00014,0.00014
+LFG FT,LFG FT,LFG FT,captured methane,1.923076923,1.923076923,1.923076923
+

@@ -18,7 +18,7 @@ electricity generation,geothermal,electricity,geothermal,geothermal,geothermal,o
 gas processing,coal,gas processing,coal gasification,coal gasification,regional coal,output,
 gas processing,gas,gas processing,natural gas,natural gas,regional natural gas,output,
 gas processing,biomass,gas processing,biomass gasification,biomass gasification,regional biomass,output,
-gas processing,captured methane,gas processing,captured LFG,captured LFG,captured methane,output,
+gas processing,captured methane,gas processing,biomass gasification,captured LFG,captured methane,output,
 corn ethanol,corn,corn ethanol,corn ethanol,corn ethanol,regional corn for ethanol,output,
 corn ethanol,gas,corn ethanol,corn ethanol,corn ethanol,wholesale gas,output,
 corn ethanol,electricity,corn ethanol,corn ethanol,corn ethanol,elect_td_ind,output,

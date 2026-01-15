@@ -17,6 +17,7 @@ elect_td_trn,elect_td_trn,elect_td_trn,1,1,1,1
 gas pipeline,gas pipeline,gas pipeline,1,1,1,1
 wholesale gas,wholesale gas,wholesale gas,1,1,1,1
 delivered gas,delivered gas,delivered gas,1,1,1,1
+LNG,LNG,LNG,0,0,1,1
 aviation fuels,refined oil,refined oil,1,1,1,1
 aviation fuels,HEFA,soybean HEFA,0,0,1,1
 aviation fuels,HEFA,rapeseed HEFA,0,0,1,1
@@ -40,21 +41,21 @@ domestic shipping fuels,biodiesel,oilcrop biodiesel,0,0,1,1
 domestic shipping fuels,biodiesel,rapeseed biodiesel,0,0,1,1
 domestic shipping fuels,biodiesel,palmfruit biodiesel,0,0,1,1
 domestic shipping fuels,biodiesel,soybean biodiesel,0,0,1,1
-domestic shipping fuels,HEFA,soybean HEFA,0,0,1,1
-domestic shipping fuels,HEFA,rapeseed HEFA,0,0,1,1
-domestic shipping fuels,HEFA,palmfruit HEFA,0,0,1,1
-domestic shipping fuels,HEFA,oilcrop HEFA,0,0,1,1
-domestic shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,0,0,1,1
-domestic shipping fuels,hybrid liquids,hybrid liquids,0,0,0,.5
+domestic shipping fuels,renewable diesel,soybean HEFA,0,0,1,1
+domestic shipping fuels,renewable diesel,rapeseed HEFA,0,0,1,1
+domestic shipping fuels,renewable diesel,palmfruit HEFA,0,0,1,1
+domestic shipping fuels,renewable diesel,oilcrop HEFA,0,0,1,1
+domestic shipping fuels,renewable diesel,LFG FT,0,0,1,1
+domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,0,0,1,1
 international shipping fuels,liquids,liquids,1,1,1,1
 international shipping fuels,biodiesel,oilcrop biodiesel,0,0,1,1
 international shipping fuels,biodiesel,rapeseed biodiesel,0,0,1,1
 international shipping fuels,biodiesel,palmfruit biodiesel,0,0,1,1
 international shipping fuels,biodiesel,soybean biodiesel,0,0,1,1
-international shipping fuels,HEFA,soybean HEFA,0,0,1,1
-international shipping fuels,HEFA,rapeseed HEFA,0,0,1,1
-international shipping fuels,HEFA,palmfruit HEFA,0,0,1,1
-international shipping fuels,HEFA,oilcrop HEFA,0,0,1,1
-international shipping fuels,corn ethanol renewable diesel,corn ethanol renewable diesel,0,0,1,1
-international shipping fuels,gas,gas,0,0,1,1
-international shipping fuels,hybrid liquids,hybrid liquids,0,0,0,.5
+international shipping fuels,renewable diesel,soybean HEFA,0,0,1,1
+international shipping fuels,renewable diesel,rapeseed HEFA,0,0,1,1
+international shipping fuels,renewable diesel,palmfruit HEFA,0,0,1,1
+international shipping fuels,renewable diesel,oilcrop HEFA,0,0,1,1
+international shipping fuels,renewable diesel,LFG FT,0,0,.1,1
+international shipping fuels,renewable diesel,corn ethanol renewable diesel,0,0,1,1
+international shipping fuels,gas,gas,0,0,.1,1

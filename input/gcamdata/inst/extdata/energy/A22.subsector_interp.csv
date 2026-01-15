@@ -7,7 +7,6 @@ supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.functio
 gas processing,natural gas,share-weight,final-calibration-year,end-year,,linear
 gas processing,biomass gasification,share-weight,final-calibration-year,end-year,,linear
 gas processing,coal gasification,share-weight,final-calibration-year,end-year,,linear
-gas processing,captured LFG,share-weight,final-calibration-year,end-year,,linear
 nuclearFuelGenII,enrichedUranium,share-weight,final-calibration-year,end-year,,linear
 nuclearFuelGenIII,enrichedUranium,share-weight,final-calibration-year,end-year,,linear
 refining,oil refining,share-weight,final-calibration-year,end-year,,fixed
@@ -36,3 +35,4 @@ methanol,e-methanol,share-weight,2050,end-year,,fixed
 methanol,bio-methanol,share-weight,start-year,2020,,fixed
 methanol,bio-methanol,share-weight,2020,2050,,linear
 methanol,bio-methanol,share-weight,2050,end-year,,fixed
+LFG FT,LFG FT,share-weight,final-calibration-year,end-year,,linear

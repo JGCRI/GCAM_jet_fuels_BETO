@@ -2,13 +2,12 @@
 # Title: Primary energy transformation subsector logit exponents
 # Units: NA
 # Description: logit exponents and types for subsectors in energy transformation
-# Column types: ccic 
+# Column types: ccic
 # ----------
 supplysector,subsector,logit.exponent,logit.type
 gas processing,natural gas,-6,
 gas processing,biomass gasification,-6,
 gas processing,coal gasification,-6,
-gas processing,captured LFG,-6,
 nuclearFuelGenII,enrichedUranium,-6,
 nuclearFuelGenIII,enrichedUranium,-6,
 refining,oil refining,-6,absolute-cost-logit
@@ -41,3 +40,4 @@ corn ETJ jet fuel,corn ETJ jet fuel,-6,
 captured methane,captured methane,-6,
 methanol,e-methanol,-6,
 methanol,bio-methanol,-6,
+LFG FT,LFG FT,-6,
