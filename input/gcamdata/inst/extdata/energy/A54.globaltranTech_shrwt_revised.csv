@@ -70,5 +70,6 @@ trn_shipping_intl,International Ship,BEV,0,0,0,0,0,0,0,1,1,CORE
 trn_shipping_intl,International Ship,FCEV,0,0,0,0,0,0,0,1,1,CORE
 trn_shipping_intl,International Ship,Hybrid Liquids,0,0,0,0,0,0,1,1,1,CORE
 trn_shipping_intl,International Ship,LNG,0,0,0,0,1,1,1,1,1,CORE
+trn_freight,Domestic Ship,LNG,0,0,0,0,1,1,1,1,1,CORE
 trn_shipping_intl,International Ship,methanol,0,0,0,0,0.25,0.3,1,1,1,CORE
-trn_freight,Domestic Ship,methanol,0,0,0,0,.25,0.3,1,1,1,CORE
+trn_freight,Domestic Ship,methanol,0,0,0,0,0.25,0.3,1,1,1,CORE

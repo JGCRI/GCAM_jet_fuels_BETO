@@ -63,5 +63,6 @@ trn_shipping_intl,International Ship,BEV,share-weight,2030,2075,s-curve,CORE
 trn_shipping_intl,International Ship,FCEV,share-weight,2030,2075,s-curve,CORE
 trn_shipping_intl,International Ship,Hybrid Liquids,share-weight,final-calibration-year,2050,s-curve,CORE
 trn_shipping_intl,International Ship,LNG,share-weight,final-calibration-year,2050,s-curve,CORE
-trn_shipping_intl,International Ship,methanol,share-weight,2025,2050,s-curve,CORE
-trn_freight,Domestic Ship,methanol,share-weight,2025,2050,s-curve,CORE
+trn_freight,Domestic Ship,LNG,share-weight,final-calibration-year,2050,s-curve,CORE
+trn_shipping_intl,International Ship,methanol,share-weight,2020,2050,s-curve,CORE
+trn_freight,Domestic Ship,methanol,share-weight,2020,2050,s-curve,CORE
