@@ -40,6 +40,6 @@ corn ETJ joint,corn ETJ joint,corn ETJ joint,non-energy,4.13,4.13,4.13,4.13,4.13
 methanol,bio-methanol,bio-methanol,non-energy,6.03,6.03,6.03,6.03,6.03,6.03,6.03,6.03,6.03,6.03,6.03,,,
 methanol,e-methanol,e-methanol,non-energy,2.36,2.36,2.36,2.36,2.36,2.36,2.36,2.36,2.36,2.36,2.36,,,
 captured methane,captured methane,captured methane,non-energy,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,,,
-landfills,landfill captured,landfill captured,non-energy,0,0,0,0,0,0,0,0,0,0,0,,,
+landfills,landfill,landfill captured,non-energy,0,0,0,0,0,0,0,0,0,0,0,,,
 LFG FT,LFG FT,LFG FT,non-energy,3.4984,3.4984,3.4984,3.4984,3.4984,3.4984,3.4984,3.4984,3.4984,3.4984,,0.7,0.03,
 
