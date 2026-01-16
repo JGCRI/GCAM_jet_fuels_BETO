@@ -394,7 +394,7 @@ def read_base(config, observed_landclasses, sequence_metric_dict, metric_seq, re
     
     xr_data = xr.open_dataset(config.observed_lu_file)
     xr_df = xr_data.to_dataframe().reset_index().dropna()
-     #print(xr_df.head())
+    
      #print(max(xr_df["region_id"]))
 
     name_map = {
@@ -402,11 +402,18 @@ def read_base(config, observed_landclasses, sequence_metric_dict, metric_seq, re
            for var in xr_data.data_vars}
  
     xr_df = xr_df.rename(columns=name_map)
-
+    print(xr_df.columns)
+    xr_df = xr_df.rename(columns={
+    "x": "longitude",
+    "y": "latitude"
+})
+    xr_df["water"]= xr_df["water"]+ xr_df["woody_wetlands"]+ xr_df["emergent_herbaceous_wetlands"]
+    xr_df["woody_wetlands"]= 0
+    xr_df["emergent_herbaceous_wetlands"]= 0
 
     colnames_for_rename=(xr_df.drop(["region_id","basin_id","latitude","longitude"],axis=1).columns)
 
-    area= 0.00151872768*0.00151872768
+    area= 0.00173778947332799*0.00173778947332799
 
     xr_df[colnames_for_rename] = xr_df[colnames_for_rename].multiply(area, axis="index")   
     xr_df= xr_df.dropna()
