@@ -45,3 +45,4 @@ trn_shipping_intl,International Ship,Liquids,international shipping fuels
 trn_freight,Domestic Ship,Liquids,domestic shipping fuels
 trn_shipping_intl,International Ship,methanol,methanol
 trn_freight,Domestic Ship,methanol,methanol
+FT biofuel joint,FT biofuel joint,FT biofuel joint,regional biomass

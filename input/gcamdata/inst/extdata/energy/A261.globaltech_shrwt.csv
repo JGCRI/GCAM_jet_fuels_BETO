@@ -8,3 +8,5 @@ refined liquids gasoline pool,refining,refining,1,1,1,1
 refined liquids gasoline pool,ethanol,cellulosic ethanol,0,0,0,0
 refined liquids gasoline pool,ethanol,corn ethanol,0,0,1,1
 refined liquids gasoline pool,ethanol,sugar cane ethanol,0,0,1,1
+refined liquids gasoline pool,RD,renewable diesel ETJ,0,0,0.5,0.5
+refined liquids gasoline pool,RD,renewable diesel FT,0,0,0.5,0.5

@@ -48,8 +48,11 @@ oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,0,0,1,1,1,1
 refined jet,refined jet,refined jet,1,1,1,1,1,1
 corn ETJ joint,corn ETJ joint,corn ETJ joint,0,0,1,1,1,1
 corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewable diesel,0,0,1,1,1,1
-corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,0,0,1,1,1,1
 captured methane,captured methane,captured methane,0,0,1,1,1,1
 methanol,e-methanol,e-methanol,0,0,0,1,1,1
 methanol,bio-methanol,bio-methanol,0,0,0.333,0.444,1,1
 LFG FT,LFG FT,LFG FT,0,0,1,1,1,1
+FT biofuel joint,FT biofuel joint,FT biofuel joint,0,0,1,1,1,1
+FT biofuel RD,FT biofuel RD,FT biofuel RD,0,0,1,1,1,1
+FT biojet,FT biojet,FT biojet,0,0,1,1,1,1
+corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,0,0,1,1,1,1

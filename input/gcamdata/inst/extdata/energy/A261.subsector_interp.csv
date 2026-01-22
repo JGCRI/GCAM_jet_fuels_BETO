@@ -5,5 +5,5 @@
 # ----------
 supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
 refined liquids gasoline pool,refining,share-weight,final-calibration-year,end-year,,fixed
-refined liquids gasoline pool,ethanol,share-weight,final-calibration-year,2020,,fixed
-refined liquids gasoline pool,ethanol,share-weight,2020,end-year,,linear
+refined liquids gasoline pool,ethanol,share-weight,final-calibration-year,end-year,,linear
+refined liquids gasoline pool,RD,share-weight,final-calibration-year,end-year,,linear

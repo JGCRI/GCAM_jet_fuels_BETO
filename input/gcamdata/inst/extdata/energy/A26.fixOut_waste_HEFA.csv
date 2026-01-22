@@ -1,0 +1,23 @@
+# File: A26.fixOut_waste_HEFA.csv
+# Title: Fixed outputs of waste oil HEFA
+# Units: EJ
+# Column types: ccccnnnn
+# ----------
+region,supplysector,subsector,stub.technology,year,fixedOutput,share.weight.year,share.weight
+USA,aviation fuels,HEFA,waste oil HEFA,2020,0.05,2020,0
+USA,aviation fuels,HEFA,waste oil HEFA,2025,0.10,2025,0
+USA,aviation fuels,HEFA,waste oil HEFA,2030,0.16,2030,0
+USA,aviation fuels,HEFA,waste oil HEFA,2035,0.16,2035,0
+USA,aviation fuels,HEFA,waste oil HEFA,2040,0.16,2040,0
+USA,aviation fuels,HEFA,waste oil HEFA,2045,0.16,2045,0
+USA,aviation fuels,HEFA,waste oil HEFA,2050,0.16,2050,0
+USA,aviation fuels,HEFA,waste oil HEFA,2055,0.16,2055,0
+USA,aviation fuels,HEFA,waste oil HEFA,2060,0.16,2060,0
+USA,aviation fuels,HEFA,waste oil HEFA,2065,0.16,2065,0
+USA,aviation fuels,HEFA,waste oil HEFA,2070,0.16,2070,0
+USA,aviation fuels,HEFA,waste oil HEFA,2075,0.16,2075,0
+USA,aviation fuels,HEFA,waste oil HEFA,2080,0.16,2080,0
+USA,aviation fuels,HEFA,waste oil HEFA,2085,0.16,2085,0
+USA,aviation fuels,HEFA,waste oil HEFA,2090,0.16,2090,0
+USA,aviation fuels,HEFA,waste oil HEFA,2095,0.16,2095,0
+USA,aviation fuels,HEFA,waste oil HEFA,2100,0.16,2100,0

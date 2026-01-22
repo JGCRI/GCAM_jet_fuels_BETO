@@ -14,5 +14,6 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,jet credit HEFA,
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,jet credit HEFA,0
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,jet credit HEFA,0
 refining,oil refining,oil refining,jet credit oil,0.1
-corn ETJ joint,corn ETJ joint,corn ETJ joint,jet credit ETJ,0.756
 landfills,landfill,landfill captured,methane credit,1
+corn ETJ joint,corn ETJ joint,corn ETJ joint,jet credit ETJ,0.7
+FT biofuel joint,FT biofuel joint,FT biofuel joint,jet credit FT,0.4

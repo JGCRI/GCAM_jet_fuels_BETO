@@ -36,3 +36,6 @@ methanol,bio-methanol,share-weight,start-year,2020,,fixed
 methanol,bio-methanol,share-weight,2020,2050,,linear
 methanol,bio-methanol,share-weight,2050,end-year,,fixed
 LFG FT,LFG FT,share-weight,final-calibration-year,end-year,,linear
+FT biofuel joint,FT biofuel joint,FT biofuel joint,final-calibration-year,end-year,,linear
+FT biofuel RD,FT biofuel RD,FT biofuel RD,final-calibration-year,end-year,,linear
+FT biojet,FT biojet,FT biojet,final-calibration-year,end-year,,linear

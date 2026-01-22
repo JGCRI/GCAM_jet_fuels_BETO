@@ -23,7 +23,9 @@ aviation fuels,HEFA,soybean HEFA,0,0,1,1
 aviation fuels,HEFA,rapeseed HEFA,0,0,1,1
 aviation fuels,HEFA,palmfruit HEFA,0,0,1,1
 aviation fuels,HEFA,oilcrop HEFA,0,0,1,1
-aviation fuels,ETJ,corn ETJ,0,0,1,1
+aviation fuels,HEFA,waste oil HEFA,0,0,0,0
+aviation fuels,ETJ,corn ETJ,0,0,0.1,0.5
+aviation fuels,FT,FT biojet,0,0,0.1,0.5
 refined liquids enduse,refined oil,refined oil,1,1,1,1
 refined liquids enduse,biodiesel,oilcrop biodiesel,1,1,1,1
 refined liquids enduse,biodiesel,rapeseed biodiesel,1,1,1,1
@@ -35,6 +37,7 @@ refined liquids enduse,renewable diesel,soybean HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,rapeseed HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,palmfruit HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,oilcrop HEFA,0,0,0.5,0.5
+refined liquids enduse,renewable diesel,FT biofuel RD,0,0,0.1,0.5
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,0,0,0.5,0.5
 domestic shipping fuels,liquids,liquids,1,1,1,1
 domestic shipping fuels,biodiesel,oilcrop biodiesel,0,0,1,1

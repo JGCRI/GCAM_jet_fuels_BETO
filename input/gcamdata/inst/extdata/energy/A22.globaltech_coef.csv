@@ -37,10 +37,10 @@ soybean biodiesel,soybean biodiesel,soybean biodiesel,regional biomassOil soybea
 soybean biodiesel,soybean biodiesel,soybean biodiesel,wholesale gas,0.05767,0.05767,0.06
 refining,biomass liquids,BTL with hydrogen,H2 industrial,0.816228052,0.816228052,0.816228052
 refining,biomass liquids,BTL with hydrogen,regional biomass,1.031914894,1.031914894,1.031914894
-soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,regional biomassOil soybean,1.0685,1.0685,1.0685
-soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
-soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,elect_td_ind,0.0098,0.0098,0.0098
-soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,H2 industrial,0.1095,0.1095,0.1095
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,regional biomassOil soybean,1.113,1.113,1.113
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,wholesale gas,0.0654,0.0654,0.0654
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,elect_td_ind,0.0089,0.0089,0.0089
+soybean HEFA joint,soybean HEFA joint,soybean HEFA joint high,H2 industrial,0.0736,0.0736,0.0736
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,regional biomassOil soybean,1.0685,1.0685,1.0685
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,wholesale gas,0.0186,0.0186,0.0186
 soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,elect_td_ind,0.0098,0.0098,0.0098
@@ -48,7 +48,7 @@ soybean HEFA joint,soybean HEFA joint,soybean HEFA joint low,H2 industrial,0.109
 soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA joint,1,1,1
 soybean HEFA jet fuel,soybean HEFA jet fuel,soybean HEFA jet fuel,jet credit HEFA,1,1,1
 soybean HEFA renewable diesel,soybean HEFA renewable diesel,soybean HEFA renewable diesel,soybean HEFA joint,1,1,1
-rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,regional biomassOil rapeseed,1.0685,1.0685,1.0685
+rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,regional biomassOil rapeseed,1.113,1.113,1.113
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,elect_td_ind,0.0098,0.0098,0.0098
 rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint high,H2 industrial,0.1095,0.1095,0.1095
@@ -59,7 +59,7 @@ rapeseed HEFA joint,rapeseed HEFA joint,rapeseed HEFA joint low,H2 industrial,0.
 rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA joint,1,1,1
 rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,rapeseed HEFA jet fuel,jet credit HEFA,1,1,1
 rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,rapeseed HEFA renewable diesel,rapeseed HEFA joint,1,1,1
-palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,regional biomassOil palmfruit,1.0685,1.0685,1.0685
+palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,regional biomassOil palmfruit,1.113,1.113,1.113
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,elect_td_ind,0.0098,0.0098,0.0098
 palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint high,H2 industrial,0.1095,0.1095,0.1095
@@ -70,7 +70,7 @@ palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,H2 industrial
 palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA joint,1,1,1
 palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,palmfruit HEFA jet fuel,jet credit HEFA,1,1,1
 palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,palmfruit HEFA renewable diesel,palmfruit HEFA joint,1,1,1
-oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,regional biomassOil oilcrop,1.0685,1.0685,1.0685
+oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,regional biomassOil oilcrop,1.113,1.113,1.113
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,wholesale gas,0.0186,0.0186,0.0186
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,elect_td_ind,0.0098,0.0098,0.0098
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint high,H2 industrial,0.1095,0.1095,0.1095
@@ -83,10 +83,10 @@ oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,oilcrop HEFA jet fuel,jet credit HEF
 oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,oilcrop HEFA renewable diesel,oilcrop HEFA joint,1,1,1
 refined jet,refined jet,refined jet,refining,1,1,1
 refined jet,refined jet,refined jet,jet credit oil,1,1,1
-corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol,1,1,1
-corn ETJ joint,corn ETJ joint,corn ETJ joint,wholesale gas,0.331,0.331,0.331
-corn ETJ joint,corn ETJ joint,corn ETJ joint,elect_td_ind,0.074,0.074,0.074
-corn ETJ joint,corn ETJ joint,corn ETJ joint,H2 industrial,0.061,0.061,0.061
+corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol,1.0077,1.0077,1.0077
+corn ETJ joint,corn ETJ joint,corn ETJ joint,wholesale gas,0.402,0.402,0.402
+corn ETJ joint,corn ETJ joint,corn ETJ joint,elect_td_ind,0.034,0.034,0.034
+corn ETJ joint,corn ETJ joint,corn ETJ joint,H2 industrial,0.066,0.066,0.066
 corn ethanol renewable diesel,corn ethanol renewable diesel,corn ethanol renewable diesel,corn ETJ joint,1,1,1
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ joint,1,1,1
 corn ETJ jet fuel,corn ETJ jet fuel,corn ETJ jet fuel,jet credit ETJ,1,1,1
@@ -97,4 +97,7 @@ methanol,bio-methanol,bio-methanol,regional biomass,1.931,1.931,1.931
 methanol,bio-methanol,bio-methanol,refined liquids industrial,0.026,0.026,0.026
 captured methane,captured methane,captured methane,methane credit,0.00014,0.00014,0.00014
 LFG FT,LFG FT,LFG FT,captured methane,1.923076923,1.923076923,1.923076923
-
+FT biofuel joint,FT biofuel joint,FT biofuel joint,regional biomass,2.18,2.18,2.18
+FT biofuel RD,FT biofuel RD,FT biofuel RD,FT biofuel joint,1,1,1
+FT biojet,FT biojet,FT biojet,FT biofuel joint,1,1,1
+FT biojet,FT biojet,FT biojet,jet credit FT,1,1,1

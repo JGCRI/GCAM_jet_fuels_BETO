@@ -1,7 +1,7 @@
 # File: A22.globaltech_keyword.csv
 # Title: Primary energy handling keywords
 # Units: NA
-# Column types: cccc 
+# Column types: cccc
 # ----------
 supplysector,subsector,technology,primary.consumption
 oilcrop biodiesel,oilcrop biodiesel,oilcrop biodiesel,biomass
@@ -19,3 +19,4 @@ palmfruit HEFA joint,palmfruit HEFA joint,palmfruit HEFA joint low,biomass
 oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,biomass
 corn ETJ joint,corn ETJ joint,corn ETJ joint,biomass
 methanol,bio-methanol,bio-methanol,biomass
+FT biofuel joint,FT biofuel joint,FT biofuel joint,biomass

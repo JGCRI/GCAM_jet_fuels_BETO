@@ -62,3 +62,9 @@ methanol,bio-methanol,start-year,,0
 methanol,bio-methanol,2025,,1
 LFG FT,LFG FT,start-year,,0
 LFG FT,LFG FT,initial-future-year,,1
+FT biofuel joint,FT biofuel joint,start-year,,0
+FT biofuel joint,FT biofuel joint,initial-future-year,,1
+FT biofuel RD,FT biofuel RD,start-year,,0
+FT biofuel RD,FT biofuel RD,initial-future-year,,1
+FT biojet,FT biojet,start-year,,0
+FT biojet,FT biojet,initial-future-year,,1

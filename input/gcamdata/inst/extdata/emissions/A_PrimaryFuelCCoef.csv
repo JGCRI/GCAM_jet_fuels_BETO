@@ -56,9 +56,55 @@ unconventional oil upscaling,1.5,0
 captured methane,14.2,0
 uncaptured methane,14.2,0
 methanol,0,0
-regional soybean HEFA renewable diesel,19.6,0
-regional rapeseed HEFA renewable diesel,19.6,0
-regional palmfruit HEFA renewable diesel,19.6,0
-regional oilcrop HEFA renewable diesel,19.6,0
 LNG,14.2,0
 LFG FT,19.6,0
+regional soybean HEFA jet fuel,19.6,0
+regional rapeseed HEFA jet fuel,19.6,0
+regional palmfruit HEFA jet fuel,19.6,0
+regional oilcrop HEFA jet fuel,19.6,0
+regional refined jet,19.6,0
+regional corn ethanol renewable diesel,19.6,0
+regional corn ETJ jet fuel,19.6,0
+traded refined oil,19.6,0
+traded corn ethanol,19.6,0
+traded sugar cane ethanol,19.6,0
+traded oilcrop biodiesel,19.6,0
+traded palmfruit biodiesel,19.6,0
+traded rapeseed biodiesel,19.6,0
+traded soybean biodiesel,19.6,0
+traded soybean HEFA renewable diesel,19.6,0
+traded rapeseed HEFA renewable diesel,19.6,0
+traded palmfruit HEFA renewable diesel,19.6,0
+traded oilcrop HEFA renewable diesel,19.6,0
+traded soybean HEFA jet fuel,19.6,0
+traded rapeseed HEFA jet fuel,19.6,0
+traded palmfruit HEFA jet fuel,19.6,0
+traded oilcrop HEFA jet fuel,19.6,0
+traded refined jet,19.6,0
+traded corn ethanol renewable diesel,19.6,0
+traded corn ETJ jet fuel,19.6,0
+FT biofuel,23,0
+FT biofuel RD,23,0
+FT biojet,23,0
+regional FT biofuel RD,23,0
+regional FT biojet,23,0
+traded FT biofuel RD,23,1
+traded FT biojet,23,1
+aviation fuels,19.6,0
+soybean HEFA joint,19.6,0
+soybean HEFA jet fuel,19.6,0
+soybean HEFA renewable diesel,19.6,0
+rapeseed HEFA joint,19.6,0
+rapeseed HEFA jet fuel,19.6,0
+rapeseed HEFA renewable diesel,19.6,0
+palmfruit HEFA joint,19.6,0
+palmfruit HEFA jet fuel,19.6,0
+palmfruit HEFA renewable diesel,19.6,0
+oilcrop HEFA joint,19.6,0
+oilcrop HEFA jet fuel,19.6,0
+oilcrop HEFA renewable diesel,19.6,0
+refined jet,19.6,0
+corn ETJ joint,19.6,0
+corn ethanol renewable diesel,19.6,0
+corn ETJ jet fuel,19.6,0
+FT biofuel joint,23,0
