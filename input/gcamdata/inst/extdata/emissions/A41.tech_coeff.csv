@@ -40,4 +40,15 @@ H2 central production,biomass,biomass to H2,0.01,0.001,0.001,0.001,,,,0.0005,,,
 H2 central production,biomass,biomass to H2 CCS,0.01,0.001,0.001,0.001,,,,0.0005,,,
 methanol,bio-methanol,bio-methanol,0.01,0.01,0.01,,0.0001,,,0.0001,,,
 methanol,e-methanol,e-methanol,0.01,0.01,0.01,,0.0001,,,0.0001,,,
-
+trn_shipping_intl,International Ship,Ammonia,,0.7222,0.0011,,0.03611,,,,,,1
+trn_freight,Domestic Ship,Ammonia,,0.7222,0.0011,,0.03611,,,,,,1
+trn_shipping_intl,International Ship,LNG,,,,0.7,,,,,,,
+trn_shipping_intl,International Ship,Hybrid Liquids,,,,,0.003611,,,,,,1
+trn_freight,Domestic Ship,Hybrid Liquids,,,,,0.003611,,,,,,1
+trn_shipping_intl,International Ship,Liquids,,,,,0.003611,,,,,,1
+trn_freight,Domestic Ship,Liquids,,,,,0.003611,,,,,,1
+ammonia,coal,coal,,0.001,0.001,0.002,,,,,,,
+ammonia,coal,coal CCS,,0.001,0.001,0.002,,,,,,,
+ammonia,gas,gas,,0.005462225,0.00048545,,,,,,,,
+ammonia,gas,gas CCS,,0.005462225,0.00048545,,,,,,,,
+ammonia,refined liquids,refined liquids,,0.001,0.001,0.002,,,,,,,

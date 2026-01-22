@@ -66,3 +66,5 @@ trn_shipping_intl,International Ship,LNG,share-weight,final-calibration-year,205
 trn_freight,Domestic Ship,LNG,share-weight,final-calibration-year,2050,s-curve,CORE
 trn_shipping_intl,International Ship,methanol,share-weight,2020,2050,s-curve,CORE
 trn_freight,Domestic Ship,methanol,share-weight,2020,2050,s-curve,CORE
+trn_freight,Domestic Ship,Ammonia,share-weight,2020,2050,s-curve,CORE
+trn_shipping_intl,International Ship,Ammonia,share-weight,2020,2050,s-curve,CORE

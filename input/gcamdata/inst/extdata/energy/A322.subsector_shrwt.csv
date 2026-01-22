@@ -12,3 +12,13 @@ N fertilizer,hydrogen,start-year,,0
 N fertilizer,hydrogen,2050,,1
 N fertilizer,Imports,start-year,,0
 Exports_fertilizer,N fertilizer,start-year,,0
+ammonia,coal,start-year,,1
+ammonia,gas,start-year,,1
+ammonia,refined liquids,start-year,,1
+ammonia,refined liquids,2035,,0
+ammonia,hydrogen,start-year,,0
+ammonia,hydrogen,2050,,1
+traded ammonia,traded ammonia,start-year,,1
+regional ammonia,domestic ammonia,start-year,,1
+regional ammonia,imported ammonia,start-year,,1
+ammonia energy,ammonia energy,start-year,,1

@@ -12,3 +12,13 @@ N fertilizer,hydrogen,share-weight,start-year,2020,,fixed
 N fertilizer,hydrogen,share-weight,2020,2050,,linear
 N fertilizer,hydrogen,share-weight,2050,end-year,,fixed
 Exports_fertilizer,N fertilizer,share-weight,final-calibration-year,end-year,,fixed
+ammonia,coal,share-weight,final-calibration-year,end-year,,fixed
+ammonia,gas,share-weight,final-calibration-year,end-year,,linear
+ammonia,refined liquids,share-weight,final-calibration-year,2035,,linear
+ammonia,refined liquids,share-weight,2035,end-year,,fixed
+ammonia,hydrogen,share-weight,start-year,2020,,fixed
+ammonia,hydrogen,share-weight,2020,2050,,linear
+ammonia,hydrogen,share-weight,2050,end-year,,fixed
+traded ammonia,traded ammonia,share-weight,final-calibration-year,end-year,,fixed
+regional ammonia,domestic ammonia,share-weight,final-calibration-year,end-year,,fixed
+regional ammonia,imported ammonia,share-weight,final-calibration-year,end-year,,fixed

@@ -137,3 +137,5 @@ Freight,Truck,Medium truck,Hybrid Liquids,Liquids,trn_road and rail,refined liqu
 Freight,Truck,Heavy truck,Hybrid Liquids,Liquids,trn_road and rail,refined liquids,trn_freight_road,Heavy truck,Hybrid Liquids,delivered diesel
 Freight,Ship Domestic,All,methanol,methanol,trn_domestic ship,methanol,trn_freight,Domestic Ship,methanol,methanol
 Freight,Ship International,All,methanol,methanol,trn_international ship,methanol,trn_shipping_intl,International Ship,methanol,methanol
+Freight,Ship Domestic,All,Ammonia,Ammonia,trn_domestic ship,ammonia energy,trn_freight,Domestic Ship,Ammonia,ammonia energy
+Freight,Ship International,All,Ammonia,Ammonia,trn_international ship,ammonia energy,trn_shipping_intl,International Ship,Ammonia,ammonia energy

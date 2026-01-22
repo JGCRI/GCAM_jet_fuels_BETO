@@ -6,3 +6,7 @@
 supplysector,output.unit,input.unit,price.unit,logit.exponent,final.energy,logit.type
 N fertilizer,Mt N,EJ,1975$/kgN,-3,industry,
 Exports_fertilizer,Mt N,Mt N,1975$/kgN,-3,,
+ammonia,Mt NH3,EJ,1975$/kgNH3,-3,industry,
+traded ammonia,Mt NH3,Mt NH3,1975$/kgNH3,-3,,
+regional ammonia,Mt NH3,Mt NH3,1975$/kgNH3,-3,,
+ammonia energy,EJ,Mt NH3,1975$/GJ,-3,,

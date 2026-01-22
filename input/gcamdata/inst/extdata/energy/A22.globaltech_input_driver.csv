@@ -35,3 +35,13 @@ oilcrop HEFA joint,oilcrop HEFA joint,oilcrop HEFA joint low,regional biomassOil
 corn ETJ joint,corn ETJ joint,corn ETJ joint,regional corn for ethanol
 methanol,e-methanol,e-methanol,elect_td_ind
 methanol,bio-methanol,bio-methanol,regional biomass
+trn_shipping_intl,International Ship,Ammonia,ammonia energy
+trn_freight,Domestic Ship,Ammonia,ammonia energy
+trn_shipping_intl,International Ship,LNG,LNG
+trn_freight,Domestic Ship,LNG,LNG
+trn_shipping_intl,International Ship,Hybrid Liquids,international shipping fuels
+trn_freight,Domestic Ship,Hybrid Liquids,domestic shipping fuels
+trn_shipping_intl,International Ship,Liquids,international shipping fuels
+trn_freight,Domestic Ship,Liquids,domestic shipping fuels
+trn_shipping_intl,International Ship,methanol,methanol
+trn_freight,Domestic Ship,methanol,methanol

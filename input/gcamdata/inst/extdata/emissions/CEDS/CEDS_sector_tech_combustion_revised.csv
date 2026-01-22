@@ -183,3 +183,5 @@ process heat paper,coal,coal,paper,coal
 process heat paper,coal,coal cogen,paper,coal
 trn_freight,Domestic Ship,methanol,trn_domestic ship,methanol
 trn_shipping_intl,International Ship,methanol,trn_intl_ship,methanol
+trn_freight,Domestic Ship,Ammonia,trn_domestic ship,ammonia energy
+trn_shipping_intl,International Ship,Ammonia,trn_intl_ship,ammonia energy

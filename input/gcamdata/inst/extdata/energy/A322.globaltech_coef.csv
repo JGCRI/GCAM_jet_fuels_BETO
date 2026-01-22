@@ -12,3 +12,14 @@ N fertilizer,refined liquids,refined liquids,refined liquids industrial,0.05,0.0
 Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,1,1,1,1
 N fertilizer,hydrogen,hydrogen,H2 industrial,0.025742857,0.025742857,0.025742857,0.025742857
 N fertilizer,hydrogen,hydrogen,wholesale gas,0.013307241,0.009542955,0,0
+ammonia,coal,coal,delivered coal,0.0445,0.0445,0.0364,0.0321
+ammonia,coal,coal CCS,delivered coal,0.0494,0.0494,0.0404,0.0357
+ammonia,gas,gas,wholesale gas,0.04,0.0369,0.029,0.029
+ammonia,gas,gas CCS,wholesale gas,0.0457,0.0422,0.0332,0.0332
+ammonia,refined liquids,refined liquids,refined liquids industrial,0.0412,0.0371,0.0303,0.0268
+ammonia,hydrogen,hydrogen,H2 central production,0.0212,0.0212,0.0212,0.0212
+ammonia,hydrogen,hydrogen,wholesale gas,0.011,0.0079,0,0
+ammonia energy,ammonia energy,ammonia energy,regional ammonia,53.19148936,53.19148936,53.19148936,53.19148936
+traded ammonia,traded ammonia,traded ammonia,ammonia,1,1,1,1
+regional ammonia,domestic ammonia,domestic ammonia,ammonia,1,1,1,1
+regional ammonia,imported ammonia,imported ammonia,traded ammonia,1,1,1,1
