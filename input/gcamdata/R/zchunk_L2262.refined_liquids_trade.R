@@ -294,8 +294,7 @@ module_energy_L2262.refined_liquids_trade <- function(command, ...) {
       left_join_error_no_match(L2262.refinedLiquidsGrossExports_EJ_R_C_Y,
                                by = c("region", "minicam.energy.input", "year")) %>%
       left_join(L2262.refinedLiquidsProd_EJ_R_C_Y,
-                               by = c("region", "minicam.energy.input", "year"),
-                               ignore_columns = "Prod_EJ") %>%
+                               by = c("region", "minicam.energy.input", "year")) %>%
       replace_na(list(Prod_EJ = 0)) %>%
       mutate(calOutputValue = round(Prod_EJ - gross_exports, energy.DIGITS_CALOUTPUT),
              share.weight.year = year,
