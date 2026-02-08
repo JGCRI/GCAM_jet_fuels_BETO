@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdbRef</Value>
 		<Value write-output="0" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -112,13 +112,16 @@
         <Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 		<Value name = "otaq_refining">../input/gcamdata/xml/refining_USA_OTAQ.xml</Value>
+                
+
 
 		
 		<Value name = "otaq_blendwall">../input/otaq-xml/BlendWallTarget.xml</Value>
 		<Value name = "trn_blendwall">../input/gcamdata/xml/refining_USA_BlendWall.xml</Value>
         	<Value name = "IntensityCap">../input/gcamdata/xml/IntensityCap_trn.xml</Value>
 		<Value name = "usaCoal">../input/otaq-xml/USA_elec_coal_adj.xml</Value>
-
+                 
+                
 	</ScenarioComponents>
 	<Strings>
 		<Value name="scenarioName">BASE</Value>
