@@ -31,12 +31,14 @@ refined liquids enduse,biodiesel,start-year,,0.5
 refined liquids industrial,refined liquids industrial,start-year,,1
 refined liquids enduse,renewable diesel,start-year,,0
 refined liquids enduse,renewable diesel,initial-future-year,,0.5
-domestic shipping fuels,liquids,start-year,,1
+domestic shipping fuels,refined oil,start-year,,1
+domestic shipping fuels,refined oil,initial-future-year,,1
 domestic shipping fuels,biodiesel,start-year,,0
 domestic shipping fuels,biodiesel,initial-future-year,,0.5
 domestic shipping fuels,renewable diesel,start-year,,0
 domestic shipping fuels,renewable diesel,initial-future-year,,0.5
-international shipping fuels,liquids,start-year,,1
+international shipping fuels,refined oil,start-year,,1
+international shipping fuels,refined oil,initial-future-year,,1
 international shipping fuels,biodiesel,start-year,,0
 international shipping fuels,biodiesel,initial-future-year,,0.5
 international shipping fuels,renewable diesel,start-year,,0

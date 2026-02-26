@@ -39,3 +39,4 @@ LFG FT,LFG FT,share-weight,final-calibration-year,end-year,,linear
 FT biofuel joint,FT biofuel joint,FT biofuel joint,final-calibration-year,end-year,,linear
 FT biofuel RD,FT biofuel RD,FT biofuel RD,final-calibration-year,end-year,,linear
 FT biojet,FT biojet,FT biojet,final-calibration-year,end-year,,linear
+refined liquids maritime,refined liquids maritime,share-weight,final-calibration-year,end-year,,linear

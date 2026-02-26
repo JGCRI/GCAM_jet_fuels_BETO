@@ -359,67 +359,131 @@ Southeast Asia,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Taiwan,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Argentina,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
 Colombia,aviation fuels,refined oil,refined oil,non-energy,0.9,0.9
-USA,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Eastern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Northern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Southern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Western,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Australia_NZ,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Brazil,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Canada,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Central America and Caribbean,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Central Asia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-China,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-EU-12,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-EU-15,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Europe_Eastern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Europe_Non_EU,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-European Free Trade Association,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-India,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Indonesia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Japan,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Mexico,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Middle East,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Pakistan,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Russia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Africa,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South America_Northern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South America_Southern,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Asia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Korea,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Southeast Asia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Taiwan,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Argentina,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Colombia,domestic shipping fuels,liquids,liquids,non-energy,0.9,0.9
-USA,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Eastern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Northern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Southern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Africa_Western,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Australia_NZ,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Brazil,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Canada,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Central America and Caribbean,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Central Asia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-China,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-EU-12,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-EU-15,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Europe_Eastern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Europe_Non_EU,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-European Free Trade Association,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-India,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Indonesia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Japan,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Mexico,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Middle East,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Pakistan,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Russia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Africa,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South America_Northern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South America_Southern,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Asia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-South Korea,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Southeast Asia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Taiwan,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Argentina,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
-Colombia,international shipping fuels,liquids,liquids,non-energy,0.9,0.9
+USA,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Eastern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Northern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Southern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Western,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Australia_NZ,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Brazil,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Canada,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Central America and Caribbean,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Central Asia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+China,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+EU-12,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+EU-15,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Europe_Eastern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Europe_Non_EU,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+European Free Trade Association,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+India,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Indonesia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Japan,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Mexico,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Middle East,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Pakistan,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Russia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Africa,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South America_Northern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South America_Southern,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Asia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Korea,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Southeast Asia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Taiwan,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Argentina,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Colombia,domestic shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+USA,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Eastern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Northern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Southern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Africa_Western,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Australia_NZ,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Brazil,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Canada,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Central America and Caribbean,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Central Asia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+China,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+EU-12,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+EU-15,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Europe_Eastern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Europe_Non_EU,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+European Free Trade Association,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+India,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Indonesia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Japan,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Mexico,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Middle East,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Pakistan,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Russia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Africa,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South America_Northern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South America_Southern,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Asia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+South Korea,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Southeast Asia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Taiwan,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Argentina,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+Colombia,international shipping fuels,refined oil,heavy fuel oil,non-energy,0.9,0.9
+USA,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Eastern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Northern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Southern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Western,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Australia_NZ,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Brazil,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Canada,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Central America and Caribbean,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Central Asia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+China,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+EU-12,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+EU-15,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Europe_Eastern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Europe_Non_EU,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+European Free Trade Association,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+India,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Indonesia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Japan,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Mexico,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Middle East,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Pakistan,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Russia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Africa,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South America_Northern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South America_Southern,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Asia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Korea,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Southeast Asia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Taiwan,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Argentina,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Colombia,domestic shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+USA,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Eastern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Northern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Southern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Africa_Western,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Australia_NZ,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Brazil,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Canada,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Central America and Caribbean,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Central Asia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+China,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+EU-12,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+EU-15,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Europe_Eastern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Europe_Non_EU,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+European Free Trade Association,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+India,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Indonesia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Japan,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Mexico,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Middle East,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Pakistan,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Russia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Africa,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South America_Northern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South America_Southern,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Asia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+South Korea,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Southeast Asia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Taiwan,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Argentina,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9
+Colombia,international shipping fuels,refined oil,marine gas oil,non-energy,0.9,0.9

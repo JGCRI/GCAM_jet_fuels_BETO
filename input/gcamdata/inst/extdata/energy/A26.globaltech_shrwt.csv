@@ -39,7 +39,8 @@ refined liquids enduse,renewable diesel,palmfruit HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,oilcrop HEFA,0,0,0.5,0.5
 refined liquids enduse,renewable diesel,FT biofuel RD,0,0,0.1,0.5
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,0,0,0.5,0.5
-domestic shipping fuels,liquids,liquids,1,1,1,1
+domestic shipping fuels,refined oil,marine gas oil,0,0,1,1
+domestic shipping fuels,refined oil,heavy fuel oil,1,1,1,1
 domestic shipping fuels,biodiesel,oilcrop biodiesel,0,0,1,1
 domestic shipping fuels,biodiesel,rapeseed biodiesel,0,0,1,1
 domestic shipping fuels,biodiesel,palmfruit biodiesel,0,0,1,1
@@ -50,7 +51,8 @@ domestic shipping fuels,renewable diesel,palmfruit HEFA,0,0,1,1
 domestic shipping fuels,renewable diesel,oilcrop HEFA,0,0,1,1
 domestic shipping fuels,renewable diesel,LFG FT,0,0,1,1
 domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,0,0,1,1
-international shipping fuels,liquids,liquids,1,1,1,1
+international shipping fuels,refined oil,marine gas oil,0,0,1,1
+international shipping fuels,refined oil,heavy fuel oil,1,1,1,1
 international shipping fuels,biodiesel,oilcrop biodiesel,0,0,1,1
 international shipping fuels,biodiesel,rapeseed biodiesel,0,0,1,1
 international shipping fuels,biodiesel,palmfruit biodiesel,0,0,1,1

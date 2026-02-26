@@ -5,7 +5,7 @@
 #  (1) transportation output unit is 1e6 times the price unit denominator whereas all other sectors are 1e9.
 #  (2) transportation price unit is 1990$ whereas others are 1975.
 #  (3) trn_freight costs are 17x higher than rail mode (the dominant mode for some of these fuels). Some de-rating is appropriate.
-# Note: the methods are not set up to handle different tkm inputs for different refined liquid fuel commodities (e.g., ref liq industrial, ref liq enduse need to have the same coef in each region),,,,,,,,
+# Note: the methods are not set up to handle different tkm inputs for different refined liquid fuel commodities (e.g., ref liq industrial, ref liq enduse need to have the same coef in each region)
 # Column types: cccccnnnnnn
 # ----------
 region,supplysector,subsector,technology,minicam.energy.input,price.unit.conversion,1971,1990,2000,2015,2100
@@ -5054,38 +5054,38 @@ Southeast Asia,refined liquids enduse,renewable diesel,corn ethanol renewable di
 Taiwan,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Argentina,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Colombia,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
-USA,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Africa_Eastern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Africa_Northern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Africa_Southern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Africa_Western,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Australia_NZ,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Brazil,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Canada,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Central America and Caribbean,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Central Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-China,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-EU-12,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-EU-15,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Europe_Eastern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Europe_Non_EU,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-European Free Trade Association,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-India,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Indonesia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Japan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Mexico,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Middle East,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Pakistan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Russia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-South Africa,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-South America_Northern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-South America_Southern,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-South Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-South Korea,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Southeast Asia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Taiwan,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Argentina,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
-Colombia,domestic shipping fuels,liquids,liquids,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+USA,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Brazil,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Canada,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+China,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-12,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-15,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+India,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Japan,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Mexico,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Middle East,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Russia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Africa,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Asia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Korea,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Argentina,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Colombia,domestic shipping fuels,refined oil,heavy fuel oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
 USA,domestic shipping fuels,renewable diesel,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Eastern,domestic shipping fuels,renewable diesel,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Africa_Northern,domestic shipping fuels,renewable diesel,oilcrop HEFA,trn_freight,4.52E-04,2800,2800,2800,2800,2800
@@ -5374,38 +5374,38 @@ Southeast Asia,domestic shipping fuels,renewable diesel,corn ethanol renewable d
 Taiwan,domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Argentina,domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
 Colombia,domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_freight,4.52E-04,2800,2800,2800,2800,2800
-USA,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Africa_Eastern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Africa_Northern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Africa_Southern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Africa_Western,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Australia_NZ,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Brazil,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Canada,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Central America and Caribbean,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Central Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-China,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-EU-12,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-EU-15,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Europe_Eastern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Europe_Non_EU,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-European Free Trade Association,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-India,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Indonesia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Japan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Mexico,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Middle East,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Pakistan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Russia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-South Africa,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-South America_Northern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-South America_Southern,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-South Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-South Korea,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Southeast Asia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Taiwan,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Argentina,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
-Colombia,international shipping fuels,liquids,liquids,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+USA,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Brazil,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Canada,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+China,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-12,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-15,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+India,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Japan,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Mexico,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Middle East,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Russia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Africa,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Asia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Korea,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Argentina,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Colombia,international shipping fuels,refined oil,heavy fuel oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
 USA,international shipping fuels,renewable diesel,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
 Africa_Eastern,international shipping fuels,renewable diesel,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
 Africa_Northern,international shipping fuels,renewable diesel,oilcrop HEFA,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
@@ -5694,3 +5694,67 @@ Southeast Asia,international shipping fuels,renewable diesel,corn ethanol renewa
 Taiwan,international shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
 Argentina,international shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
 Colombia,international shipping fuels,renewable diesel,corn ethanol renewable diesel,trn_shipping_intl,4.52E-04,2800,2800,2800,2800,2800
+USA,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Brazil,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Canada,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+China,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-12,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+EU-15,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+India,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Japan,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Mexico,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Middle East,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Russia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Africa,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Asia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+South Korea,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Argentina,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+Colombia,domestic shipping fuels,refined oil,marine gas oil,trn_freight,4.52E-04,4000,4000,4000,4000,4000
+USA,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Eastern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Northern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Southern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Africa_Western,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Australia_NZ,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Brazil,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Canada,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central America and Caribbean,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Central Asia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+China,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-12,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+EU-15,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Eastern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Europe_Non_EU,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+European Free Trade Association,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+India,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Indonesia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Japan,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Mexico,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Middle East,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Pakistan,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Russia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Africa,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Northern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South America_Southern,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Asia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+South Korea,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Southeast Asia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Taiwan,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Argentina,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000
+Colombia,international shipping fuels,refined oil,marine gas oil,trn_shipping_intl,4.52E-04,4000,4000,4000,4000,4000

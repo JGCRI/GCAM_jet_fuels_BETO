@@ -35,7 +35,8 @@ refined liquids enduse,renewable diesel,rapeseed HEFA,regional rapeseed HEFA ren
 refined liquids enduse,renewable diesel,palmfruit HEFA,regional palmfruit HEFA renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 refined liquids enduse,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
-domestic shipping fuels,liquids,liquids,regional refined oil,1,1,1
+domestic shipping fuels,refined oil,marine gas oil,refined liquids industrial,1,1,1
+domestic shipping fuels,refined oil,heavy fuel oil,refined liquids maritime,1,1,1
 domestic shipping fuels,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 domestic shipping fuels,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
 domestic shipping fuels,biodiesel,palmfruit biodiesel,regional palmfruit biodiesel,1,1,1
@@ -46,7 +47,8 @@ domestic shipping fuels,renewable diesel,palmfruit HEFA,regional palmfruit HEFA 
 domestic shipping fuels,renewable diesel,oilcrop HEFA,regional oilcrop HEFA renewable diesel,1,1,1
 domestic shipping fuels,renewable diesel,LFG FT,LFG FT,1,1,1
 domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,regional corn ethanol renewable diesel,1,1,1
-international shipping fuels,liquids,liquids,regional refined oil,1,1,1
+international shipping fuels,refined oil,marine gas oil,refined liquids industrial,1,1,1
+international shipping fuels,refined oil,heavy fuel oil,refined liquids maritime,1,1,1
 international shipping fuels,biodiesel,oilcrop biodiesel,regional oilcrop biodiesel,1,1,1
 international shipping fuels,biodiesel,rapeseed biodiesel,regional rapeseed biodiesel,1,1,1
 international shipping fuels,biodiesel,palmfruit biodiesel,regional palmfruit biodiesel,1,1,1

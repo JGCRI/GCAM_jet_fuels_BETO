@@ -22,7 +22,8 @@ aviation fuels,HEFA,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 aviation fuels,ETJ,corn ETJ,share-weight,initial-future-year,end-year,fixed
 aviation fuels,refined oil,refined oil,share-weight,final-calibration-year,end-year,fixed
 aviation fuels,FT,FT biojet,share-weight,initial-future-year,end-year,fixed
-domestic shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
+domestic shipping fuels,refined oil,marine gas oil,share-weight,initial-future-year,end-year,fixed
+domestic shipping fuels,refined oil,heavy fuel oil,share-weight,final-calibration-year,end-year,fixed
 domestic shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
@@ -33,7 +34,8 @@ domestic shipping fuels,renewable diesel,palmfruit HEFA,share-weight,initial-fut
 domestic shipping fuels,renewable diesel,oilcrop HEFA,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,renewable diesel,LFG FT,share-weight,initial-future-year,end-year,fixed
 domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,share-weight,initial-future-year,end-year,fixed
-international shipping fuels,liquids,liquids,share-weight,final-calibration-year,end-year,fixed
+international shipping fuels,refined oil,marine gas oil,share-weight,initial-future-year,end-year,fixed
+international shipping fuels,refined oil,heavy fuel oil,share-weight,final-calibration-year,end-year,fixed
 international shipping fuels,biodiesel,oilcrop biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,rapeseed biodiesel,share-weight,initial-future-year,end-year,fixed
 international shipping fuels,biodiesel,palmfruit biodiesel,share-weight,initial-future-year,end-year,fixed
