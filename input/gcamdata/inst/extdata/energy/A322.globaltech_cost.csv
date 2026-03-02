@@ -1,0 +1,7 @@
+# File: A322.globaltech_cost.csv
+# Title: Ammonia and fertilizer default costs
+# Units: 1975$/kg for ammonia; 1975$/GJ for ammonia energy
+# Column types: ccccnnnn
+# ----------
+supplysector,subsector,technology,minicam.non.energy.input,1971,2021,2025,2100
+ammonia energy,ammonia energy,ammonia energy,non-energy,0,0,-1,-1

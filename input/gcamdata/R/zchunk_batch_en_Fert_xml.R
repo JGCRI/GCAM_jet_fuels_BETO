@@ -21,6 +21,7 @@ module_energy_batch_en_Fert_xml <- function(command, ...) {
              "L2322.GlobalTechShrwt_Fert",
              "L2322.GlobalTechCoef_Fert",
              "L2322.GlobalTechCost_Fert",
+             "L2322.GlobalTechCost_NH3energy",
              "L2322.GlobalTechCapture_Fert",
              "L2322.GlobalTechSCurve_Fert",
              "L2322.GlobalTechProfitShutdown_Fert",
@@ -47,6 +48,7 @@ module_energy_batch_en_Fert_xml <- function(command, ...) {
 
     L2322.GlobalTechCoef_Fert <- get_data(all_data, "L2322.GlobalTechCoef_Fert")
     L2322.GlobalTechCost_Fert <- get_data(all_data, "L2322.GlobalTechCost_Fert")
+    L2322.GlobalTechCost_NH3energy <- get_data(all_data, "L2322.GlobalTechCost_NH3energy")
     L2322.GlobalTechCapture_Fert <- get_data(all_data, "L2322.GlobalTechCapture_Fert")
     L2322.GlobalTechSCurve_Fert <- get_data(all_data, "L2322.GlobalTechSCurve_Fert")
     L2322.GlobalTechProfitShutdown_Fert <- get_data(all_data, "L2322.GlobalTechProfitShutdown_Fert")
@@ -70,6 +72,7 @@ module_energy_batch_en_Fert_xml <- function(command, ...) {
       add_xml_data(L2322.GlobalTechShrwt_Fert, "GlobalTechShrwt") %>%
       add_xml_data(L2322.GlobalTechCoef_Fert, "GlobalTechCoef") %>%
       add_xml_data(L2322.GlobalTechCost_Fert, "GlobalTechCost") %>%
+      add_xml_data(L2322.GlobalTechCost_NH3energy, "GlobalTechCost") %>%
       add_xml_data(L2322.GlobalTechCapture_Fert, "GlobalTechCapture") %>%
       add_xml_data(L2322.GlobalTechSCurve_Fert, "GlobalTechSCurve") %>%
       add_xml_data(L2322.GlobalTechProfitShutdown_Fert, "GlobalTechProfitShutdown") %>%
@@ -88,6 +91,7 @@ module_energy_batch_en_Fert_xml <- function(command, ...) {
                      "L2322.GlobalTechShrwt_Fert",
                      "L2322.GlobalTechCoef_Fert",
                      "L2322.GlobalTechCost_Fert",
+                     "L2322.GlobalTechCost_NH3energy",
                      "L2322.GlobalTechCapture_Fert",
                      "L2322.GlobalTechSCurve_Fert",
                      "L2322.GlobalTechProfitShutdown_Fert",

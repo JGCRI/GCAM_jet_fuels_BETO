@@ -26,6 +26,7 @@ module_energy_L2322.Fert <- function(command, ...) {
              FILE = "energy/A322.subsector_logit",
              FILE = "energy/A322.subsector_shrwt",
              FILE = "energy/A322.globaltech_coef",
+             FILE = "energy/A322.globaltech_cost",
              FILE = "energy/A322.globaltech_shrwt",
              FILE = "energy/A322.globaltech_co2capture",
              FILE = "energy/A322.globaltech_renew",
@@ -44,6 +45,7 @@ module_energy_L2322.Fert <- function(command, ...) {
              "L2322.GlobalTechShrwt_Fert",
              "L2322.GlobalTechCoef_Fert",
              "L2322.GlobalTechCost_Fert",
+             "L2322.GlobalTechCost_NH3energy",
              "L2322.GlobalTechCapture_Fert",
              "L2322.GlobalTechSCurve_Fert",
              "L2322.GlobalTechProfitShutdown_Fert",
@@ -65,6 +67,7 @@ module_energy_L2322.Fert <- function(command, ...) {
     A322.subsector_logit <- get_data(all_data, "energy/A322.subsector_logit", strip_attributes = TRUE)
     A322.subsector_shrwt <- get_data(all_data, "energy/A322.subsector_shrwt", strip_attributes = TRUE)
     A322.globaltech_coef <- get_data(all_data, "energy/A322.globaltech_coef")
+    A322.globaltech_cost <- get_data(all_data, "energy/A322.globaltech_cost")
     A322.globaltech_shrwt <- get_data(all_data, "energy/A322.globaltech_shrwt", strip_attributes = TRUE)
     A322.globaltech_co2capture <- get_data(all_data, "energy/A322.globaltech_co2capture")
     A322.globaltech_renew <- get_data(all_data, "energy/A322.globaltech_renew")
@@ -147,6 +150,19 @@ module_energy_L2322.Fert <- function(command, ...) {
       filter(year %in% c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
       rename(sector.name = supplysector, subsector.name = subsector) ->
       L2322.GlobalTechCoef_Fert
+
+    # L2322.GlobalTechCost_Fert: NE costs (global defaults) of global fertilizer energy use and feedstocks technologies
+    A322.globaltech_cost %>%
+      gather_years(value_col = "input.cost") %>%
+      complete(nesting(supplysector, subsector, technology, minicam.non.energy.input), year = c(year, MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
+      arrange(supplysector, subsector, technology, minicam.non.energy.input, year) %>%
+      group_by(supplysector, subsector, technology, minicam.non.energy.input) %>%
+      mutate(input.cost = approx_fun(year, input.cost, rule = 1),
+             input.cost = round(input.cost, energy.DIGITS_COST)) %>%
+      ungroup %>%
+      filter(year %in% c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
+      rename(sector.name = supplysector, subsector.name = subsector) ->
+      L2322.GlobalTechCost_NH3energy
 
     # Costs of global technologies
     # L2322.GlobalTechCost_Fert: Non-energy costs of global fertilizer manufacturing technologies
@@ -360,6 +376,13 @@ module_energy_L2322.Fert <- function(command, ...) {
       add_precursors("energy/A322.globaltech_coef") ->
       L2322.GlobalTechCoef_Fert
 
+    L2322.GlobalTechCost_NH3energy %>%
+      add_title("Energy inputs and coefficients of global ammonia energy tech") %>%
+      add_units("1975$ per GJ") %>%
+      add_comments("global default") %>%
+      add_precursors("energy/A322.globaltech_cost") ->
+      L2322.GlobalTechCost_NH3energy
+
     L2322.GlobalTechCost_Fert %>%
       add_title("Non-energy costs of global fertilizer manufacturing technologies") %>%
       add_units("1975 USD/kg N") %>%
@@ -444,7 +467,7 @@ module_energy_L2322.Fert <- function(command, ...) {
                 L2322.SubsectorShrwtFllt_Fert, L2322.SubsectorInterp_Fert,
                 L2322.StubTech_Fert, L2322.GlobalTechShrwt_Fert,
                 L2322.GlobalTechCoef_Fert, L2322.GlobalTechCost_Fert, L2322.GlobalTechCapture_Fert,
-                L2322.GlobalTechSCurve_Fert,
+                L2322.GlobalTechSCurve_Fert, L2322.GlobalTechCost_NH3energy,
                 L2322.GlobalTechProfitShutdown_Fert, L2322.StubTechProd_Fert, L2322.StubTechCoef_Fert,
                 L2322.StubTechFixOut_Fert_imp, L2322.StubTechFixOut_Fert_exp, L2322.PerCapitaBased_Fert,
                 L2322.BaseService_Fert)
