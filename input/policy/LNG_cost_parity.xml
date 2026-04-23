@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="trn_shipping_intl">
+                <tranSubsector name="International Ship">
+                    <stub-technology name="LNG">
+                        <period year="1975">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>19.0647</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>19.0647</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>19.0647</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>19.0647</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>19.0647</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>18.706</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>18.348</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>17.9899</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>17.631</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>17.273</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>16.915</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>16.578</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>16.5779</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>16.5779</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        
+                    </stub-technology>
+                   
+                </tranSubsector>
+               
+            </supplysector>
+           
+        </region>
+         </world>
+</scenario>

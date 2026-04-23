@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+	<region name="USA">
+            <policy-portfolio-standard name="biojet consumption credit">
+                <market>USA</market>
+                <policyType>RES</policyType>
+                <constraint fillout="1" year="2025">1</constraint>
+                <min-price fillout="1" year="1975">0</min-price>
+            </policy-portfolio-standard>
+	    <supplysector name="aviation fuels">
+		<subsector name="ETJ">
+		    <stub-technology name="corn ETJ">
+			<period year="2015">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2020">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2025">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2030">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2035">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2040">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2045">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2050">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2055">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2060">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+       <supplysector name="aviation fuels">
+		<subsector name="FT">
+		    <stub-technology name="FT biojet">
+			<period year="2015">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2020">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2025">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2030">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2035">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2040">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2045">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2050">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2055">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2060">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+		<supplysector name="aviation fuels">
+		<subsector name="HEFA">
+		    <stub-technology name="soybean HEFA">
+			<period year="2015">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2020">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2025">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2030">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2035">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2040">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2045">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2050">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2055">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2060">
+                            <res-secondary-output name="biojet consumption credit">
+                                <output-ratio>1</output-ratio>
+                            </res-secondary-output>
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+		<supplysector name="aviation fuels">
+		<subsector name="refined oil">
+		    <stub-technology name="refined oil">
+			<period year="2015">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2020">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2025">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2030">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2035">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2040">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2045">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2050">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2055">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+							<period year="2060">
+                            <minicam-energy-input name="biojet consumption credit">
+                                <market-name>USA</market-name>
+                                <current-coef year="1975">0</current-coef>
+                                <current-coef year="1990">0</current-coef>
+                                <current-coef year="2005">0</current-coef>
+                                <current-coef year="2010">0</current-coef>
+                                <current-coef year="2015">0</current-coef>
+                                <current-coef year="2020">0</current-coef>
+                                <current-coef year="2025">0.08</current-coef>
+                                <current-coef year="2030">0.25</current-coef>
+                                <current-coef year="2035">0.45</current-coef>
+                                <current-coef year="2040">0.65</current-coef>
+                                <current-coef year="2045">0.85</current-coef>
+                                <current-coef year="2050">1</current-coef>
+                                <current-coef year="2055">1</current-coef>
+                                <current-coef year="2060">1</current-coef>
+                                <current-coef year="2065">1</current-coef>
+                                <current-coef year="2070">1</current-coef>
+                                <current-coef year="2075">1</current-coef>
+                                <current-coef year="2080">1</current-coef>
+                                <current-coef year="2085">1</current-coef>
+                                <current-coef year="2090">1</current-coef>
+                                <current-coef year="2095">1</current-coef>
+                                <current-coef year="2100">1</current-coef>
+                            </minicam-energy-input>
+							</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector> 
+	</region>
+    </world>
+</scenario>
