@@ -507,7 +507,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
       add_units("EJ") %>%
       add_comments("assumed quantity of waste oil HEFA") %>%
       add_legacy_name("L226.fixOut_waste_HEFA") %>%
-      add_precursors("A26.fixOut_waste_HEFA") ->
+      add_precursors("energy/A26.fixOut_waste_HEFA") ->
       L226.fixOut_waste_HEFA
 
     return_data(L226.Supplysector_en, L226.SubsectorLogit_en, L226.SubsectorShrwt_en,
