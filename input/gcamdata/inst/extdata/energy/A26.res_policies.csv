@@ -1,0 +1,78 @@
+# File: A26.res_policies.csv
+# Title: Secondary outputs and input ratios of RES policies for liquid fuels
+# Units: unitless
+# Description: These are used for assigning portions of the given pooled commodities that are supplied by biofuel technologies
+# Source: NA
+# Column types: cccccncnnnnnn
+# ----------
+region,supplysector,subsector,technology,res.secondary.output,output.ratio,minicam.energy.input,2025,2030,2035,2040,2045,2050
+USA,aviation fuels,ETJ,corn ETJ,biojet consumption credit,1,biojet consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,aviation fuels,FT,FT biojet,biojet consumption credit,1,biojet consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,aviation fuels,HEFA,soybean HEFA,biojet consumption credit,1,biojet consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,aviation fuels,HEFA,waste oil HEFA,biojet consumption credit,1,biojet consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,aviation fuels,refined oil,refined oil,,,biojet consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,biodiesel,oilcrop biodiesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,biodiesel,palmfruit biodiesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,biodiesel,rapeseed biodiesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,biodiesel,soybean biodiesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,refined oil,heavy fuel oil,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,refined oil,marine gas oil,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,LFG FT,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,oilcrop HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,palmfruit HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,rapeseed HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,domestic shipping fuels,renewable diesel,soybean HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,biodiesel,oilcrop biodiesel,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,biodiesel,palmfruit biodiesel,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,biodiesel,rapeseed biodiesel,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,biodiesel,soybean biodiesel,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,refined oil,heavy fuel oil,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,refined oil,marine gas oil,,,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,LFG FT,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,corn ethanol renewable diesel,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,oilcrop HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,palmfruit HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,rapeseed HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,international shipping fuels,renewable diesel,soybean HEFA,marine biofuel consumption credit,1,marine biofuel consumption credit,0,0.05,0.175,0.3,0.4,0.5
+USA,refined liquids enduse,biodiesel,oilcrop biodiesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,biodiesel,other biodiesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,biodiesel,palmfruit biodiesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,biodiesel,rapeseed biodiesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,biodiesel,soybean biodiesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,refined oil,refined oil,,,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,FT biofuel RD,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,corn ethanol renewable diesel,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,oilcrop HEFA,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,palmfruit HEFA,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,rapeseed HEFA,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids enduse,renewable diesel,soybean HEFA,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids gasoline pool,ethanol,corn ethanol,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids gasoline pool,ethanol,sugar cane ethanol,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids gasoline pool,RD,renewable diesel ETJ,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids gasoline pool,RD,renewable diesel FT,road biofuel consumption credit,1,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,refined liquids gasoline pool,refining,refining,,,road biofuel consumption credit,0.06,0.1,0.2,0.3,0.4,0.5
+USA,domestic shipping fuels,biodiesel,oilcrop biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,biodiesel,palmfruit biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,biodiesel,rapeseed biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,biodiesel,soybean biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,refined oil,heavy fuel oil,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,refined oil,marine gas oil,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,LFG FT,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,corn ethanol renewable diesel,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,oilcrop HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,palmfruit HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,rapeseed HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,domestic shipping fuels,renewable diesel,soybean HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,biodiesel,oilcrop biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,biodiesel,palmfruit biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,biodiesel,rapeseed biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,biodiesel,soybean biodiesel,,,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,refined oil,heavy fuel oil,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,refined oil,marine gas oil,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,LFG FT,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,corn ethanol renewable diesel,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,oilcrop HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,palmfruit HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,rapeseed HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
+USA,international shipping fuels,renewable diesel,soybean HEFA,biodiesel consumption constraint,1,biodiesel consumption constraint,0.86,0.86,0.86,0.86,0.86,0.86
