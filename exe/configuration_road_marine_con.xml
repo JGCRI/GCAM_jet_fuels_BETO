@@ -113,7 +113,7 @@
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 		<Value name = "otaq_refining">../input/gcamdata/xml/refining_USA_OTAQ.xml</Value>
                 
-		<Value name = "landfill_basevalue">../input/gcamdata/xml/landfill-basevalue3.xml</Value>
+		<Value name = "landfill_basevalue">../input/policy/landfill-basevalue3.xml</Value>
 
        		<Value name = "biodiesel_con">../input/gcamdata/xml/marinebio_cons_mandate_res_24.xml</Value>
 
