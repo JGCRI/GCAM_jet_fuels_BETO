@@ -4,7 +4,7 @@
 #SBATCH -N 1
 ##SBATCH -p shared
 #SBATCH -p slurm
-#SBATCH --array=1-7  # Adjust this based on the number of scenarios
+#SBATCH --array=1-3  # Adjust this based on the number of scenarios
 ##SBATCH --ntasks-per-node=5
 ##SBATCH --ntasks=1
 ##SBATCH --cpus-per-task=12
@@ -23,4 +23,7 @@ ldd ./gcam.exe
  
 date
 time ./gcam.exe -C configuration_$job.xml -Llog_conf.xml
+date
+
+time Rscript /rcfs/projects/beto_uq/wolfram_et_al_biofuel_paper/Rgcam/Generate_tables.R $job 
 date
